@@ -1,0 +1,14 @@
+{
+	"category" : "Filesystem-Disk",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"id" ],
+	"name" : "FSFileHandle",
+	"pools" : [
+		 ],
+	"super" : "FSHandle",
+	"type" : "normal" }

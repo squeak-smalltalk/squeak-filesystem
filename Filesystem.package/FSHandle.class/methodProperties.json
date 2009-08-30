@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"on:writable:" : "cwp 7/26/2009 12:52",
+		"open:writable:" : "cwp 7/26/2009 12:52",
+		"useFilePlugin" : "cwp 7/26/2009 12:50" },
+	"instance" : {
+		"at:" : "cwp 7/29/2009 22:19",
+		"at:put:" : "cwp 7/29/2009 22:19",
+		"at:read:startingAt:count:" : "cwp 7/26/2009 12:50",
+		"at:write:startingAt:count:" : "cwp 7/26/2009 12:50",
+		"close" : "cwp 7/26/2009 12:50",
+		"flush" : "cwp 7/26/2009 12:50",
+		"isOpen" : "cwp 7/26/2009 12:50",
+		"open" : "cwp 7/26/2009 12:50",
+		"readStream" : "cwp 7/31/2009 00:32",
+		"reference" : "cwp 7/26/2009 12:51",
+		"reopen" : "cwp 7/26/2009 12:51",
+		"setReference:writable:" : "cwp 7/26/2009 12:51",
+		"truncateTo:" : "cwp 7/26/2009 12:50",
+		"writeStream" : "cwp 7/28/2009 23:06" } }

@@ -1,0 +1,14 @@
+{
+	"category" : "Filesystem-Streams",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "FSReadStream",
+	"pools" : [
+		 ],
+	"super" : "FSStream",
+	"type" : "normal" }

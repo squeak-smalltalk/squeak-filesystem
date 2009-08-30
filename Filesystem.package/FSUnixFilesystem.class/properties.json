@@ -1,0 +1,14 @@
+{
+	"category" : "Filesystem-Disk",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "FSUnixFilesystem",
+	"pools" : [
+		 ],
+	"super" : "FSDiskFilesystem",
+	"type" : "normal" }

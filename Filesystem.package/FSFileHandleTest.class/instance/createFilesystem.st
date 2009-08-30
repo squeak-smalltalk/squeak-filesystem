@@ -1,0 +1,3 @@
+running
+createFilesystem
+	^ FSDiskFilesystem current

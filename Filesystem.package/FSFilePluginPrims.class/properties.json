@@ -1,0 +1,14 @@
+{
+	"category" : "Filesystem-Disk",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "FSFilePluginPrims",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

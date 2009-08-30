@@ -1,0 +1,3 @@
+printing
+forReferencePrintOn: aStream
+	self subclassResponsibility

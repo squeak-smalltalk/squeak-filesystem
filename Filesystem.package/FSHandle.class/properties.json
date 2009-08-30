@@ -1,0 +1,15 @@
+{
+	"category" : "Filesystem-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Primitives" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"reference",
+		"writable" ],
+	"name" : "FSHandle",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

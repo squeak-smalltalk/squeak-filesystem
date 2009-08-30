@@ -1,0 +1,14 @@
+{
+	"category" : "Filesystem-Memory",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"root" ],
+	"name" : "FSMemoryFilesystem",
+	"pools" : [
+		 ],
+	"super" : "FSFilesystem",
+	"type" : "normal" }

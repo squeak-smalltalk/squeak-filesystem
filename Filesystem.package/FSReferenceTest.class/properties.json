@@ -1,0 +1,14 @@
+{
+	"category" : "Filesystem-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"filesystem" ],
+	"name" : "FSReferenceTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "variable" }

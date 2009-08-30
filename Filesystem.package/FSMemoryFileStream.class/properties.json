@@ -1,0 +1,14 @@
+{
+	"category" : "Filesystem-Memory",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "FSMemoryFileStream",
+	"pools" : [
+		 ],
+	"super" : "FSFileStream",
+	"type" : "normal" }

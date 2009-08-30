@@ -1,0 +1,15 @@
+{
+	"category" : "Filesystem-Memory",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"bytes",
+		"size" ],
+	"name" : "FSMemoryHandle",
+	"pools" : [
+		 ],
+	"super" : "FSHandle",
+	"type" : "normal" }

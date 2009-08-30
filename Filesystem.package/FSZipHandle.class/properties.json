@@ -1,0 +1,14 @@
+{
+	"category" : "Filesystem-Zip",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"archive" ],
+	"name" : "FSZipHandle",
+	"pools" : [
+		 ],
+	"super" : "FSMemoryHandle",
+	"type" : "normal" }

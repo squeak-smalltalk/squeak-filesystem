@@ -1,0 +1,14 @@
+{
+	"category" : "Filesystem-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"workingDirectory" ],
+	"name" : "FSFilesystem",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,15 @@
+{
+	"category" : "Filesystem-Streams",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"handle",
+		"position" ],
+	"name" : "FSStream",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
