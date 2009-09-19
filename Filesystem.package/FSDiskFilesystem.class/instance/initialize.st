@@ -1,3 +1,3 @@
 initialize-release
 initialize
-	workingDirectory := FSPath defaultDirectory
+	workingDirectory := FSPath imageFile parent

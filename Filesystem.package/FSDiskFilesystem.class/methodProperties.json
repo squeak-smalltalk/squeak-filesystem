@@ -3,6 +3,7 @@
 		"current" : "cwp 7/20/2009 07:19",
 		"currentClass" : "cwp 7/20/2009 07:28",
 		"initialize" : "cwp 7/20/2009 17:46",
+		"root" : "cwp 9/17/2009 10:42",
 		"useFilePlugin" : "cwp 7/20/2009 17:39" },
 	"instance" : {
 		"=" : "cwp 7/24/2009 00:41",
@@ -16,6 +17,6 @@
 		"entriesAt:" : "cwp 8/23/2009 22:38",
 		"entryAt:ifPresent:ifAbsent:" : "cwp 7/20/2009 08:43",
 		"hash" : "cwp 7/24/2009 00:41",
-		"initialize" : "cwp 7/18/2009 00:55",
+		"initialize" : "cwp 9/16/2009 11:25",
 		"open:writable:" : "cwp 7/22/2009 22:31",
 		"openFileStream:writable:" : "cwp 7/22/2009 22:01" } }

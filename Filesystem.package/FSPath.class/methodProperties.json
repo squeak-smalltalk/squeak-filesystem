@@ -2,7 +2,6 @@
 	"class" : {
 		"/" : "cwp 12/23/2008 14:15",
 		"canonicalizeElements:" : "cwp 12/23/2008 18:41",
-		"defaultDirectory" : "cwp 12/13/2008 20:56",
 		"delimiter" : "cwp 12/13/2008 13:30",
 		"extensionDelimiter" : "cwp 12/23/2008 11:23",
 		"fromString:" : "cwp 12/13/2008 20:59",
@@ -11,7 +10,8 @@
 		"primImageName" : "cwp 12/13/2008 13:25",
 		"resolve:" : "cwp 12/23/2008 14:11",
 		"root" : "cwp 12/13/2008 21:12",
-		"withAll:" : "cwp 12/13/2008 13:33" },
+		"withAll:" : "cwp 12/13/2008 13:33",
+		"workingDirectory" : "cwp 9/16/2009 10:43" },
 	"instance" : {
 		"," : "cwp 12/15/2008 14:05",
 		"/" : "cwp 12/13/2008 21:11",

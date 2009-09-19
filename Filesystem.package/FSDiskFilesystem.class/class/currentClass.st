@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 currentClass
 	^ SmalltalkImage current platformName = 'Win32' 
 		ifTrue:[FSWindowsFilesystem]
