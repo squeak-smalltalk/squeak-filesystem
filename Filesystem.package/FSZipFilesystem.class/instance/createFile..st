@@ -1,4 +1,4 @@
 private
 createFile: aPath 
-	archive addString: '' as: (self pathToString: aPath).
+	archive addDeflateString: '' as: (self pathToString: aPath).
 	^ ByteArray new

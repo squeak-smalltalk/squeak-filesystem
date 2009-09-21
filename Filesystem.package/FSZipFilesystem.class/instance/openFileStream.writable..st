@@ -7,5 +7,5 @@ openFileStream: anObject writable: aBoolean
 		ifPresent: [:entry | entry]
 		ifAbsent: 
 			[name := self pathToString: path.
-			archive addString: '' as: name].
+			archive addDeflateString: '' as: name].
 	^ FSZipFileStream on: member contents filesystem: self path: path

@@ -7,5 +7,5 @@ setFile: aPath to: bytes
 		ifPresent: [:member | (archive member: member) contents: bytes]
 		ifAbsent: 
 			[ archive 
-				addString: bytes
+				addDeflateString: bytes
 				as: (self pathToString: path) ]

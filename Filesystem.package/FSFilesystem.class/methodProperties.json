@@ -3,6 +3,7 @@
 		 },
 	"instance" : {
 		"changeDirectory:" : "cwp 7/18/2009 00:53",
+		"close" : "cwp 9/21/2009 15:18",
 		"copy:ifAbsent:to:ifPresent:" : "cwp 7/24/2009 00:24",
 		"copy:to:" : "cwp 7/24/2009 00:27",
 		"createDirectory:" : "cwp 7/18/2009 01:15",
@@ -20,12 +21,14 @@
 		"invalidDirectory:" : "cwp 8/29/2009 10:20",
 		"isDirectory:" : "cwp 7/20/2009 09:00",
 		"isFile:" : "cwp 7/18/2009 01:28",
+		"open" : "cwp 9/21/2009 15:17",
 		"open:writable:" : "cwp 7/22/2009 08:21",
 		"pathToString:" : "cwp 7/17/2009 19:24",
 		"printPath:on:" : "cwp 7/17/2009 19:21",
 		"readStreamOn:" : "cwp 7/31/2009 00:26",
 		"referenceTo:" : "cwp 7/20/2009 09:11",
 		"resolve:" : "cwp 7/18/2009 01:17",
+		"root" : "cwp 9/20/2009 22:27",
 		"workingDirectory" : "cwp 7/18/2009 00:53",
 		"workingDirectory:" : "cwp 7/18/2009 00:59",
 		"writeStreamOn:" : "cwp 7/28/2009 22:59" } }

@@ -1,21 +1,25 @@
 {
 	"class" : {
-		"atReference:" : "cwp 8/28/2009 21:32",
-		"on:" : "cwp 8/28/2009 21:32" },
+		"atReference:" : "cwp 9/21/2009 15:12" },
 	"instance" : {
+		"archive" : "cwp 9/20/2009 23:38",
 		"basicCopy:ifAbsent:to:ifPresent:" : "cwp 8/30/2009 13:54",
 		"basicIsDirectory:" : "cwp 8/29/2009 12:04",
 		"basicIsFile:" : "cwp 8/29/2009 12:05",
 		"basicOpen:writable:" : "cwp 8/30/2009 13:23",
+		"close" : "cwp 9/21/2009 15:20",
 		"copyFile:as:" : "cwp 8/30/2009 15:39",
 		"createDirectory:" : "cwp 8/30/2009 03:01",
-		"createFile:" : "cwp 8/29/2009 11:47",
+		"createFile:" : "cwp 9/21/2009 18:22",
 		"delete:" : "cwp 8/30/2009 10:17",
 		"delimiter" : "cwp 8/29/2009 11:36",
 		"entriesAt:" : "cwp 8/30/2009 15:19",
 		"entryAt:ifPresent:ifAbsent:" : "cwp 8/30/2009 03:11",
+		"forReferencePrintOn:" : "cwp 9/20/2009 23:01",
 		"normalize:" : "cwp 8/30/2009 15:15",
+		"open" : "cwp 9/21/2009 15:15",
 		"open:writable:" : "cwp 8/30/2009 10:28",
-		"openFileStream:writable:" : "cwp 8/30/2009 18:31",
-		"setArchive:" : "cwp 8/28/2009 21:33",
-		"setFile:to:" : "cwp 8/30/2009 15:38" } }
+		"openFileStream:writable:" : "cwp 9/21/2009 22:47",
+		"reference" : "cwp 9/21/2009 17:48",
+		"setFile:to:" : "cwp 9/21/2009 18:22",
+		"setReference:" : "cwp 9/21/2009 15:12" } }
