@@ -18,6 +18,7 @@
 		"=" : "cwp 12/14/2008 17:36",
 		"asPath" : "cwp 12/15/2008 12:40",
 		"asReference" : "cwp 9/21/2009 22:58",
+		"asResolvedBy:" : "cwp 9/22/2009 09:08",
 		"assureExtension:" : "cwp 7/17/2009 05:15",
 		"basename" : "cwp 12/15/2008 14:02",
 		"contains:" : "cwp 8/30/2009 15:10",
@@ -35,4 +36,6 @@
 		"printOn:" : "cwp 1/13/2009 21:27",
 		"printOn:delimiter:" : "cwp 7/18/2009 01:07",
 		"printWithDelimiter:" : "cwp 1/13/2009 21:27",
-		"resolve:" : "cwp 7/20/2009 09:32" } }
+		"resolve:" : "cwp 9/22/2009 09:06",
+		"resolvePath:" : "cwp 9/22/2009 09:04",
+		"resolveReference:" : "cwp 9/22/2009 09:06" } }

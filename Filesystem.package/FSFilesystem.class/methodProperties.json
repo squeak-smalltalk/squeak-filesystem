@@ -1,7 +1,8 @@
 {
 	"class" : {
-		 },
+		"/" : "cwp 9/22/2009 09:41" },
 	"instance" : {
+		"basicCopy:ifAbsent:to:ifPresent:" : "cwp 9/22/2009 09:47",
 		"changeDirectory:" : "cwp 7/18/2009 00:53",
 		"close" : "cwp 9/21/2009 15:18",
 		"copy:ifAbsent:to:ifPresent:" : "cwp 7/24/2009 00:24",

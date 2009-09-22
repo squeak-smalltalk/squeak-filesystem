@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"/" : "cwp 9/22/2009 09:41",
 		"current" : "cwp 7/20/2009 07:19",
 		"currentClass" : "cwp 7/20/2009 07:28",
 		"initialize" : "cwp 7/20/2009 17:46",
@@ -7,7 +8,6 @@
 		"useFilePlugin" : "cwp 7/20/2009 17:39" },
 	"instance" : {
 		"=" : "cwp 7/24/2009 00:41",
-		"basicCopy:ifAbsent:to:ifPresent:" : "cwp 7/30/2009 23:50",
 		"basicIsDirectory:" : "cwp 7/18/2009 01:26",
 		"basicIsFile:" : "cwp 7/18/2009 01:29",
 		"basicOpen:writable:" : "cwp 7/22/2009 22:30",
