@@ -1,3 +1,3 @@
 private
-basicIsFile: aZipMember 
-	^ aZipMember isDirectory not
+basicIsFile: anObject 
+	^ (anObject isKindOf: ArchiveMember) and: [anObject isDirectory not]

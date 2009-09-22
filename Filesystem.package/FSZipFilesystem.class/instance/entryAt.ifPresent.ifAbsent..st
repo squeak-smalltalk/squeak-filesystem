@@ -1,10 +1,11 @@
 private
-entryAt: aPath ifPresent: presentBlock ifAbsent: absentBlock
-	| name member |
-	name := self pathToString: aPath.
-	member := (archive memberNamed: name) ifNil: 
-		[name := name copyWith: $/.
-		archive memberNamed: name].
-	^ member
-		ifNotNil: [presentBlock value: member]
-		ifNil: absentBlock
+entryAt: aPath ifPresent: presentBlock ifAbsent: absentBlock 
+	| name |
+	^ self 
+		directoryAt: aPath
+		ifPresent: [ presentBlock value: aPath ]
+		ifAbsent: 
+			[ name := self pathToString: aPath.
+			(archive memberNamed: name) 
+				ifNotNil: [ presentBlock value: (archive memberNamed: name) ]
+				ifNil: absentBlock ]

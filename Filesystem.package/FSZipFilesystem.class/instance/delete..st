@@ -2,7 +2,10 @@ public
 delete: anObject
 	| path |
 	path := self resolve: anObject.
-	self
-		entryAt: path
-		ifPresent: [:member | archive removeMember: member]
-		ifAbsent: []
+	(directories includes: path) 
+		ifTrue: [directories remove: path]
+		ifFalse: 
+			[self
+				entryAt: path
+				ifPresent: [:member | archive removeMember: member]
+				ifAbsent: []]

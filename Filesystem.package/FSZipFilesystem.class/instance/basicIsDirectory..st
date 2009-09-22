@@ -1,3 +1,3 @@
 private
-basicIsDirectory: aZipMember
-	^ aZipMember isDirectory
+basicIsDirectory: aPath
+	^ directories includes: aPath
