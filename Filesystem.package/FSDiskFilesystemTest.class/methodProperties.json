@@ -4,4 +4,5 @@
 	"instance" : {
 		"createFilesystem" : "cwp 7/20/2009 08:38",
 		"testDefaultWorkingDirectory" : "cwp 7/20/2009 08:58",
-		"testEqual" : "cwp 7/24/2009 00:40" } }
+		"testEqual" : "cwp 7/24/2009 00:40",
+		"testIsDirectory" : "cwp 10/10/2009 16:07" } }

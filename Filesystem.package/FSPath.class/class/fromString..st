@@ -1,13 +1,13 @@
 instance creation
 fromString: aString
-	| delimiter in segments out ch |
-	delimiter := self delimiter.
+	| delimiters in segments out ch |
+	delimiters := self delimiters.
 	segments := OrderedCollection new.
 	in := aString readStream.
 	out := (String new: 10) writeStream.
 	[in atEnd] whileFalse:
 		[ch := in next.
-		ch = delimiter
+		(delimiters includes: ch)
 			ifFalse: [out nextPut: ch]
 			ifTrue: [segments add: out contents.
 					out := (String new: 10) writeStream]].

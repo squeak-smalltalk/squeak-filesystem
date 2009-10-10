@@ -1,7 +1,7 @@
 tests
 testSlash
-	| path result |
+	| path actual |
 	path := 'plonk' asPath.
-	result := path / 'griffle'.
-	self assert: result class = FSPath.
-	self assert: result asString = 'plonk/griffle'
+	actual := path / 'griffle'.
+	self assert: actual class = FSPath.
+	self assert: (actual printWithDelimiter: $/)  = 'plonk/griffle'

@@ -1,7 +1,8 @@
 public
 createDirectory: anObject
 	| parent path |
-	path := self resolve: anObject asPath.
+	self halt.
+	path := self resolve: anObject.
 	parent := path parent.
 	(self isDirectory: parent) ifFalse: [self createDirectory: parent].
 	Primitives createDirectory: (self pathToString: path)

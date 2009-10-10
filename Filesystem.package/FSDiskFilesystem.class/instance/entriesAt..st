@@ -1,7 +1,7 @@
 public
 entriesAt: anObject
 	| path |
-	path := self resolve: anObject.
+	path := self resolve: anObject asPath.
 	^ Array streamContents:
 		[:out |
 		self
