@@ -1,4 +1,3 @@
 accessing
-workingDirectory: aPath
-	aPath isAbsolute ifFalse: [self error: 'Cannot set the working directory to a relative path'].
-	workingDirectory := aPath
+workingDirectory: anObject 
+	workingDirectory := self resolve: anObject

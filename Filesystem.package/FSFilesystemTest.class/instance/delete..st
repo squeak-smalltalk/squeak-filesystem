@@ -1,3 +1,3 @@
 initialize-release
 delete: anObject
-	toDelete add: anObject asPath
+	toDelete add: (filesystem resolve: anObject)

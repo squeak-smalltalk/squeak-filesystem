@@ -1,5 +1,5 @@
 tests
 testChangeDirectory
-	filesystem workingDirectory: '/plonk' asPath.
-	filesystem changeDirectory: 'griffle' asPath.
+	filesystem workingDirectory: '/plonk'.
+	filesystem changeDirectory: 'griffle'.
 	self assert: filesystem workingDirectory asString = '/plonk/griffle'

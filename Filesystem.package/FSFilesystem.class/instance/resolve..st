@@ -1,3 +1,3 @@
 public
 resolve: anObject
-	^ workingDirectory resolve: anObject
+	^ anObject asResolvedBy: self

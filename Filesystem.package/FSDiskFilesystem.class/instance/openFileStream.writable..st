@@ -1,7 +1,7 @@
 public
 openFileStream: anObject writable: aBoolean 
 	| fullPath |
-	fullPath := (self resolve: anObject asPath) asString.
+	fullPath := self pathToString: (self resolve: anObject).
 	^ StandardFileStream new 
 		open: fullPath
 		forWrite: aBoolean

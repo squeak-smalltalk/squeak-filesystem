@@ -1,3 +1,3 @@
 *filesystem-converting
 asResolvedBy: anObject
-	^ anObject resolvePath: self asPath
+	^ anObject resolveString: self

@@ -4,10 +4,10 @@
 		"shouldInheritSelectors" : "cwp 7/20/2009 08:56" },
 	"instance" : {
 		"createFilesystem" : "cwp 7/20/2009 07:31",
-		"delete:" : "cwp 8/23/2009 23:09",
+		"delete:" : "cwp 10/10/2009 17:35",
 		"setUp" : "cwp 8/23/2009 23:10",
 		"tearDown" : "cwp 8/23/2009 23:09",
-		"testChangeDirectory" : "cwp 7/20/2009 07:29",
+		"testChangeDirectory" : "cwp 10/10/2009 17:37",
 		"testChangeDirectoryString" : "cwp 7/20/2009 07:30",
 		"testCopy" : "cwp 7/30/2009 23:49",
 		"testCopyDestExists" : "cwp 7/28/2009 22:53",
