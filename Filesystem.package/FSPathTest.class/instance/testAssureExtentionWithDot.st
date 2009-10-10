@@ -1,6 +1,6 @@
 tests
 testAssureExtentionWithDot
 	| path result |
-	path := 'plonk' asPath.
+	path := FSPath with: 'plonk'.
 	result := path assureExtension: '.griffle'.
 	self assert: result asString = 'plonk.griffle'

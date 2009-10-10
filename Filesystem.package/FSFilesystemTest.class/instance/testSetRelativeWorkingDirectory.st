@@ -1,6 +1,5 @@
 tests
 testSetRelativeWorkingDirectory
-	self 
-		should: [filesystem workingDirectory: 'plonk' asPath]
-		raise: Error
-	
+	filesystem workingDirectory: (FSPath / 'plonk').
+	filesystem workingDirectory: (FSPath with: 'griffle').
+	self assert: filesystem workingDirectory = (FSPath / 'plonk' / 'griffle')

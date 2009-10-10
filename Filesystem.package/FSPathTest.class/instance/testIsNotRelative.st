@@ -1,3 +1,3 @@
 tests
 testIsNotRelative
-	self deny: '/plonk' asPath isRelative
+	self deny: (FSPath / 'plonk') isRelative

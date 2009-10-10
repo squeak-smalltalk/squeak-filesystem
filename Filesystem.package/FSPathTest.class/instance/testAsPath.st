@@ -1,6 +1,6 @@
 tests
 testAsPath
 	| a b |
-	a := 'plonk' asPath.
+	a := FSPath with: 'plonk'.
 	b := a asPath.
 	self assert: a == b

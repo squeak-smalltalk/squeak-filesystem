@@ -1,6 +1,6 @@
 tests
 testCommaReplacesExtension
 	| path result |
-	path := 'plonk.griffle' asPath.
+	path := FSPath with: 'plonk.griffle'.
 	result := path, 'nurp'.
 	self assert: result asString = 'plonk.nurp'

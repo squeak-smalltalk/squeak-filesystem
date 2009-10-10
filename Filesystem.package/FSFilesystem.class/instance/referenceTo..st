@@ -2,4 +2,4 @@ public
 referenceTo: anObject 
 	^ FSReference 
 		filesystem: self
-		path: (self resolve: anObject)
+		path: (self toPath: anObject)

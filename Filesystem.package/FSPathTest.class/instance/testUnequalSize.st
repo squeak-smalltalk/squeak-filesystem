@@ -1,6 +1,6 @@
 tests
 testUnequalSize
 	| a b |
-	a := 'plonk' asPath.
-	b := 'plonk/griffle' asPath.
+	a := FSPath with: 'plonk'.
+	b := (FSPath with: 'plonk') / 'griffle'.
 	self deny: a = b.

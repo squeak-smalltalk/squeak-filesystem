@@ -2,7 +2,7 @@ tests
 testFileStreamContents
 	| path out in contents |
 	
-	path := 'gooly' asPath.
+	path := FSPath with: 'gooly'.
 	self delete: path.
 	
 	out := filesystem openFileStream: path writable: true.

@@ -1,7 +1,7 @@
 private
 replaceFile: anObject in: aBlock
 	| path |
-	path := self resolve: anObject asPath.
+	path := self resolve: anObject.
 	^ self 
 		entryAt: path parent
 		ifPresent: 

@@ -6,4 +6,4 @@ isDirectory: anObject
 	self 
 		entryAt: path
 		ifPresent: [ :entry | ^ self basicIsDirectory: entry ]
-		ifAbsent: [ ^ false ] 
+		ifAbsent: [ ^ false ]

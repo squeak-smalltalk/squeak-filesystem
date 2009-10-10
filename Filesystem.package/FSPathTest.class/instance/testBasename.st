@@ -1,5 +1,5 @@
 tests
 testBasename
 	| path |
-	path := 'plonk/griffle' asPath.
+	path := (FSPath with: 'plonk') / 'griffle'.
 	self assert: path basename = 'griffle'

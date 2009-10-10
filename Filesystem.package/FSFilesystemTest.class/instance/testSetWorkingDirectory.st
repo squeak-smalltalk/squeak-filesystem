@@ -1,4 +1,4 @@
 tests
 testSetWorkingDirectory
-	filesystem workingDirectory: '/plonk' asPath.
-	self assert: filesystem workingDirectory asString = '/plonk'.
+	filesystem workingDirectory: '/plonk'.
+	self assert: (filesystem workingDirectory printWithDelimiter: $/) = '/plonk'.

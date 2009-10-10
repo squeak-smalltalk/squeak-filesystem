@@ -1,6 +1,7 @@
 tests
 testAsReference
 	| path reference |
-	path := 'plonk' asPath.
+	path := FSPath with: 'plonk'.
 	reference := path asReference.
-	self assert: reference class = FSReference
+	self assert: reference class = FSReference.
+	self assert: reference path = path

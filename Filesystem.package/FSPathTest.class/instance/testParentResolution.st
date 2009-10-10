@@ -1,7 +1,7 @@
 tests
 testParentResolution
 	| base relative absolute |
-	base := '/plonk/pinto' asPath.
-	relative := '../griffle/zonk' asPath.
+	base := FSPath / 'plonk' / 'pinto'.
+	relative := FSPath parent / 'griffle' / 'zonk'.
 	absolute := base resolve: relative.
-	self assert: absolute asString = '/plonk/griffle/zonk'
+	self assert: (absolute printWithDelimiter: $/) = '/plonk/griffle/zonk'

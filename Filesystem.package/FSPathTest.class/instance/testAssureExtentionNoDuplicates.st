@@ -1,6 +1,6 @@
 tests
 testAssureExtentionNoDuplicates
 	| path result |
-	path := 'plonk.griffle' asPath.
+	path := FSPath with: 'plonk.griffle'.
 	result := path assureExtension: 'griffle'.
 	self assert: result asString = 'plonk.griffle'

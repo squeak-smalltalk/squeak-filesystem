@@ -1,7 +1,7 @@
 tests
 testSimpleResolution
 	| base relative absolute |
-	base := '/plonk' asPath.
-	relative := 'griffle/zonk' asPath.
+	base := FSPath / 'plonk'.
+	relative := (FSPath with: 'griffle') / 'zonk'.
 	absolute := base resolve: relative.
-	self assert: absolute asString = '/plonk/griffle/zonk'
+	self assert: (absolute printWithDelimiter: $/) = '/plonk/griffle/zonk'

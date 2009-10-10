@@ -1,7 +1,7 @@
 tests
 testDirectory
 	| path |
-	path := 'plonk' asPath.
+	path := FSPath with: 'plonk'.
 	filesystem createDirectory: path.
 	self assert: (filesystem exists: path).
 	self assert: (filesystem isDirectory: path).
