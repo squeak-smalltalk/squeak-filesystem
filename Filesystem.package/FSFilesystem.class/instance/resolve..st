@@ -1,3 +1,3 @@
 public
 resolve: anObject
-	^ workingDirectory resolve: anObject asPath
+	^ workingDirectory resolve: anObject

@@ -19,5 +19,8 @@
 		"testFile" : "cwp 7/22/2009 22:32",
 		"testFileStream" : "cwp 7/26/2009 13:11",
 		"testFileStreamContents" : "cwp 8/30/2009 15:40",
+		"testRootExists" : "cwp 10/10/2009 00:33",
+		"testRootIsDirectory" : "cwp 10/10/2009 00:25",
+		"testRootIsNotAFile" : "cwp 10/10/2009 00:33",
 		"testSetRelativeWorkingDirectory" : "cwp 7/20/2009 07:30",
 		"testSetWorkingDirectory" : "cwp 7/20/2009 07:30" } }

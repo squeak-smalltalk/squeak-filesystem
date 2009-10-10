@@ -1,6 +1,7 @@
 private
 entryAt: aPath ifPresent: presentBlock ifAbsent: absentBlock 
 	| name |
+	aPath isRoot ifTrue: [^ presentBlock value: self rootEntry].
 	name := aPath basename.
 	self 
 		directoryAt: aPath parent

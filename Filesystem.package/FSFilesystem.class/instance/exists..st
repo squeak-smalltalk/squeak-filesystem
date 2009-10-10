@@ -1,6 +1,8 @@
 public
 exists: anObject 
+	| path |
+	path := self resolve: anObject.
 	self 
-		entryAt: (self resolve: anObject asPath)
+		entryAt: path
 		ifPresent: [ :entry | ^ true ]
 		ifAbsent: [ ^ false ]

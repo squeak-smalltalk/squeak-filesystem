@@ -1,6 +1,9 @@
 public
 isDirectory: anObject 
+	| path |
+	path := self resolve: anObject.
+	path isRoot ifTrue: [^ true].
 	self 
-		entryAt: (self resolve: anObject asPath)
+		entryAt: path
 		ifPresent: [ :entry | ^ self basicIsDirectory: entry ]
-		ifAbsent: [ ^ false ]
+		ifAbsent: [ ^ false ] 
