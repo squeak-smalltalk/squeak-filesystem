@@ -3,10 +3,10 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"Disks" ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"disk" ],
 	"name" : "FSWindowsFilesystem",
 	"pools" : [
 		 ],

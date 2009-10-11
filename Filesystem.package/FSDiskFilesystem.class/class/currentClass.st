@@ -1,5 +1,5 @@
 instance creation
 currentClass
 	^ SmalltalkImage current platformName = 'Win32' 
-		ifTrue:[FSWindowsFilesystem]
+		ifTrue: [FSWindowsFilesystem]
 		ifFalse: [FSUnixFilesystem]

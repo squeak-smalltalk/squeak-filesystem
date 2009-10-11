@@ -1,4 +1,4 @@
 tests
 testSetWorkingDirectory
-	filesystem workingDirectory: '/plonk'.
+	filesystem workingDirectory: (FSPath / 'plonk').
 	self assert: (filesystem workingDirectory printWithDelimiter: $/) = '/plonk'.

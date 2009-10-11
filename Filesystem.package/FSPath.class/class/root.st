@@ -1,3 +1,3 @@
 instance creation
 root
-	^ self withAll: #('')
+	^ self with: ''

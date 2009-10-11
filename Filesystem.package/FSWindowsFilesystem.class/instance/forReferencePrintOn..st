@@ -1,3 +1,4 @@
-as yet unclassified
-forReferencePrintOn: aStream
-	aStream nextPutAll: 'win'
+printing
+forReferencePrintOn: aStream 
+	aStream nextPutAll: disk.
+	

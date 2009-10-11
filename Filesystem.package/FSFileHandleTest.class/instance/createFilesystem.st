@@ -1,3 +1,3 @@
 running
 createFilesystem
-	^ FSDiskFilesystem current
+	^ FSDiskFilesystem currentClass createDefault

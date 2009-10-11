@@ -7,8 +7,8 @@
 		"delete:" : "cwp 10/10/2009 17:35",
 		"setUp" : "cwp 8/23/2009 23:10",
 		"tearDown" : "cwp 8/23/2009 23:09",
-		"testChangeDirectory" : "cwp 10/10/2009 17:39",
-		"testChangeDirectoryString" : "cwp 10/10/2009 17:39",
+		"testChangeDirectory" : "cwp 10/11/2009 22:15",
+		"testChangeDirectoryString" : "cwp 10/11/2009 22:14",
 		"testCopy" : "cwp 7/30/2009 23:49",
 		"testCopyDestExists" : "cwp 7/28/2009 22:53",
 		"testCopySourceDoesntExist" : "cwp 7/24/2009 00:29",
@@ -22,5 +22,5 @@
 		"testRootExists" : "cwp 10/10/2009 00:33",
 		"testRootIsDirectory" : "cwp 10/10/2009 00:25",
 		"testRootIsNotAFile" : "cwp 10/10/2009 00:33",
-		"testSetRelativeWorkingDirectory" : "cwp 10/10/2009 18:09",
-		"testSetWorkingDirectory" : "cwp 10/10/2009 17:44" } }
+		"testSetRelativeWorkingDirectory" : "cwp 10/11/2009 22:14",
+		"testSetWorkingDirectory" : "cwp 10/11/2009 22:13" } }

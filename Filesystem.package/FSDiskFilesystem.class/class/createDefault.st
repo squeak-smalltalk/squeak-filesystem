@@ -1,3 +1,3 @@
 instance creation
-workingDirectory
+createDefault
 	^ self new

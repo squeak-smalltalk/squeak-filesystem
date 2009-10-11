@@ -1,3 +1,3 @@
 initialize-release
 createFilesystem
-	^ FSDiskFilesystem current
+	^ FSDiskFilesystem currentClass createDefault

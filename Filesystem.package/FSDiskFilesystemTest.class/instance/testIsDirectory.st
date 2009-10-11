@@ -1,3 +1,3 @@
 tests
 testIsDirectory
-	self assert: (filesystem isDirectory: FSReference defaultDirectory path)
+	self assert: (filesystem isDirectory: FSDiskFilesystem imageDirectory path)

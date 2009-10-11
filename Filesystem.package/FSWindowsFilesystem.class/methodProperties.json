@@ -1,6 +1,15 @@
 {
 	"class" : {
-		 },
+		"createDefault" : "cwp 10/11/2009 12:52",
+		"disk:" : "cwp 10/11/2009 12:51",
+		"disks" : "cwp 10/11/2009 12:51",
+		"initializeDisks" : "cwp 10/11/2009 12:52",
+		"newForDisk:" : "cwp 10/11/2009 12:52" },
 	"instance" : {
 		"delimiter" : "cwp 7/17/2009 19:19",
-		"forReferencePrintOn:" : "cwp 7/17/2009 19:19" } }
+		"forReferencePrintOn:" : "cwp 10/11/2009 13:24",
+		"pathToString:" : "cwp 10/11/2009 12:49",
+		"printOn:" : "cwp 10/11/2009 12:49",
+		"setDisk:" : "cwp 10/11/2009 22:20",
+		"stringToPath:" : "cwp 10/11/2009 16:36",
+		"stringToReference:" : "cwp 10/11/2009 21:01" } }
