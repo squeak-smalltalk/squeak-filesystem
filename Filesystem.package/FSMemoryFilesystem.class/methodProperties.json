@@ -13,7 +13,7 @@
 		"directoryAt:ifAbsent:entriesDo:" : "cwp 8/29/2009 10:21",
 		"entriesAt:" : "cwp 8/23/2009 22:26",
 		"entryAt:ifPresent:ifAbsent:" : "cwp 7/17/2009 23:33",
-		"forReferencePrintOn:" : "cwp 7/19/2009 22:16",
+		"forReferencePrintOn:" : "cwp 10/11/2009 22:37",
 		"growFile:to:" : "cwp 7/19/2009 22:12",
 		"initialize" : "cwp 7/18/2009 01:11",
 		"open:writable:" : "cwp 8/29/2009 10:15",

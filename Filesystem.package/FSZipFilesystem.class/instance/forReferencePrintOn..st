@@ -1,3 +1,3 @@
 private
 forReferencePrintOn: aStream
-	aStream nextPutAll: 'zip'
+	aStream nextPutAll: 'zip:'

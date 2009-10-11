@@ -1,4 +1,5 @@
 printing
 forReferencePrintOn: aStream 
-	aStream nextPutAll: disk.
-	
+	aStream 
+		nextPutAll: disk;
+		nextPut: $:
