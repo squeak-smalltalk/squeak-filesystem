@@ -1,0 +1,14 @@
+{
+	"category" : "Filesystem-Resolvers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "FSInteractiveResolver",
+	"pools" : [
+		 ],
+	"super" : "FSResolver",
+	"type" : "normal" }

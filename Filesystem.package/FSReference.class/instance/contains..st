@@ -1,3 +1,3 @@
-testing
+comparing
 contains: anObject
-	^ anObject isContainedByReference: self
+	^ anObject isContainedBy: self

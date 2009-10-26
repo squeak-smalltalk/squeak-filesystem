@@ -1,0 +1,15 @@
+{
+	"category" : "Filesystem-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Resolver" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"origin",
+		"path" ],
+	"name" : "FSLocator",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

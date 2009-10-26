@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assertOriginResolves:" : "cwp 10/26/2009 13:21",
+		"setUp" : "cwp 10/26/2009 13:19",
+		"testImage" : "cwp 10/26/2009 13:21",
+		"testVmBinary" : "cwp 10/26/2009 13:21",
+		"testVmDirectory" : "cwp 10/26/2009 13:21" } }

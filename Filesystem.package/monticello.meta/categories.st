@@ -1,4 +1,5 @@
 SystemOrganization addCategory: #'Filesystem-Core'!
+SystemOrganization addCategory: #'Filesystem-Resolvers'!
 SystemOrganization addCategory: #'Filesystem-Disk'!
 SystemOrganization addCategory: #'Filesystem-Memory'!
 SystemOrganization addCategory: #'Filesystem-Streams'!

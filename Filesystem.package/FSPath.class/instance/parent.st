@@ -2,7 +2,7 @@ navigating
 parent
 	| size parent |
 	self isRoot ifTrue: [^ self].
-	self isWorkingDirectory ifTrue: [^ self].
+	self isAllParents ifTrue: [^ self / '..'].
 	
 	size := self size - 1.
 	parent := self class new: size.

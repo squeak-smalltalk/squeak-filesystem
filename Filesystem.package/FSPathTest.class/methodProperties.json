@@ -2,7 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testAsPath" : "cwp 10/10/2009 18:10",
 		"testAsReference" : "cwp 10/10/2009 18:11",
 		"testAssureExtentionAddsExtension" : "cwp 10/11/2009 22:34",
 		"testAssureExtentionNoDuplicates" : "cwp 10/11/2009 22:34",
@@ -11,6 +10,7 @@
 		"testCommaAddsExtension" : "cwp 10/11/2009 22:34",
 		"testCommaReplacesExtension" : "cwp 10/11/2009 22:35",
 		"testContains" : "cwp 8/30/2009 15:07",
+		"testContainsLocator" : "cwp 10/25/2009 22:48",
 		"testEqual" : "cwp 10/10/2009 17:49",
 		"testIsAbsolute" : "cwp 10/10/2009 17:49",
 		"testIsNotAbsolute" : "cwp 10/10/2009 17:49",
@@ -19,12 +19,15 @@
 		"testIsRelative" : "cwp 10/10/2009 17:50",
 		"testIsRoot" : "cwp 7/17/2009 05:23",
 		"testParent" : "cwp 10/11/2009 22:35",
+		"testParentParent" : "cwp 10/25/2009 19:49",
 		"testParentResolution" : "cwp 10/10/2009 17:51",
+		"testParseTrailingSlash" : "cwp 10/26/2009 13:27",
 		"testPrintWithDelimiter" : "cwp 10/10/2009 17:52",
 		"testRelativeWithParent" : "cwp 10/11/2009 13:08",
+		"testResolveString" : "cwp 10/25/2009 21:40",
 		"testRootParent" : "cwp 7/17/2009 23:40",
 		"testSimpleResolution" : "cwp 10/10/2009 17:53",
 		"testSlash" : "cwp 10/10/2009 17:53",
 		"testUnequalContent" : "cwp 10/10/2009 17:54",
 		"testUnequalSize" : "cwp 10/10/2009 17:54",
-		"testWorkingDirectoryParent" : "cwp 7/17/2009 23:41" } }
+		"testWorkingDirectoryParent" : "cwp 10/25/2009 19:44" } }
