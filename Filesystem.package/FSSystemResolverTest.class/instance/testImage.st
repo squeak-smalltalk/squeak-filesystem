@@ -1,3 +1,3 @@
-as yet unclassified
+testing
 testImage
 	self assertOriginResolves: #image

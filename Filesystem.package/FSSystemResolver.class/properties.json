@@ -1,14 +1,14 @@
 {
-	"category" : "Filesystem-Tests",
+	"category" : "Filesystem-Resolvers",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"resolver" ],
-	"name" : "FSInteractiveResolverTest",
+		 ],
+	"name" : "FSSystemResolver",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "FSResolver",
 	"type" : "normal" }

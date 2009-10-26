@@ -1,4 +1,4 @@
-as yet unclassified
+asserting
 assertOriginResolves: aSymbol
 	| reference |
 	reference := resolver resolve: aSymbol.

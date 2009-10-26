@@ -2,8 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"assertOriginResolves:" : "cwp 10/26/2009 13:21",
-		"setUp" : "cwp 10/26/2009 13:19",
+		"createResolver" : "cwp 10/26/2009 21:26",
 		"testImage" : "cwp 10/26/2009 13:21",
 		"testVmBinary" : "cwp 10/26/2009 13:21",
 		"testVmDirectory" : "cwp 10/26/2009 13:21" } }

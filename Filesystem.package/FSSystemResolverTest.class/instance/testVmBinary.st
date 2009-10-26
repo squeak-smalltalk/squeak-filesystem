@@ -1,3 +1,3 @@
-as yet unclassified
+testing
 testVmBinary
 	self assertOriginResolves: #vmBinary

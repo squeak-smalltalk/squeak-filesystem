@@ -1,3 +1,3 @@
-as yet unclassified
+testing
 testVmDirectory
 	self assertOriginResolves: #vmDirectory
