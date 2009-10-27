@@ -1,8 +1,11 @@
 {
 	"class" : {
 		"addResolver:" : "cwp 10/26/2009 20:54",
+		"desktop" : "cwp 10/27/2009 10:24",
+		"flushCaches" : "cwp 10/27/2009 10:28",
+		"home" : "cwp 10/27/2009 09:34",
 		"image" : "cwp 10/25/2009 09:54",
-		"initialize" : "cwp 10/26/2009 20:54",
+		"initialize" : "cwp 10/27/2009 09:32",
 		"origin:" : "cwp 10/25/2009 09:55",
 		"origin:path:" : "cwp 10/25/2009 09:56",
 		"vmBinary" : "cwp 10/26/2009 11:37",
@@ -34,7 +37,7 @@
 		"parent" : "cwp 10/25/2009 11:27",
 		"path" : "cwp 10/25/2009 21:31",
 		"pathString" : "cwp 10/26/2009 02:05",
-		"printOn:" : "cwp 10/26/2009 10:38",
+		"printOn:" : "cwp 10/27/2009 10:27",
 		"readStream" : "cwp 10/26/2009 02:05",
 		"readStreamDo:" : "cwp 10/26/2009 02:05",
 		"resolve" : "cwp 10/25/2009 09:59",

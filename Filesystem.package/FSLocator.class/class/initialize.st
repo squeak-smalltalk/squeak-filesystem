@@ -1,3 +1,4 @@
 class initialization
 initialize
-	Resolver := FSSystemResolver new
+	Resolver := FSInteractiveResolver new.
+	Resolver addResolver: FSSystemResolver new.
