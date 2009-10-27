@@ -1,8 +1,9 @@
 resolution tests
 testResolveCompoundString
-	| result |
+	| result compound |
 	locator := FSLocator image / 'plonk'.
-	result := locator resolve: 'griffle/nurp'.
+	compound := 'griffle', locator filesystem delimiter asString, 'nurp'.
+	result := locator resolve: compound.
 	self assert: result class = locator class.
 	self assert: result origin = locator origin.
 	self assert: result path = ((FSPath with: 'plonk') / 'griffle' / 'nurp')
