@@ -10,5 +10,5 @@
 	"name" : "FSMacOSResolver",
 	"pools" : [
 		 ],
-	"super" : "FSUnixResolver",
+	"super" : "FSPlatformResolver",
 	"type" : "normal" }

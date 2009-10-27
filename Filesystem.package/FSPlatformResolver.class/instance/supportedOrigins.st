@@ -1,3 +1,3 @@
 as yet unclassified
 supportedOrigins
-	^ #(home desktop)
+	^ #(home desktop documents)
