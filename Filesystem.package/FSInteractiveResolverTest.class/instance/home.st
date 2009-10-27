@@ -1,0 +1,3 @@
+accessing
+home
+	^ FSDiskFilesystem imageDirectory

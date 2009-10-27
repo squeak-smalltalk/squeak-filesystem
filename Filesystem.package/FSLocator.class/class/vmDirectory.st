@@ -1,3 +1,3 @@
-locations
+origins
 vmDirectory
 	^ self origin: #vmDirectory

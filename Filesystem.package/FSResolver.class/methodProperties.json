@@ -3,9 +3,11 @@
 		 },
 	"instance" : {
 		"addResolver:" : "cwp 10/26/2009 20:53",
+		"canResolve:" : "cwp 10/27/2009 11:18",
 		"flushCaches" : "cwp 10/27/2009 10:28",
 		"flushLocalCache" : "cwp 10/27/2009 10:28",
-		"resolve:" : "cwp 10/25/2009 10:05",
+		"next" : "cwp 10/27/2009 11:25",
+		"resolve:" : "cwp 10/27/2009 11:18",
 		"resolveString:" : "cwp 10/26/2009 13:16",
 		"supportedOrigins" : "cwp 10/26/2009 20:06",
 		"unknownOrigin:" : "cwp 10/27/2009 09:26" } }

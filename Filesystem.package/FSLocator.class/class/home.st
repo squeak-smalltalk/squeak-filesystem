@@ -1,3 +1,3 @@
-locations
+origins
 home
 	^ self origin: #home

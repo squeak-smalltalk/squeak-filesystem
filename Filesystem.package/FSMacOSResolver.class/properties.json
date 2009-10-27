@@ -1,0 +1,14 @@
+{
+	"category" : "Filesystem-Resolvers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "FSMacOSResolver",
+	"pools" : [
+		 ],
+	"super" : "FSUnixResolver",
+	"type" : "normal" }

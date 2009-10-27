@@ -1,5 +1,5 @@
 resolving
 resolve: aSymbol
-	^ (self supportedOrigins includes: aSymbol)
+	^ (self canResolve: aSymbol)
 		ifTrue: [self perform: aSymbol]
 		ifFalse: [self unknownOrigin: aSymbol]

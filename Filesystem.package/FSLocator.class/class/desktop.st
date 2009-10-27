@@ -1,3 +1,3 @@
-locations
+origins
 desktop
 	^ self origin: #desktop

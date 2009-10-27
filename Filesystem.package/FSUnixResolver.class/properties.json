@@ -1,0 +1,14 @@
+{
+	"category" : "Filesystem-Resolvers",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "FSUnixResolver",
+	"pools" : [
+		 ],
+	"super" : "FSPlatformResolver",
+	"type" : "normal" }

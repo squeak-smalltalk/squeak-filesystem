@@ -1,3 +1,3 @@
-locations
+origins
 image
 	^ self origin: #image 
