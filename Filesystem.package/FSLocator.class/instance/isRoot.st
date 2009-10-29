@@ -1,3 +1,3 @@
-testing
+delegated
 isRoot
 	^ self resolve isRoot

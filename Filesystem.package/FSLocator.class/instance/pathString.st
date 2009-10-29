@@ -1,3 +1,3 @@
-public
+delegated
 pathString
 	^ self resolve pathString

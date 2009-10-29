@@ -41,6 +41,8 @@
 		"printOn:" : "cwp 10/27/2009 10:27",
 		"readStream" : "cwp 10/26/2009 02:05",
 		"readStreamDo:" : "cwp 10/26/2009 02:05",
+		"readStreamDo:ifAbsent:" : "cwp 10/29/2009 11:23",
+		"readStreamIfAbsent:" : "cwp 10/29/2009 11:24",
 		"resolve" : "cwp 10/25/2009 09:59",
 		"resolve:" : "cwp 10/26/2009 01:03",
 		"resolvePath:" : "cwp 10/25/2009 21:36",
@@ -48,4 +50,6 @@
 		"resolveString:" : "cwp 10/25/2009 22:02",
 		"withPath:" : "cwp 10/25/2009 11:03",
 		"writeStream" : "cwp 10/26/2009 02:05",
-		"writeStreamDo:" : "cwp 10/26/2009 02:06" } }
+		"writeStreamDo:" : "cwp 10/26/2009 02:06",
+		"writeStreamDo:ifPresent:" : "cwp 10/29/2009 11:24",
+		"writeStreamIfPresent:" : "cwp 10/29/2009 11:23" } }

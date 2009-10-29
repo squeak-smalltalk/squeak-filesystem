@@ -1,3 +1,3 @@
-public
+delegated
 isDirectory
 	^ self resolve isDirectory

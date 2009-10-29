@@ -1,3 +1,3 @@
-public
+delegated
 delete
 	^ self resolve delete

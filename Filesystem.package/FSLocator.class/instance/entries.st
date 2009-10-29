@@ -1,3 +1,3 @@
-public
+delegated
 entries
 	^ self resolve entries

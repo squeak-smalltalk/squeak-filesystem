@@ -1,3 +1,3 @@
-accessing
+delegated
 basename
 	^ self resolve basename

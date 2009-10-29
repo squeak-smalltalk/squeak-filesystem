@@ -1,3 +1,3 @@
-public
+delegated
 exists
 	^ self resolve exists

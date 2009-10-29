@@ -1,3 +1,3 @@
-converting
+delegated
 asPathWith: anObject
 	^ self resolve asPathWith: anObject

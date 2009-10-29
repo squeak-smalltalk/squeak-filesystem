@@ -1,3 +1,3 @@
-accessing
+delegated
 filesystem
 	^ self resolve filesystem

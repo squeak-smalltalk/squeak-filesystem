@@ -1,3 +1,3 @@
-public
+delegated
 ensureDirectory
 	^ self resolve ensureDirectory

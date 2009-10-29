@@ -1,3 +1,3 @@
-public
+delegated
 writeStream
 	^ self resolve writeStream
