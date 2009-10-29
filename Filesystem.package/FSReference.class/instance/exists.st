@@ -1,3 +1,3 @@
-public
+testing
 exists
 	^ filesystem exists: path

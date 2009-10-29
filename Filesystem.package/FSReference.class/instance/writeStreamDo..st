@@ -1,4 +1,4 @@
-public
+streams
 writeStreamDo: aBlock
 	| stream |
 	stream := self writeStream.

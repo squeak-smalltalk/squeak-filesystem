@@ -1,3 +1,3 @@
-public
+streams
 readStream
 	^ filesystem readStreamOn: path

@@ -1,3 +1,3 @@
-public
+testing
 isDirectory
 	^ filesystem isDirectory: path

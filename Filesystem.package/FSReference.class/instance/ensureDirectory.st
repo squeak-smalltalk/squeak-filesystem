@@ -1,4 +1,4 @@
-public
+operations
 ensureDirectory
 	filesystem ensureDirectory: path
 	

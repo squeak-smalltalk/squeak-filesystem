@@ -1,4 +1,4 @@
-public
+streams
 readStreamDo: aBlock
 	| stream |
 	stream := self readStream.

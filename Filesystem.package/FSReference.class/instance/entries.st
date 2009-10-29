@@ -1,3 +1,3 @@
-public
+operations
 entries
 	^ filesystem entriesAt: self

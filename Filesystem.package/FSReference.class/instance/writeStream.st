@@ -1,3 +1,3 @@
-public
+streams
 writeStream
 	^ filesystem writeStreamOn: path

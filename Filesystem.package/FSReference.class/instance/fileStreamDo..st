@@ -1,4 +1,4 @@
-public
+streams
 fileStreamDo: aBlock
 	| stream |
 	[stream := filesystem openFileStream: path writable: true.

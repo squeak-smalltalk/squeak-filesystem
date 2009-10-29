@@ -1,3 +1,3 @@
-public
+testing
 isFile
 	^ filesystem isFile: path
