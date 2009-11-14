@@ -1,3 +1,3 @@
 error handling
 fileExists: path 
-	^ (FileExistsException fileName: path asString) signal
+	FSFileExists signalWith: (self referenceTo: path)

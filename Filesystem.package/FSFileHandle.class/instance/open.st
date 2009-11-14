@@ -6,4 +6,4 @@ open
 	id ifNil: 
 		[(writable or: [reference exists])
 			ifTrue: [self error: 'Unable to open file ', reference printString]
-			ifFalse: [(FileDoesNotExistException fileName: reference path) signal]]
+			ifFalse: [FSFileDoesNotExist signalWith: reference]]

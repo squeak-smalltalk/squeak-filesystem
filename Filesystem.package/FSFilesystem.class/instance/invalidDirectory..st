@@ -1,3 +1,3 @@
 error handling
 invalidDirectory: path 
-	^ (InvalidDirectoryError pathName: (self pathToString: path)) signal
+	FSInvalidDirectory signalWith: (self referenceTo: path)

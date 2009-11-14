@@ -8,5 +8,5 @@ testCopyDestExists
 	out close.
 	self 
 		should: [filesystem copy: 'gooly' to: 'plonk']
-		raise: FileExistsException] 
+		raise: FSFileExists] 
 			ensure: [filesystem delete: 'gooly'; delete: 'plonk']

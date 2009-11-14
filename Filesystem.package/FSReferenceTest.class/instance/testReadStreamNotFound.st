@@ -5,4 +5,4 @@ testReadStreamNotFound
 	ref := filesystem referenceTo: path.
 	self
 		should: [ref readStream]
-		raise: FileDoesNotExistException 
+		raise: FSFileDoesNotExist 
