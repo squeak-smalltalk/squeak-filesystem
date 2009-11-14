@@ -1,0 +1,15 @@
+{
+	"category" : "Filesystem-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"source",
+		"dest" ],
+	"name" : "FSCopyVisitorTest",
+	"pools" : [
+		 ],
+	"super" : "FSTreeTest",
+	"type" : "normal" }

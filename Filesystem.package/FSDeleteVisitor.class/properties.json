@@ -1,0 +1,14 @@
+{
+	"category" : "Filesystem-Enumeration",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "FSDeleteVisitor",
+	"pools" : [
+		 ],
+	"super" : "FSVisitor",
+	"type" : "normal" }

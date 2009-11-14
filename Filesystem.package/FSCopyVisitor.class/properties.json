@@ -1,0 +1,15 @@
+{
+	"category" : "Filesystem-Enumeration",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"source",
+		"dest" ],
+	"name" : "FSCopyVisitor",
+	"pools" : [
+		 ],
+	"super" : "FSVisitor",
+	"type" : "normal" }

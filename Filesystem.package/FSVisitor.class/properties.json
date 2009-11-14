@@ -1,0 +1,14 @@
+{
+	"category" : "Filesystem-Enumeration",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "FSVisitor",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

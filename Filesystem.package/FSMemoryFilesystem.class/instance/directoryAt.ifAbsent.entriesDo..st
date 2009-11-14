@@ -6,4 +6,4 @@ directoryAt: aPath ifAbsent: absentBlock entriesDo: aBlock
 			[:directory |
 			directory isDictionary ifFalse: [^ absentBlock value].
 			directory keysAndValuesDo: [:name :entry | aBlock value: name -> entry]]
-		ifAbsent: aBlock
+		ifAbsent: absentBlock

@@ -1,0 +1,14 @@
+{
+	"category" : "Filesystem-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "FSBreadthFirstGuideTest",
+	"pools" : [
+		 ],
+	"super" : "FSGuideTest",
+	"type" : "normal" }

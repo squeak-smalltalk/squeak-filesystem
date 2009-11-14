@@ -1,0 +1,15 @@
+{
+	"category" : "Filesystem-Enumeration",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"visitor",
+		"work" ],
+	"name" : "FSGuide",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

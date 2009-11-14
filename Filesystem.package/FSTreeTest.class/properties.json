@@ -1,0 +1,16 @@
+{
+	"category" : "Filesystem-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"filesystem",
+		"guide",
+		"visited" ],
+	"name" : "FSTreeTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

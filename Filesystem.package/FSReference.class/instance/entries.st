@@ -1,3 +1,3 @@
 operations
 entries
-	^ filesystem entriesAt: self
+	^ filesystem entriesAt: path

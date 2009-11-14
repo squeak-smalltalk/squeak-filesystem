@@ -1,0 +1,14 @@
+{
+	"category" : "Filesystem-Enumeration",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "FSPostorderGuide",
+	"pools" : [
+		 ],
+	"super" : "FSGuide",
+	"type" : "normal" }

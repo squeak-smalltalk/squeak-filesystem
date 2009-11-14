@@ -1,0 +1,14 @@
+{
+	"category" : "Filesystem-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "FSGuideTest",
+	"pools" : [
+		 ],
+	"super" : "FSTreeTest",
+	"type" : "normal" }

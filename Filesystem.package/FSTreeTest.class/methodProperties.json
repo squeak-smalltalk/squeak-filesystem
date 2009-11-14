@@ -1,0 +1,7 @@
+{
+	"class" : {
+		"isAbstract" : "cwp 10/30/2009 13:39" },
+	"instance" : {
+		"createDirectory:" : "cwp 10/30/2009 13:32",
+		"createFile:" : "cwp 10/30/2009 13:32",
+		"setUpGreek" : "cwp 10/30/2009 13:32" } }
