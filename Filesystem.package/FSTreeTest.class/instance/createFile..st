@@ -1,3 +1,3 @@
 running
 createFile: aString
-	self subclassResponsibility
+	filesystem createFile: (filesystem stringToPath: aString)

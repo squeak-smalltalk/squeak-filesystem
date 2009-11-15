@@ -1,3 +1,3 @@
 running
 createDirectory: aString
-	self subclassResponsibility
+	filesystem createDirectory: (filesystem stringToPath: aString)

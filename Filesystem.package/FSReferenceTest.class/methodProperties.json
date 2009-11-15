@@ -38,6 +38,7 @@
 		"testReadStreamDoifAbsentNot" : "cwp 10/29/2009 09:59",
 		"testReadStreamIfAbsent" : "cwp 10/29/2009 11:11",
 		"testReadStreamNotFound" : "cwp 11/14/2009 23:36",
+		"testRelativeToReference" : "cwp 11/15/2009 00:25",
 		"testRootParent" : "cwp 7/20/2009 09:34",
 		"testSimpleResolution" : "cwp 10/10/2009 18:06",
 		"testSlash" : "cwp 7/20/2009 09:36",

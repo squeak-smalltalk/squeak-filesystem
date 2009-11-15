@@ -23,6 +23,8 @@
 		"testParentResolution" : "cwp 10/10/2009 17:51",
 		"testParseTrailingSlash" : "cwp 10/26/2009 13:27",
 		"testPrintWithDelimiter" : "cwp 10/10/2009 17:52",
+		"testRelativeTo" : "cwp 11/15/2009 00:20",
+		"testRelativeToBranch" : "cwp 11/15/2009 00:21",
 		"testRelativeWithParent" : "cwp 10/11/2009 13:08",
 		"testResolveString" : "cwp 10/25/2009 21:40",
 		"testRootParent" : "cwp 7/17/2009 23:40",

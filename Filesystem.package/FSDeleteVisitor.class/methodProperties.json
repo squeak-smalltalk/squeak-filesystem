@@ -1,5 +1,8 @@
 {
 	"class" : {
-		 },
+		"delete:" : "cwp 11/15/2009 00:41",
+		"root:" : "cwp 11/15/2009 00:41" },
 	"instance" : {
-		 } }
+		"initializeWithRoot:" : "cwp 11/15/2009 00:41",
+		"visit" : "cwp 11/15/2009 00:42",
+		"visitReference:" : "cwp 11/15/2009 00:46" } }

@@ -3,6 +3,9 @@
 		"copy:to:" : "cwp 10/30/2009 13:44",
 		"from:to:" : "cwp 10/30/2009 13:41" },
 	"instance" : {
+		"copyDirectory:" : "cwp 11/14/2009 23:46",
+		"copyFile:" : "cwp 11/15/2009 00:31",
 		"initializeWithSource:dest:" : "cwp 10/30/2009 13:42",
 		"visit" : "cwp 10/30/2009 13:45",
-		"visitDirectory:" : "cwp 11/14/2009 22:40" } }
+		"visitDirectory:" : "cwp 11/14/2009 22:40",
+		"visitFile:" : "cwp 11/15/2009 00:30" } }
