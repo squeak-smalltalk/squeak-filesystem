@@ -3,6 +3,6 @@ isFile: anObject
 	| path |
 	path := self resolve: anObject.
 	self 
-		entryAt: path
+		nodeAt: path
 		ifPresent: [ :entry | ^ self basicIsFile: entry ]
 		ifAbsent: [ ^ false ]

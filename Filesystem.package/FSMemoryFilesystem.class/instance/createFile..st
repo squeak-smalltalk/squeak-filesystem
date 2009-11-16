@@ -1,7 +1,7 @@
 private
 createFile: path 
 	^ self 
-		entryAt: path parent
+		nodeAt: path parent
 		ifPresent: 
 			[ :dict | 
 			(self basicIsDirectory: dict) ifTrue: 

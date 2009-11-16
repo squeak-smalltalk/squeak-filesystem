@@ -1,0 +1,3 @@
+testing
+isFile
+	^ isDirectory not

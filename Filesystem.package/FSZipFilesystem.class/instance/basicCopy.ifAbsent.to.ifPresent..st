@@ -1,14 +1,16 @@
 private
-basicCopy: source ifAbsent: aBlock to: destination ifPresent: pBlock
+basicCopy: source ifAbsent: aBlock to: destination ifPresent: pBlock 
 	| destname copy |
-	self
-		entryAt: source
-		ifPresent:
-			[:smember | 
+	self 
+		nodeAt: source
+		ifPresent: 
+			[ :smember | 
 			destname := self pathToString: destination.
-			copy := self copyFile: smember as: destname.
+			copy := self 
+				copyFile: smember
+				as: destname.
 			self 
-				entryAt: destination
-				ifPresent: [:dmember | pBlock value ]
-				ifAbsent: [archive addMember: copy]]
+				nodeAt: destination
+				ifPresent: [ :dmember | pBlock value ]
+				ifAbsent: [ archive addMember: copy ] ]
 		ifAbsent: aBlock

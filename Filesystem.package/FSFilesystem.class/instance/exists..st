@@ -3,6 +3,6 @@ exists: anObject
 	| path |
 	path := self resolve: anObject.
 	self 
-		entryAt: path
+		nodeAt: path
 		ifPresent: [ :entry | ^ true ]
 		ifAbsent: [ ^ false ]

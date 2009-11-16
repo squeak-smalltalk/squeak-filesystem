@@ -10,5 +10,5 @@
 	"name" : "FSDeleteVisitorTest",
 	"pools" : [
 		 ],
-	"super" : "FSTreeTest",
+	"super" : "FSSingleTreeTest",
 	"type" : "normal" }

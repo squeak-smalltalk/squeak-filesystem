@@ -1,0 +1,16 @@
+{
+	"category" : "Filesystem-Enumeration",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"root",
+		"guide",
+		"out" ],
+	"name" : "FSCollectVisitor",
+	"pools" : [
+		 ],
+	"super" : "FSVisitor",
+	"type" : "normal" }

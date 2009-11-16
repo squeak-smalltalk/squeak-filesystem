@@ -1,10 +1,15 @@
 public
 entriesAt: anObject
-	| path |
+	| path entry |
 	path := self resolve: anObject.
 	^ Array streamContents:
 		[:out |
 		self
 			directoryAt: path
 			ifAbsent: [self invalidDirectory: path]
-			entriesDo: [:entry | out nextPut: (self referenceTo: path / entry first)]]
+			nodesDo: 
+				[:node | 
+				entry := self 
+					entryFromNode: node 
+					atPath: path / (node at: 1).
+				out nextPut: entry]]

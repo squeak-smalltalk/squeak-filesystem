@@ -1,5 +1,16 @@
 public
 entriesAt: anObject
-	| path |
+	| path entry childPath |
 	path := self resolve: anObject.
-	^ (self filesAt: path) addAll: (self directoriesAt: path)
+	^ Array streamContents:
+		[:out |
+		self
+			directoryAt: path
+			ifAbsent: [self invalidDirectory: path]
+			nodesDo: 
+				[:node | 
+				childPath := node class = FSPath ifTrue: [node] ifFalse: [node fileName].
+				entry := self 
+					entryFromNode: node 
+					atPath: childPath.
+				out nextPut: entry]]

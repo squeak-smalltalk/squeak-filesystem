@@ -17,12 +17,14 @@
 		"basicIsDirectory:" : "cwp 7/18/2009 01:26",
 		"basicIsFile:" : "cwp 7/18/2009 01:29",
 		"basicOpen:writable:" : "cwp 7/22/2009 22:30",
+		"childrenAt:" : "cwp 11/15/2009 21:32",
 		"createDirectory:" : "cwp 10/10/2009 17:33",
 		"delete:" : "cwp 7/20/2009 17:48",
-		"directoryAt:ifAbsent:entriesDo:" : "cwp 7/20/2009 17:46",
-		"entriesAt:" : "cwp 10/10/2009 17:33",
-		"entryAt:ifPresent:ifAbsent:" : "cwp 10/10/2009 00:35",
+		"directoryAt:ifAbsent:nodesDo:" : "cwp 11/15/2009 21:32",
+		"entriesAt:" : "cwp 11/16/2009 00:27",
+		"entryFromNode:atPath:" : "cwp 11/16/2009 00:19",
 		"hash" : "cwp 7/24/2009 00:41",
+		"nodeAt:ifPresent:ifAbsent:" : "cwp 11/15/2009 21:40",
 		"open:writable:" : "cwp 10/11/2009 21:21",
 		"openFileStream:writable:" : "cwp 10/10/2009 17:34",
-		"rootEntry" : "cwp 10/10/2009 00:41" } }
+		"rootNode" : "cwp 11/15/2009 21:40" } }

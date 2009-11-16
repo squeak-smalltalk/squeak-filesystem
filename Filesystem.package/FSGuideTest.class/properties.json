@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"guide",
+		"visited" ],
 	"name" : "FSGuideTest",
 	"pools" : [
 		 ],
-	"super" : "FSTreeTest",
+	"super" : "FSSingleTreeTest",
 	"type" : "normal" }

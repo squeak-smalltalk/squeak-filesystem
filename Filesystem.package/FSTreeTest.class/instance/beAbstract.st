@@ -1,0 +1,3 @@
+running
+beAbstract
+	self subclassResponsibility

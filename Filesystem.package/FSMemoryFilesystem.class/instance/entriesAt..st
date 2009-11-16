@@ -7,7 +7,9 @@ entriesAt: anObject
 		self
 			directoryAt: path
 			ifAbsent: [self invalidDirectory: path]
-			entriesDo: 
+			nodesDo: 
 				[:association | 
-				entry := self referenceTo: path / association key.
+				entry := self 
+					entryFromNode: association value 
+					atPath: path / association key.
 				out nextPut: entry]]

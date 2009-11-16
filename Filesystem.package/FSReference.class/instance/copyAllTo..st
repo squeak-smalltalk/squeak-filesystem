@@ -1,3 +1,3 @@
 operations
 copyAllTo: aReference
-	FSCopyVisitor copy: self to: aReference
+	FSCopyVisitor copy: self to: aReference resolve
