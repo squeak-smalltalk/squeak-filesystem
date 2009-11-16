@@ -1,3 +1,3 @@
-operations
+enumerating
 deleteAll
 	FSDeleteVisitor delete: self

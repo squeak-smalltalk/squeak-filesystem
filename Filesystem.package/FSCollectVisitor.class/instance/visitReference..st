@@ -1,3 +1,3 @@
 as yet unclassified
-visitReference: aReference
-	out nextPut: aReference
+visitReference: anEntry
+	out nextPut: (block value: anEntry)

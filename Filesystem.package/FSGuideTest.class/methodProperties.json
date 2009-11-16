@@ -2,7 +2,7 @@
 	"class" : {
 		"isAbstract" : "cwp 10/29/2009 23:08" },
 	"instance" : {
-		"assertVisitedIs:" : "cwp 10/29/2009 21:53",
+		"assertVisitedIs:" : "cwp 11/16/2009 10:46",
 		"setUp" : "cwp 10/30/2009 13:30",
 		"visitDirectory:" : "cwp 10/29/2009 21:54",
 		"visitFile:" : "cwp 10/29/2009 21:54" } }

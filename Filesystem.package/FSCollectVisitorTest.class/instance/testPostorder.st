@@ -1,9 +1,9 @@
 as yet unclassified
 testPostorder
-	| references |
-	references := FSCollectVisitor postorder: self root.
+	| entries |
+	entries := FSCollectVisitor postorder: self root.
 	self 
-		assertReferences: references
+		assertEntries: entries
 		are: #(
 				'/alpha/beta/delta'
 				'/alpha/beta/gamma'

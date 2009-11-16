@@ -1,5 +1,7 @@
 as yet unclassified
-visitFile: aReference
-	aReference = source
+visitFile: anEntry
+	| reference |
+	reference := anEntry reference.
+	reference = source
 		ifTrue: [source copyTo: dest]
-		ifFalse: [self copyFile: aReference]
+		ifFalse: [self copyFile: reference]

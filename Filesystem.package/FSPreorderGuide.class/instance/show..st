@@ -2,11 +2,10 @@ showing
 show: aReference 
 	self push: aReference entry.
 	self whileNotDoneDo: 
-		[| entry ref |
+		[| entry |
 		entry := self pop.
-		ref := entry reference.
 		entry isFile 
-			ifTrue: [visitor visitFile: ref]
+			ifTrue: [visitor visitFile: entry]
 			ifFalse: 
-				[visitor visitDirectory: ref.
-				self pushAll: ref entries]]
+				[visitor visitDirectory: entry.
+				self pushAll: entry reference entries]]

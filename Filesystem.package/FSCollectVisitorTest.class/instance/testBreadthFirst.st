@@ -1,9 +1,9 @@
 as yet unclassified
 testBreadthFirst
-	| references |
-	references := FSCollectVisitor breadthFirst: self root.
+	| entries |
+	entries := FSCollectVisitor breadthFirst: self root.
 	self 
-		assertReferences: references
+		assertEntries: entries
 		are: #(
 				'/alpha'
 				'/alpha/beta'

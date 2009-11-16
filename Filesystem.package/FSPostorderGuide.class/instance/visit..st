@@ -1,6 +1,6 @@
 showing
-visit: aReference
-	aReference isDirectory
-		ifTrue: [visitor visitDirectory: aReference]
-		ifFalse: [visitor visitFile: aReference]
+visit: anEntry
+	anEntry isDirectory
+		ifTrue: [visitor visitDirectory: anEntry]
+		ifFalse: [visitor visitFile: anEntry]
 	

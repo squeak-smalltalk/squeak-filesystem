@@ -1,4 +1,6 @@
 showing
-traverse: aReference 
-	self pushVisit: aReference.
-	aReference isDirectory ifTrue: [ aReference children reverseDo: [ :ea | self pushTraverse: ea ] ]
+traverse: anEntry 
+	self pushVisit: anEntry.
+	anEntry isDirectory ifTrue: 
+		[anEntry reference entries reverseDo: 
+			[:ea | self pushTraverse: ea]]

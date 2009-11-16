@@ -1,3 +1,3 @@
-operations
-copyAllTo: aReference
-	FSCopyVisitor copy: self to: aReference resolve
+enumerating
+copyAllTo: anObject
+	FSCopyVisitor copy: self to: anObject resolve

@@ -1,9 +1,9 @@
 as yet unclassified
 testPreorder
-	| references |
-	references := FSCollectVisitor preorder: self root.
+	| entries |
+	entries := FSCollectVisitor preorder: self root.
 	self 
-		assertReferences: references
+		assertEntries: entries
 		are: #(
 				'/alpha'
 				'/alpha/beta'

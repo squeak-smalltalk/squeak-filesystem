@@ -1,11 +1,11 @@
 showing
 show: aReference 
-	| ref |
-	work add: aReference.
+	| entry |
+	work add: aReference entry.
 	self whileNotDoneDo: 
-		[ ref := work removeFirst.
-		ref isFile 
-			ifTrue: [ visitor visitFile: ref ]
+		[entry := work removeFirst.
+		entry isFile 
+			ifTrue: [ visitor visitFile: entry]
 			ifFalse: 
-				[ visitor visitDirectory: ref.
-				work addAll: ref children ] ]
+				[visitor visitDirectory: entry.
+				work addAll: entry reference entries]]

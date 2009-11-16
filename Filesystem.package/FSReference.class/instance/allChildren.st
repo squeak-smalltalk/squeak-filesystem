@@ -1,3 +1,3 @@
-operations
+enumerating
 allChildren
-	^ FSCollectVisitor preorder: self
+	^ FSCollectVisitor breadthFirst: self collect: [:ea | ea reference]

@@ -1,5 +1,5 @@
 asserting
 assertVisitedIs: anArray
 	visited with: anArray do:
-		[:ref :basename | 
-		self assert: ref basename = basename]
+		[:entry :basename | 
+		self assert: entry reference basename = basename]
