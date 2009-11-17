@@ -3,4 +3,4 @@ testCommaReplacesExtension
 	| path result |
 	path := FSPath with: 'plonk.griffle'.
 	result := path, 'nurp'.
-	self assert: result asString = '[plonk.nurp]'
+	self assert: result asString = 'plonk.nurp'

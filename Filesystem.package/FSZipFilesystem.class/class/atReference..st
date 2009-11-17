@@ -1,3 +1,3 @@
 as yet unclassified
 atReference: aReference
-	^ self new setReference: aReference
+	^ self basicNew initializeWithReference: aReference

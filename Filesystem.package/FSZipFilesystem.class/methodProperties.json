@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"atReference:" : "cwp 9/21/2009 15:12" },
+		"atReference:" : "cwp 11/17/2009 16:42" },
 	"instance" : {
 		"archive" : "cwp 9/20/2009 23:38",
 		"basicCopy:ifAbsent:to:ifPresent:" : "cwp 11/15/2009 21:31",
@@ -10,18 +10,19 @@
 		"childrenAt:" : "cwp 11/16/2009 01:01",
 		"close" : "cwp 9/21/2009 15:20",
 		"copyFile:as:" : "cwp 8/30/2009 15:39",
-		"createDirectory:" : "cwp 9/22/2009 13:10",
+		"createDirectory:" : "cwp 11/17/2009 19:50",
 		"createFile:" : "cwp 9/21/2009 18:22",
 		"delete:" : "cwp 11/15/2009 21:31",
 		"delimiter" : "cwp 8/29/2009 11:36",
 		"directoriesAt:do:" : "cwp 11/16/2009 00:58",
 		"directoryAt:ifAbsent:nodesDo:" : "cwp 11/16/2009 00:58",
 		"directoryAt:ifPresent:ifAbsent:" : "cwp 10/10/2009 00:42",
-		"entriesAt:" : "cwp 11/16/2009 01:04",
+		"entriesAt:" : "cwp 11/17/2009 19:46",
 		"entryFromNode:atPath:" : "cwp 11/16/2009 00:39",
 		"filesAt:do:" : "cwp 11/16/2009 00:58",
 		"forReferencePrintOn:" : "cwp 10/11/2009 22:38",
 		"initializeArchive" : "cwp 9/22/2009 23:31",
+		"initializeWithReference:" : "cwp 11/17/2009 19:41",
 		"memberAt:ifPresent:ifAbsent:" : "cwp 9/22/2009 13:41",
 		"nodeAt:ifPresent:ifAbsent:" : "cwp 11/15/2009 21:31",
 		"open" : "cwp 9/22/2009 23:21",
@@ -29,5 +30,4 @@
 		"openFileStream:writable:" : "cwp 11/15/2009 21:31",
 		"pathFromMember:" : "cwp 9/22/2009 23:29",
 		"reference" : "cwp 9/21/2009 17:48",
-		"setFile:to:" : "cwp 11/15/2009 21:31",
-		"setReference:" : "cwp 9/22/2009 13:10" } }
+		"setFile:to:" : "cwp 11/15/2009 21:31" } }

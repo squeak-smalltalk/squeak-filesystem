@@ -1,3 +1,3 @@
 as yet unclassified
 delete: aReference
-	^ (self root: aReference) visit
+	^ self new visit: aReference

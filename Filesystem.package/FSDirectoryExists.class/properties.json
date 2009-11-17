@@ -1,5 +1,5 @@
 {
-	"category" : "Filesystem-Enumeration",
+	"category" : "Filesystem-Exceptions",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "FSDeleteVisitor",
+	"name" : "FSDirectoryExists",
 	"pools" : [
 		 ],
-	"super" : "FSVisitor",
+	"super" : "FSFilesystemError",
 	"type" : "normal" }

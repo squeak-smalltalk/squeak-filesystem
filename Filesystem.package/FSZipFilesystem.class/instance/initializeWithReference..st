@@ -1,4 +1,5 @@
 initialize-release
-setReference: aReference
+initializeWithReference: aReference
+	self initialize.
 	directories := Set new.
 	reference := aReference.

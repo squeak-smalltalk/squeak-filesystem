@@ -2,6 +2,7 @@ tests
 testAllChildren
 	| ref children |
 	filesystem createDirectory: '/alpha'.
+	filesystem createDirectory: '/alpha/beta'.
 	filesystem createDirectory: '/alpha/beta/delta'.
 	filesystem createDirectory: '/alpha/gamma'.
 	

@@ -6,7 +6,7 @@ childrenAt: anObject
 		[ :out | 
 		self 
 			directoryAt: path
-			ifAbsent: [ self invalidDirectory: path ]
+			ifAbsent: [ self directoryDoesNotExist: path ]
 			nodesDo: 
 				[ :association | 
 				ref := self referenceTo: path / association key.

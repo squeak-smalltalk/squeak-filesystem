@@ -4,4 +4,4 @@ testParent
 	path := (FSPath with: 'plonk') / 'griffle'.
 	parent := path parent.
 	self assert: parent class = path class.
-	self assert: parent asString = '[plonk]'
+	self assert: parent asString = 'plonk'

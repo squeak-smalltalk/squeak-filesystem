@@ -8,4 +8,4 @@ createFile: path
 				[ dict 
 					at: path basename
 					put: ByteArray new ] ]
-		ifAbsent: [ self invalidDirectory: path parent ]
+		ifAbsent: [ self directoryDoesNotExist: path parent ]

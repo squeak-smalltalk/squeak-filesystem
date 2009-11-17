@@ -6,5 +6,5 @@ childrenAt: anObject
 		[ :out | 
 		self 
 			directoryAt: path
-			ifAbsent: [ self invalidDirectory: path ]
+			ifAbsent: [ self directoryDoesNotExist: path ]
 			nodesDo: [ :entry | out nextPut: (self referenceTo: path / entry first) ] ]
