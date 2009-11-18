@@ -1,3 +1,3 @@
-as yet unclassified
+tests
 testIsNotDirectory
 	self deny: self entry isDirectory

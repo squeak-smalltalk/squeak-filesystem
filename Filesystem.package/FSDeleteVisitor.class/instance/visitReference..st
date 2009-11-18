@@ -1,3 +1,3 @@
-as yet unclassified
+visiting
 visitReference: anEntry
 	anEntry reference delete

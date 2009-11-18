@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testNextLineCRLF
 	| line tail |
 	self contents: #(97 97 97 13 10 98 98 98).

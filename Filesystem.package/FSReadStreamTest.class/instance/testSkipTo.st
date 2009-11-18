@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testSkipTo
 	self contents: #(1 2 3 4 5).
 	stream skipTo: 3.

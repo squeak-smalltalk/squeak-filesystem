@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testAll
 	guide := FSBreadthFirstGuide for: self.
 	guide show: (filesystem referenceTo: '/alpha').

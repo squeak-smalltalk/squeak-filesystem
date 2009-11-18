@@ -1,4 +1,4 @@
-ansi
+ansi gettable
 nextLine
 	| char |
 	^ ByteArray streamContents:

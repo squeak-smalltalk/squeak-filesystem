@@ -1,4 +1,4 @@
-as yet unclassified
+private
 on: aCollection
 	super on: aCollection.
 	readLimit := collection size.

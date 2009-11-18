@@ -1,3 +1,3 @@
-as yet unclassified
+origins
 documents
 	^ self home / 'Documents'

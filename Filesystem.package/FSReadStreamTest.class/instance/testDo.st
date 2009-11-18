@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testDo
 	| contents |
 	self contents: #(1 2 3).

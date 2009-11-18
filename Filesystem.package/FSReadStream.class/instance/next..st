@@ -1,4 +1,4 @@
-ansi
+ansi gettable
 next: count
 	| result |
 	result := ByteArray new: count.

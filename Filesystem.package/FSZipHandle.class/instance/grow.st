@@ -1,4 +1,4 @@
-as yet unclassified
+private
 grow
 	| grown |
 	grown := bytes class new: self newSize.

@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testNextLineCR
 	| result tail |
 	self contents: #(97 97 97 13 98 98 98).

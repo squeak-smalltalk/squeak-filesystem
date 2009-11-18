@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testAll
 	self setUpGreek.
 	FSCopyVisitor 

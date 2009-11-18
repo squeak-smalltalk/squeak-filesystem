@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testNextInto
 	| result buffer |
 	self contents: #(1 2 3 4 5).

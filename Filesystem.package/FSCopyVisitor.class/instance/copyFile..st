@@ -1,4 +1,4 @@
-as yet unclassified
+visiting
 copyFile: aReference
 	| copy |
 	copy := dest resolve: (aReference relativeTo: source).

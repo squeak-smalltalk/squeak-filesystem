@@ -1,3 +1,3 @@
-as yet unclassified
+tests
 testDocuments
 	self assertOriginResolves: #documents

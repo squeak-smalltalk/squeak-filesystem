@@ -1,3 +1,3 @@
-as yet unclassified
+visiting
 visitFile: aReference
 	^ self visitReference: aReference

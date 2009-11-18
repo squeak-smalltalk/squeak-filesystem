@@ -1,3 +1,3 @@
-as yet unclassified
+resolving
 supportedOrigins
 	^ #(home desktop documents)

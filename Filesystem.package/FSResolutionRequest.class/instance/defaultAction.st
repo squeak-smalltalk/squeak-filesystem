@@ -1,4 +1,4 @@
-as yet unclassified
+exceptionDescription
 defaultAction
 	| filedir ref |
 	filedir := UIManager default chooseDirectory: 'Where is ', origin, '?'.

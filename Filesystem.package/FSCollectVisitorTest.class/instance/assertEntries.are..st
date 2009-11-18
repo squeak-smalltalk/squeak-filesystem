@@ -1,4 +1,4 @@
-as yet unclassified
+asserting
 assertEntries: references are: expected
 	| strings |
 	self assert: references isArray.

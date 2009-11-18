@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testNextLineLF
 	| result tail |
 	self contents: #(97 97 97 10 98 98 98).

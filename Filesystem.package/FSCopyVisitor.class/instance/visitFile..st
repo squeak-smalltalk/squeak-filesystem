@@ -1,4 +1,4 @@
-as yet unclassified
+visiting
 visitFile: anEntry
 	| reference |
 	reference := anEntry reference.

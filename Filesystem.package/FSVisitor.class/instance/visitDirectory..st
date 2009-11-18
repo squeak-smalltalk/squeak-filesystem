@@ -1,3 +1,3 @@
-as yet unclassified
+visiting
 visitDirectory: aReference
 	^ self visitReference: aReference

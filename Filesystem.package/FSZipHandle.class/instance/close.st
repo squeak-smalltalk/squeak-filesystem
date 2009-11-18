@@ -1,4 +1,4 @@
-as yet unclassified
+public
 close
 	reference filesystem 
 		setFile: reference path 

@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testBeta
 	self setUpGreek.
 	FSDeleteVisitor delete: (filesystem referenceTo: '/alpha/beta').

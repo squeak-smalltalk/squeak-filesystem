@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testCreationTime
 	| creation |
 	creation := self entry creation.

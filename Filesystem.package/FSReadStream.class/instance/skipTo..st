@@ -1,4 +1,4 @@
-ansi
+ansi gettable
 skipTo: anObject
 	
 	| result |

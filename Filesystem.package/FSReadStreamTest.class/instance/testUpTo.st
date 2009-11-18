@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testUpTo
 	| result |
 	self contents: #(1 2 3 4 5).

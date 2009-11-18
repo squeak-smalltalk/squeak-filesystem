@@ -1,3 +1,3 @@
-as yet unclassified
+navigating
 / anObject
 	^ self root / anObject

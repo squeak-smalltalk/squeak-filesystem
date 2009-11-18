@@ -1,4 +1,4 @@
-as yet unclassified
+support
 contents: aByteArray
 	stream := filesystem writeStreamOn: 'griffle'.
 	stream nextPutAll: aByteArray.

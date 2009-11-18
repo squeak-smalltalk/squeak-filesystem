@@ -1,3 +1,3 @@
-as yet unclassified
+tests
 testDesktop
 	self assertOriginResolves: #desktop

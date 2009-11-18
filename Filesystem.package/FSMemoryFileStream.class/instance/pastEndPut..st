@@ -1,4 +1,4 @@
-as yet unclassified
+private
 pastEndPut: anObject 
 	| oldSize newSize |
 	oldSize := collection size.

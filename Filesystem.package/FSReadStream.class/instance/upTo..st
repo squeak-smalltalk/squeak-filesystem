@@ -1,4 +1,4 @@
-ansi
+ansi gettable
 upTo: anObject
 	
 	| byte |

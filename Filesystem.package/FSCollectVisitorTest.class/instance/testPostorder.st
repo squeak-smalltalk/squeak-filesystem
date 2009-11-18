@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testPostorder
 	| entries |
 	entries := FSCollectVisitor postorder: self root.

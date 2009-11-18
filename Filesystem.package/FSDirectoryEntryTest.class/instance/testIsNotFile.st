@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testIsNotFile
 	| ref |
 	ref := FSDiskFilesystem imageDirectory.

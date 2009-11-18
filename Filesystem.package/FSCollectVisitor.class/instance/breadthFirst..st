@@ -1,3 +1,3 @@
-as yet unclassified
+ordering
 breadthFirst: aReference
 	^ self visit: aReference with: (FSBreadthFirstGuide for: self)

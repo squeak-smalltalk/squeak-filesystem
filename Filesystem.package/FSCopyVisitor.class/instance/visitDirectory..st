@@ -1,4 +1,4 @@
-as yet unclassified
+visiting
 visitDirectory: anEntry
 	| reference |
 	reference := anEntry reference.

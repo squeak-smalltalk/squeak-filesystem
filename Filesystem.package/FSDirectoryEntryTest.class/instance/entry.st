@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 entry
 	^ FSDiskFilesystem imageFile entry

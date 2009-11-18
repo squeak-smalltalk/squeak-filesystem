@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testBreadthFirst
 	| entries |
 	entries := FSCollectVisitor breadthFirst: self root.

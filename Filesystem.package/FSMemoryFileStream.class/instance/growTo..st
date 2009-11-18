@@ -1,4 +1,4 @@
-as yet unclassified
+private
 growTo: anInteger
 	collection := reference filesystem growFile: reference path to: anInteger.
 	writeLimit := collection size.

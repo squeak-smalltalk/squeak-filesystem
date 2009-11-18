@@ -3,6 +3,7 @@
 		"isAbstract" : "cwp 7/26/2009 12:46",
 		"shouldInheritSelectors" : "cwp 7/26/2009 12:46" },
 	"instance" : {
+		"createFilesystem" : "cwp 11/18/2009 10:23",
 		"setUp" : "cwp 7/26/2009 12:22",
 		"tearDown" : "cwp 7/26/2009 12:23",
 		"testAt" : "cwp 7/29/2009 22:06",

@@ -1,4 +1,4 @@
-as yet unclassified
+visiting
 visit
 	(FSPreorderGuide for: self) 
 		show: source

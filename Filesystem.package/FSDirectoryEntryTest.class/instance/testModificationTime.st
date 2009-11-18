@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testModificationTime
 	| modification |
 	modification := self entry modification.

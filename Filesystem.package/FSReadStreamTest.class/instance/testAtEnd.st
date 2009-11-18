@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testAtEnd
 	self contents: #().
 	self assert: stream atEnd

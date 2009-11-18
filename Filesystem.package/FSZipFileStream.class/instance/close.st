@@ -1,3 +1,3 @@
-as yet unclassified
+file status
 close
 	self flush

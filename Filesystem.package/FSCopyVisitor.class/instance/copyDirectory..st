@@ -1,4 +1,4 @@
-as yet unclassified
+visiting
 copyDirectory: aReference
 	| directory |
 	directory := dest resolve: (aReference relativeTo: source).
