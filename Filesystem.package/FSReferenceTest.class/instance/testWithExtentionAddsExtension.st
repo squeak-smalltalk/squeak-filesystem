@@ -1,6 +1,6 @@
 tests
-testAssureExtentionAddsExtension
+testWithExtentionAddsExtension
 	| ref result |
 	ref := filesystem referenceTo: 'plonk'.
-	result := ref assureExtension: 'griffle'.
+	result := ref withExtension: 'griffle'.
 	self assert: result asString = 'memory:plonk.griffle'

@@ -1,6 +1,6 @@
 tests
-testCommaReplacesExtension
+testCommaAddsExtensionAgain
 	| ref result |
 	ref := filesystem referenceTo: 'plonk.griffle'.
 	result := ref, 'nurp'.
-	self assert: result asString = 'memory:plonk.nurp'
+	self assert: result basename = 'plonk.griffle.nurp'

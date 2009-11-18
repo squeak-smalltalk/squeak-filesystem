@@ -5,7 +5,7 @@
 		"testAsAbsolute" : "cwp 10/25/2009 10:29",
 		"testBasename" : "cwp 10/25/2009 11:07",
 		"testCommaAddsExtension" : "cwp 10/25/2009 11:11",
-		"testCommaReplacesExtension" : "cwp 10/25/2009 11:13",
+		"testCommaAddsExtensionAgain" : "cwp 11/17/2009 23:59",
 		"testContainsLocator" : "cwp 10/25/2009 22:24",
 		"testContainsPath" : "cwp 10/25/2009 22:39",
 		"testContainsReference" : "cwp 10/25/2009 22:40",
@@ -23,4 +23,6 @@
 		"testResolvePath" : "cwp 10/25/2009 21:43",
 		"testResolveRelativeReference" : "cwp 10/25/2009 21:50",
 		"testResolveString" : "cwp 10/25/2009 21:43",
-		"testSlash" : "cwp 10/25/2009 11:03" } }
+		"testSlash" : "cwp 10/25/2009 11:03",
+		"testWithExtensionAddsExtension" : "cwp 11/18/2009 00:00",
+		"testWithExtensionReplacesExtension" : "cwp 11/18/2009 00:02" } }
