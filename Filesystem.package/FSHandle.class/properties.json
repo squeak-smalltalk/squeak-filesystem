@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		"Primitives" ],
-	"commentStamp" : "",
+	"commentStamp" : "cwp 11/18/2009 11:11",
 	"instvars" : [
 		"reference",
 		"writable" ],

@@ -1,0 +1,1 @@
+I am a compatibility stream. I am protocol compatible with StandardFileStream, but I operate on a file inside a ZipArchive in managed by an FSZipFilesystem.

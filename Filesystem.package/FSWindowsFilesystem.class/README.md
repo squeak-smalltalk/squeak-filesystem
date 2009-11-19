@@ -1,0 +1,1 @@
+I provide an interface to Windows filesystems. My instances represent specific drives, such as C: or D:. A typical Windows system will have more than one filesystem, so I keep track of the "current" filesystem as well as the current directory in each filesystem. 
