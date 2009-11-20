@@ -7,3 +7,4 @@ SystemOrganization addCategory: #'Filesystem-Disk'!
 SystemOrganization addCategory: #'Filesystem-Memory'!
 SystemOrganization addCategory: #'Filesystem-Zip'!
 SystemOrganization addCategory: #'Filesystem-Tests'!
+SystemOrganization addCategory: #'Filesystem-Release'!

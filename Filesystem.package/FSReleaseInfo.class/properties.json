@@ -1,0 +1,14 @@
+{
+	"category" : "Filesystem-Release",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Current" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"version" ],
+	"name" : "FSReleaseInfo",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
