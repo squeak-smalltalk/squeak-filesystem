@@ -1,8 +1,9 @@
 {
 	"class" : {
 		"c" : "cwp 10/27/2009 20:48",
+		"changeDisk:" : "cwp 10/11/2009 22:43",
 		"createDefault" : "cwp 10/11/2009 12:52",
-		"disk:" : "cwp 10/11/2009 12:51",
+		"disk:" : "cwp 10/11/2009 22:43",
 		"disks" : "cwp 10/11/2009 12:51",
 		"initialize" : "cwp 11/20/2009 16:12",
 		"initializeDisks" : "cwp 11/20/2009 16:28",
