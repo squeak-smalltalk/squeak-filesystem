@@ -1,3 +1,5 @@
 origins
 home
-	^ FSWindowsFilesystem c / 'Documents and Settings' / self userName
+	| pathString |
+	pathString := SecurityManager default untrustedUserDirectory.
+	^ (self resolveString: pathString) parent parent

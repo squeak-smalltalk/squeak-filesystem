@@ -1,3 +1,5 @@
 as yet unclassified
 disk: aString 
-	^ Disks at: aString ifAbsent: [self error: 'No disk named: ', aString]
+	^ Disks 
+		at: aString
+		ifAbsentPut: [ self newForDisk: aString ]

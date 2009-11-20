@@ -1,5 +1,4 @@
 as yet unclassified
 initialize
-	super initialize.
-	Smalltalk addToStartUpList: self.
-	self startUp: true
+	Disks := Dictionary new.
+	
