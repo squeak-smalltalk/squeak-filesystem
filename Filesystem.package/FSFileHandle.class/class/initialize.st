@@ -1,3 +1,3 @@
 class initialization
 initialize
-	self useFilePlugin
+	self useFilePlugin.

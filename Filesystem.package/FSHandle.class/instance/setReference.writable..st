@@ -1,4 +1,4 @@
 initialize-release
 setReference: aReference writable: aBoolean
-	reference := aReference.
+	reference := aReference resolve.
 	writable := aBoolean

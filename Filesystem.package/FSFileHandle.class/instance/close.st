@@ -1,3 +1,4 @@
 public
 close
-	Primitives close: id
+	Primitives close: id.
+	id := nil
