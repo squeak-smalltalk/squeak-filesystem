@@ -1,6 +1,8 @@
 {
 	"class" : {
-		"/" : "cwp 9/22/2009 09:41" },
+		"/" : "cwp 9/22/2009 09:41",
+		"putAllRootsOn:" : "cwp 11/21/2009 12:20",
+		"putRootsOn:" : "cwp 11/21/2009 12:20" },
 	"instance" : {
 		"basicCopy:ifAbsent:to:ifPresent:" : "cwp 9/22/2009 09:47",
 		"changeDirectory:" : "cwp 7/18/2009 00:53",
