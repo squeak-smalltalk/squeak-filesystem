@@ -1,3 +1,3 @@
 converting
-toPath: anObject
+pathFromObject: anObject 
 	^ anObject asPathWith: self

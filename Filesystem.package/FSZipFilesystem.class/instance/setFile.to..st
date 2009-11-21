@@ -8,4 +8,4 @@ setFile: aPath to: bytes
 		ifAbsent: 
 			[ archive 
 				addDeflateString: bytes
-				as: (self pathToString: path) ]
+				as: (self stringFromPath: path) ]

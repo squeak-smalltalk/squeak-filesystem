@@ -1,3 +1,3 @@
 printing
 pathString
-	^ filesystem pathToString: (filesystem resolve: path)
+	^ filesystem stringFromPath: (filesystem resolve: path)

@@ -1,3 +1,3 @@
 *filesystem-converting
-asPathWith: anObject
-	^ anObject stringToPath: self
+asPathWith: anObject 
+	^ anObject pathFromString: self

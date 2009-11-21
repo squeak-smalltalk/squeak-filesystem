@@ -1,3 +1,3 @@
 converting
-pathToString: aPath
+stringFromPath: aPath 
 	^ aPath printWithDelimiter: self delimiter

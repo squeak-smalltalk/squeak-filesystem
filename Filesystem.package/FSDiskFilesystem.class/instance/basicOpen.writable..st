@@ -1,5 +1,5 @@
 public
 basicOpen: aPath writable: aBoolean 
 	^ Primitives 
-		open: (self pathToString: aPath)
+		open: (self stringFromPath: aPath)
 		writable: aBoolean

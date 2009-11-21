@@ -1,3 +1,3 @@
 running
-createFile: aString
-	source createFile: (source stringToPath: aString)
+createFile: aString 
+	source createFile: (source pathFromString: aString)

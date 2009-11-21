@@ -1,6 +1,6 @@
 navigating
-resolveString: aString
+resolveString: aString 
 	| filesystem thePath |
 	filesystem := (Resolver resolve: origin) filesystem.
-	thePath := filesystem stringToPath: aString.
+	thePath := filesystem pathFromString: aString.
 	^ self withPath: (path resolvePath: thePath)

@@ -1,5 +1,5 @@
 navigating
-resolveString: aString
+resolveString: aString 
 	| thePath |
-	thePath := filesystem stringToPath: aString.
+	thePath := filesystem pathFromString: aString.
 	^ filesystem referenceTo: (path resolve: thePath)

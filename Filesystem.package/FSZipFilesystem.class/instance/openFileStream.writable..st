@@ -6,7 +6,7 @@ openFileStream: anObject writable: aBoolean
 		nodeAt: path
 		ifPresent: [ :entry | entry ]
 		ifAbsent: 
-			[ name := self pathToString: path.
+			[ name := self stringFromPath: path.
 			archive 
 				addDeflateString: ''
 				as: name ].

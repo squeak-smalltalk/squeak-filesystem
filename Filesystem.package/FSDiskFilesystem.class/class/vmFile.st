@@ -1,3 +1,3 @@
 references
 vmFile
-	^ self current stringToReference: (SmalltalkImage current getSystemAttribute: 0)
+	^ self current referenceFromString: (SmalltalkImage current getSystemAttribute: 0)

@@ -1,3 +1,3 @@
 references
 imageFile
-	^ self current stringToReference: Primitives imageFile
+	^ self current referenceFromString: Primitives imageFile

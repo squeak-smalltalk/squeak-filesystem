@@ -1,5 +1,5 @@
 converting
-pathToString: aPath 
+stringFromPath: aPath 
 	^ String streamContents: 
 		[ :out | 
 		out

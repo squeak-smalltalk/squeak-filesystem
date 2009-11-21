@@ -10,8 +10,8 @@
 		"/" : "cwp 10/27/2009 20:54",
 		"delimiter" : "cwp 7/17/2009 19:19",
 		"forReferencePrintOn:" : "cwp 10/11/2009 22:33",
-		"initializeWithDisk:" : "cwp 11/20/2009 20:52",
-		"pathToString:" : "cwp 10/11/2009 12:49",
+		"initializeWithDisk:" : "cwp 11/21/2009 11:30",
+		"pathFromString:" : "cwp 11/21/2009 11:30",
 		"printOn:" : "cwp 10/11/2009 12:49",
-		"stringToPath:" : "cwp 10/11/2009 16:36",
-		"stringToReference:" : "cwp 10/11/2009 21:01" } }
+		"referenceFromString:" : "cwp 11/21/2009 11:30",
+		"stringFromPath:" : "cwp 11/21/2009 11:31" } }

@@ -1,3 +1,3 @@
 running
-createFile: aString
-	filesystem createFile: (filesystem stringToPath: aString)
+createFile: aString 
+	filesystem createFile: (filesystem pathFromString: aString)

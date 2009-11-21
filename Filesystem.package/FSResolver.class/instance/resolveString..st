@@ -1,5 +1,7 @@
 resolving
-resolveString: aString
+resolveString: aString 
 	| decoded |
-	decoded := (FilePath pathName: aString isEncoded: true) asSqueakPathName.
-	^ FSDiskFilesystem current stringToReference: decoded.
+	decoded := (FilePath 
+		pathName: aString
+		isEncoded: true) asSqueakPathName.
+	^ FSDiskFilesystem current referenceFromString: decoded

@@ -5,7 +5,7 @@ nodeAt: aPath ifPresent: presentBlock ifAbsent: absentBlock
 		directoryAt: aPath
 		ifPresent: [ presentBlock value: aPath ]
 		ifAbsent: 
-			[ name := self pathToString: aPath.
+			[ name := self stringFromPath: aPath.
 			(archive memberNamed: name) 
 				ifNotNil: [ presentBlock value: (archive memberNamed: name) ]
 				ifNil: absentBlock ]

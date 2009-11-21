@@ -2,7 +2,7 @@ private
 directoryAt: aPath ifAbsent: absentBlock nodesDo: aBlock 
 	| index pathString entry |
 	index := 1.
-	pathString := self pathToString: aPath.
+	pathString := self stringFromPath: aPath.
 	entry := Primitives 
 		lookupEntryIn: pathString
 		index: index.

@@ -5,7 +5,7 @@ basicCopy: source ifAbsent: aBlock to: destination ifPresent: pBlock
 		nodeAt: source
 		ifPresent: 
 			[ :smember | 
-			destname := self pathToString: destination.
+			destname := self stringFromPath: destination.
 			copy := self 
 				copyFile: smember
 				as: destname.
