@@ -1,3 +1,3 @@
 as yet unclassified
 disks
-	^ Disks values
+	^ Disks values asArray sort: [:a :b | a printString < b printString]
