@@ -1,3 +1,3 @@
 enumerating
 copyAllTo: anObject
-	FSCopyVisitor copy: self to: anObject resolve
+	FSCopyVisitor copy: self asAbsolute to: anObject resolve

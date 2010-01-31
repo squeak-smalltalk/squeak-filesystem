@@ -1,5 +1,5 @@
 public
 close
-	archive writeToFileNamed: reference pathString.
+	reference fileStreamDo: [:s | s ascii. archive writeTo: s].
 	archive close.
 	archive := nil
