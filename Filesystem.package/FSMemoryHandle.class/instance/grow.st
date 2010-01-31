@@ -1,5 +1,3 @@
 private
 grow
-	bytes := reference filesystem 
-		growFile: reference path
-		to: self newSize
+	^ self growTo: bytes size + 1
