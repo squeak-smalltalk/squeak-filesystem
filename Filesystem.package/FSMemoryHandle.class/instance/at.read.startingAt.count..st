@@ -1,7 +1,8 @@
 public
 at: index read: aCollection startingAt: start count: count 
-	| stop |
-	stop := (start + count - 1) min: (start + size - 1).
+	| max stop |
+	max := size - index + 1 min: count.
+	stop := start + max - 1.
 	aCollection 
 		replaceFrom: start
 		to: stop
