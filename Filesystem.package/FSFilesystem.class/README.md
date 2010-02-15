@@ -1,1 +1,1 @@
-I am an abstract super class for filesystem implementations. 
+I am an abstract superclass for filesystem implementations. 
