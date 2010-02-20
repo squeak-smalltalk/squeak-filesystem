@@ -8,4 +8,4 @@ testOpenArchive
 	archive open.
 	self assert: (archive root children size = 1).
 	self assert: (archive root / 'griffle') exists.
-	self assert: (archive root / 'griffle') readStream contents = 'Hello World'
+	self assert: (archive root / 'griffle') readStream contents = #[72 101 108 108 111 32 87 111 114 108 100 10]

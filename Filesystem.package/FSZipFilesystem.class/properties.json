@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "cwp 11/19/2009 00:05",
 	"instvars" : [
-		"reference",
-		"archive",
-		"directories" ],
+		"reference" ],
 	"name" : "FSZipFilesystem",
 	"pools" : [
 		 ],
-	"super" : "FSFilesystem",
+	"super" : "FSMemoryFilesystem",
 	"type" : "normal" }

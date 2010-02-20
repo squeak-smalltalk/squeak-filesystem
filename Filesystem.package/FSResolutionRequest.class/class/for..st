@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 for: origin
 	^ self new
 		origin: origin;
