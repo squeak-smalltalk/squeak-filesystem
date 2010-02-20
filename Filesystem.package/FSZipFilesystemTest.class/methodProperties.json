@@ -2,4 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"createFilesystem" : "cwp 9/21/2009 22:59" } }
+		"createFilesystem" : "lr 2/20/2010 11:14",
+		"testOpenArchive" : "lr 2/20/2010 11:34",
+		"testWriteArchive" : "lr 2/20/2010 11:44" } }

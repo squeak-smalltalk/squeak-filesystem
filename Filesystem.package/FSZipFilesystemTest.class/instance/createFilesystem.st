@@ -1,7 +1,7 @@
 initialize-release
 createFilesystem
 	| ref |
-	ref := FSDiskFilesystem current referenceTo: 'fs.zip'. 
+	ref := FSMemoryFilesystem new referenceTo: 'fs.zip'. 
 	^ (FSZipFilesystem atReference: ref)
 		open;
 		yourself
