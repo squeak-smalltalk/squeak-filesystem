@@ -1,8 +1,9 @@
 file primitives
 flush: id
 	"Flush pending changes to the disk"
-	| p |
+	
+	| pos |
 	<primitive: 'primitiveFileFlush' module: 'FilePlugin'>
 	"In some OS's seeking to 0 and back will do a flush"
-	p := self position.
-	self position: 0; position: p
+	pos := self getPosition: id.
+	self setPosition: id to: 0; setPosition: id to: pos
