@@ -10,5 +10,5 @@
 	"name" : "FSMemoryFileStream",
 	"pools" : [
 		 ],
-	"super" : "AnObsoleteFSFileStream",
+	"super" : "FSFileStream",
 	"type" : "normal" }
