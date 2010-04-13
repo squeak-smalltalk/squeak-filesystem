@@ -8,6 +8,8 @@
 		"tearDown" : "cwp 7/26/2009 12:23",
 		"testAt" : "cwp 7/29/2009 22:06",
 		"testAtPut" : "cwp 7/29/2009 22:03",
+		"testAtPutBinaryAscii" : "lr 4/13/2010 15:32",
+		"testAtWriteBinaryAscii" : "lr 4/13/2010 15:37",
 		"testClose" : "cwp 7/26/2009 12:23",
 		"testCreatedOpen" : "cwp 7/26/2009 12:23",
 		"testIO" : "cwp 7/26/2009 14:15",
