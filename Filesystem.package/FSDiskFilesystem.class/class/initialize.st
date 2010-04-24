@@ -1,3 +1,4 @@
 initialize-release
 initialize
-	self useFilePlugin
+	self useFilePlugin.
+	Smalltalk addToStartUpList: self

@@ -1,3 +1,3 @@
-as yet unclassified
+testing
 isCurrentClass
 	^ FSDiskFilesystem currentClass = self
