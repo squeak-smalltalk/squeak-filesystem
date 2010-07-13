@@ -1,6 +1,7 @@
 {
 	"class" : {
 		"isAbstract" : "cwp 7/20/2009 08:56",
+		"packageNamesUnderTest" : "lr 7/13/2010 14:01",
 		"shouldInheritSelectors" : "cwp 7/20/2009 08:56" },
 	"instance" : {
 		"createFilesystem" : "cwp 7/20/2009 07:31",

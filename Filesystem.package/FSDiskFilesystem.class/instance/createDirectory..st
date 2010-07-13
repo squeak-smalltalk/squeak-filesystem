@@ -1,10 +1,12 @@
 public
 createDirectory: anObject 
-	| parent path result |
+	| path pathString encodedPathString result parent |
 	path := self resolve: anObject.
-	result := Primitives createDirectory: (self stringFromPath: path).
-	result ifNil: 
-		[ parent := path parent.
+	pathString := self stringFromPath: path.
+	encodedPathString := Primitives encode: pathString.
+	result := Primitives createDirectory: encodedPathString.
+	result ifNil: [ 
+		parent := path parent.
 		(self exists: path) ifTrue: [ ^ self nodeExists: path ].
 		(self isDirectory: parent) ifFalse: [ ^ self directoryDoesNotExist: parent ].
 		self primitiveFailed ]

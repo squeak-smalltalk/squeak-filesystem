@@ -1,5 +1,5 @@
 public
-basicOpen: aPath writable: aBoolean 
+basicOpen: aPath writable: aBoolean
 	^ Primitives 
-		open: (self stringFromPath: aPath)
+		open: (Primitives encode: (self stringFromPath: aPath))
 		writable: aBoolean

@@ -1,3 +1,3 @@
 private
 initialize
-	workingDirectory := (self pathFromString: Primitives imageFile) parent
+	workingDirectory := (self pathFromString: (Primitives decode: Primitives imageFile)) parent

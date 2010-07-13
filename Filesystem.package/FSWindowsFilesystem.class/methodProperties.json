@@ -2,7 +2,7 @@
 	"class" : {
 		"changeDisk:" : "cwp 10/11/2009 22:43",
 		"createDefault" : "cwp 10/11/2009 12:52",
-		"currentDisksDo:" : "cwp 11/21/2009 12:27",
+		"currentDisksDo:" : "lr 7/13/2010 14:18",
 		"disk:" : "cwp 11/20/2009 20:55",
 		"disks" : "cwp 11/21/2009 09:11",
 		"initialize" : "cwp 11/20/2009 20:51",
@@ -15,7 +15,7 @@
 		"disk" : "cwp 11/21/2009 11:57",
 		"forReferencePrintOn:" : "cwp 10/11/2009 22:33",
 		"hash" : "cwp 11/21/2009 12:29",
-		"initializeWithDisk:" : "cwp 11/21/2009 11:30",
+		"initializeWithDisk:" : "lr 7/13/2010 14:18",
 		"pathFromString:" : "cwp 11/21/2009 11:30",
 		"printOn:" : "cwp 10/11/2009 12:49",
 		"referenceFromString:" : "cwp 11/21/2009 11:30",
