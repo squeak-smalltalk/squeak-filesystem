@@ -5,7 +5,8 @@ printOn: aStream
 		nextPut: ${;
 		nextPutAll: origin;
 		nextPut: $}.
-	path isWorkingDirectory ifFalse:
-		[fs := self filesystem.
-		aStream nextPut: fs delimiter.
-		fs printPath: path on: aStream]
+	path isWorkingDirectory
+		ifTrue: [ ^ self ].
+	fs := self filesystem.
+	aStream nextPut: fs delimiter.
+	fs printPath: path on: aStream

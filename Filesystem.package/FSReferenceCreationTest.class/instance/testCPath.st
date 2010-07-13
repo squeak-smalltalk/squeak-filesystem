@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testCPath
 	| ref |
 	ref := FSReference C / 'WINDOWS'.

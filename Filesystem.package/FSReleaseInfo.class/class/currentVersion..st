@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 currentVersion: anArray
 	Current := self version: anArray

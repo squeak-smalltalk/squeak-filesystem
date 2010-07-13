@@ -1,3 +1,3 @@
-as yet unclassified
+instance creation
 delete: aReference
 	^ self new visit: aReference

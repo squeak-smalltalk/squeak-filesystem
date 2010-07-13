@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 filesystem: fs path: path array: array
 	^ self 
 		filesystem: fs

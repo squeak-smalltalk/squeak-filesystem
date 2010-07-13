@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 from: srcReference to: dstReference
 	^ self basicNew
 		initializeWithSource: srcReference 

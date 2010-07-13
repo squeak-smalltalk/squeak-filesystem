@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"basicCopy:ifAbsent:to:ifPresent:" : "cwp 11/17/2009 19:46",
+		"basicCopy:ifAbsent:to:ifPresent:" : "lr 7/13/2010 15:36",
 		"basicIsDirectory:" : "cwp 7/18/2009 01:31",
 		"basicIsFile:" : "cwp 7/18/2009 01:31",
 		"basicOpen:writable:" : "cwp 11/15/2009 21:31",

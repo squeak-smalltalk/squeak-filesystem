@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 forCurrentPlatform
 	| platformName |
 	platformName :=  SmalltalkImage current platformName.

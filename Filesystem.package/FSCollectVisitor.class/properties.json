@@ -6,8 +6,6 @@
 		 ],
 	"commentStamp" : "cwp 11/18/2009 12:32",
 	"instvars" : [
-		"root",
-		"guide",
 		"out",
 		"block" ],
 	"name" : "FSCollectVisitor",

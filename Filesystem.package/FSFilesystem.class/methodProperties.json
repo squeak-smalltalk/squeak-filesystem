@@ -4,7 +4,7 @@
 		"putAllRootsOn:" : "cwp 11/21/2009 12:20",
 		"putRootsOn:" : "cwp 11/21/2009 12:20" },
 	"instance" : {
-		"basicCopy:ifAbsent:to:ifPresent:" : "cwp 9/22/2009 09:47",
+		"basicCopy:ifAbsent:to:ifPresent:" : "lr 7/13/2010 15:36",
 		"basicIsDirectory:" : "MaxLeske 7/9/2010 12:07",
 		"basicIsFile:" : "MaxLeske 7/9/2010 12:09",
 		"changeDirectory:" : "cwp 7/18/2009 00:53",
@@ -18,7 +18,7 @@
 		"directoryAt:ifAbsent:nodesDo:" : "cwp 11/15/2009 21:32",
 		"directoryDoesNotExist:" : "cwp 11/17/2009 19:46",
 		"directoryExists:" : "cwp 11/17/2009 19:47",
-		"ensureDirectory:" : "cwp 11/17/2009 21:01",
+		"ensureDirectory:" : "lr 7/13/2010 15:19",
 		"entryAt:" : "cwp 11/15/2009 22:43",
 		"entryFromNode:atPath:" : "cwp 11/15/2009 22:21",
 		"exists:" : "cwp 11/15/2009 21:31",

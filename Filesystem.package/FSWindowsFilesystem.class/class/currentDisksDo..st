@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 currentDisksDo: aBlock
 	| index entry |
 	index := 1.

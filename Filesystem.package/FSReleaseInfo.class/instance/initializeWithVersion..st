@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initializeWithVersion: anArray
 	self initialize.
 	version := anArray

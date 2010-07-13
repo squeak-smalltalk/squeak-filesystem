@@ -1,5 +1,6 @@
 public
 ensureDirectory: aPath
-	(self isDirectory: aPath) ifFalse: 
-		[self ensureDirectory: aPath parent.
-		self createDirectory: aPath]
+	(self isDirectory: aPath)
+		ifTrue: [ ^ self ].
+	self ensureDirectory: aPath parent.
+	self createDirectory: aPath

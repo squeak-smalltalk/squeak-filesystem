@@ -1,3 +1,3 @@
-as yet unclassified
+instance creation
 collect: aBlock
 	^ self basicNew initializeWithBlock: aBlock

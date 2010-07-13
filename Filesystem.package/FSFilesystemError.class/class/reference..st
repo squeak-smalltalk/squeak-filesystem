@@ -1,3 +1,3 @@
-as yet unclassified
+instance creation
 reference: aReference
 	^ self basicNew initializeWithReference: aReference

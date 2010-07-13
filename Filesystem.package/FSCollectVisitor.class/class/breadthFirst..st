@@ -1,3 +1,3 @@
-as yet unclassified
+instance creation
 breadthFirst: aReference
 	^ self breadthFirst: aReference collect: [:entry | entry]

@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testRoots
 	| roots |
 	roots := FSReference roots.
