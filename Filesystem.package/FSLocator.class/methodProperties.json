@@ -1,10 +1,12 @@
 {
 	"class" : {
 		"addResolver:" : "cwp 10/26/2009 20:54",
+		"changes" : "lr 7/13/2010 13:29",
 		"desktop" : "cwp 10/27/2009 10:24",
 		"flushCaches" : "cwp 10/27/2009 10:28",
 		"home" : "cwp 10/27/2009 09:34",
 		"image" : "cwp 10/25/2009 09:54",
+		"imageDirectory" : "lr 7/13/2010 13:35",
 		"initialize" : "cwp 11/20/2009 15:01",
 		"origin:" : "cwp 10/25/2009 09:55",
 		"origin:path:" : "cwp 10/25/2009 09:56",

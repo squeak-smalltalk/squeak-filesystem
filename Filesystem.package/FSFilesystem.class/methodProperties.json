@@ -5,6 +5,8 @@
 		"putRootsOn:" : "cwp 11/21/2009 12:20" },
 	"instance" : {
 		"basicCopy:ifAbsent:to:ifPresent:" : "cwp 9/22/2009 09:47",
+		"basicIsDirectory:" : "MaxLeske 7/9/2010 12:07",
+		"basicIsFile:" : "MaxLeske 7/9/2010 12:09",
 		"changeDirectory:" : "cwp 7/18/2009 00:53",
 		"childrenAt:" : "cwp 11/15/2009 21:25",
 		"close" : "cwp 9/21/2009 15:18",

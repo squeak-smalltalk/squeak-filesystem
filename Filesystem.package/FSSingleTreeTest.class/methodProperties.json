@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"isAbstract" : "lr 7/13/2010 13:48" },
 	"instance" : {
 		"createDirectory:" : "cwp 11/21/2009 11:30",
 		"createFile:" : "cwp 11/21/2009 11:30",

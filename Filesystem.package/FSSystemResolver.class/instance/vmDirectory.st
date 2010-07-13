@@ -1,3 +1,3 @@
 origins
 vmDirectory
-	^ self resolveString: self primVmDirectoryPath.
+	^ self resolveString: self primVmDirectoryPath
