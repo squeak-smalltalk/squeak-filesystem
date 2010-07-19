@@ -1,4 +1,5 @@
 streams
-readStreamIfAbsent: aBlock
-	self isFile ifFalse: [^ aBlock value].
-	^ self readStream
+readStreamIfAbsent: absentBlock
+	^ self isFile
+		ifTrue: [ self readStream ]
+		ifFalse: [ absentBlock value ]
