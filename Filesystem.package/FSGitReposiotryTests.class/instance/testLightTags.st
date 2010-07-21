@@ -10,5 +10,5 @@ testLightTags
 	tags := repository tags.
 	self assert: tags size = 2.
 	tags do: [ :each |
-		self assert: each species = GitFS.
+		self assert: each species = FSGitFilesystem.
 		self assert: ({ master. branch1} includes: (each instVarNamed: 'revision') signature) ]

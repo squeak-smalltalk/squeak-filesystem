@@ -14,5 +14,5 @@ testFullTags
 			
 	tags := repository tags.
 	self assert: tags size = 1.
-	self assert: tags first species = GitFS.
+	self assert: tags first species = FSGitFilesystem.
 	self assert: (tags first instVarNamed: 'revision') = commit
