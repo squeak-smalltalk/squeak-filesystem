@@ -1,3 +1,0 @@
-package selection
-packageNamesUnderTest
-	^#('Phit')
