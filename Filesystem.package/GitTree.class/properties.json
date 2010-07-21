@@ -1,0 +1,14 @@
+{
+	"category" : "Filesystem-Git",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"entries" ],
+	"name" : "GitTree",
+	"pools" : [
+		 ],
+	"super" : "GitStorableObject",
+	"type" : "normal" }

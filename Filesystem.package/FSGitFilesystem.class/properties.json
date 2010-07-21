@@ -1,0 +1,19 @@
+{
+	"category" : "Filesystem-Git",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"repository",
+		"workingCopy",
+		"modified",
+		"objectMap",
+		"deletions",
+		"revision" ],
+	"name" : "FSGitFilesystem",
+	"pools" : [
+		 ],
+	"super" : "FSFilesystem",
+	"type" : "normal" }

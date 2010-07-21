@@ -1,0 +1,17 @@
+{
+	"category" : "Filesystem-Git",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"tree",
+		"parents",
+		"author",
+		"committer" ],
+	"name" : "GitCommit",
+	"pools" : [
+		 ],
+	"super" : "GitTaglikeObject",
+	"type" : "normal" }

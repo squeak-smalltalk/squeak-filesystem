@@ -1,0 +1,15 @@
+{
+	"category" : "Filesystem-Git",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"signature",
+		"integerHash" ],
+	"name" : "GitObjectSignature",
+	"pools" : [
+		 ],
+	"super" : "GitObject",
+	"type" : "normal" }

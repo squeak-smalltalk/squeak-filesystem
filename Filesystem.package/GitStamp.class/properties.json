@@ -1,0 +1,17 @@
+{
+	"category" : "Filesystem-Git",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"DefaultEmail",
+		"DefaultName" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"name",
+		"email",
+		"timeStamp" ],
+	"name" : "GitStamp",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Filesystem-Git",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"signature" ],
+	"name" : "GitStorableObject",
+	"pools" : [
+		 ],
+	"super" : "GitObject",
+	"type" : "normal" }

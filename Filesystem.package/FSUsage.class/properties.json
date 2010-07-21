@@ -1,0 +1,14 @@
+{
+	"category" : "Filesystem-Git-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "FSUsage",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

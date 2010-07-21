@@ -1,0 +1,14 @@
+{
+	"category" : "Filesystem-Git-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GitCommitTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

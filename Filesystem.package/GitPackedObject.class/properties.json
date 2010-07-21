@@ -1,0 +1,19 @@
+{
+	"category" : "Filesystem-Git",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"pack",
+		"file",
+		"decodeClass",
+		"length",
+		"headerPos",
+		"unpackedBytes" ],
+	"name" : "GitPackedObject",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

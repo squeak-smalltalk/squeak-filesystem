@@ -1,0 +1,3 @@
+package selection
+packageNamesUnderTest
+	^ #('GitFS')

@@ -1,0 +1,14 @@
+{
+	"category" : "Filesystem-Git",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GitStampEmailRequest",
+	"pools" : [
+		 ],
+	"super" : "Notification",
+	"type" : "normal" }
