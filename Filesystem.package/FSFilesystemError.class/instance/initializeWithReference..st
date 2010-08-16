@@ -1,3 +1,4 @@
 initialize-release
 initializeWithReference: aReference
-	reference := aReference
+	reference := aReference.
+	messageText := aReference printString
