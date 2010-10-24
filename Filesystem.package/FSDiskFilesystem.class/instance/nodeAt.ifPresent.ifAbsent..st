@@ -9,6 +9,6 @@ nodeAt: aPath ifPresent: presentBlock ifAbsent: absentBlock
 		nodesDo: 
 			[ :entry | 
 			(self 
-				filenname: (entry at: 1)
+				filename: (entry at: 1)
 				matches: name) ifTrue: [ ^ presentBlock value: entry ] ].
 	^ absentBlock value
