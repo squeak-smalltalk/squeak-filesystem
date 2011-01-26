@@ -15,3 +15,10 @@ isDirectory
 	
 size
 	Size in bytes for a file, 0 for a directory.
+
+Example:
+
+| working cache |
+working := FSDiskFilesystem current working.
+cache := working / 'package-cache'.
+cache entry creation.

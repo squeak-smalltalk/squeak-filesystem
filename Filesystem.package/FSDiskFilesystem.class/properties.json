@@ -1,5 +1,5 @@
 {
-	"category" : "Filesystem-Disk",
+	"category" : "Filesystem-Public",
 	"classinstvars" : [
 		"default" ],
 	"classvars" : [

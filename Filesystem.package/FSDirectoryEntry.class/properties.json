@@ -1,10 +1,10 @@
 {
-	"category" : "Filesystem-Core",
+	"category" : "Filesystem-Public",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "cwp 11/18/2009 11:09",
+	"commentStamp" : "StephaneDucasse 1/26/2011 21:57",
 	"instvars" : [
 		"reference",
 		"creation",
