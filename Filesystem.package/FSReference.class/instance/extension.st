@@ -1,0 +1,4 @@
+accessing
+extension
+	"Returns the base of the basename, i.e. /foo/gloops.taz basename is 'taz'"
+	^ path extension

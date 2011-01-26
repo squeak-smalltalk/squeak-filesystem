@@ -4,7 +4,7 @@
 		"default" ],
 	"classvars" : [
 		"Primitives" ],
-	"commentStamp" : "cwp 11/18/2009 12:44",
+	"commentStamp" : "StephaneDucasse 2/15/2010 14:00",
 	"instvars" : [
 		 ],
 	"name" : "FSDiskFilesystem",
