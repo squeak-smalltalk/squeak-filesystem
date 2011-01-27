@@ -1,3 +1,3 @@
-initialize-release
+test data
 createFilesystem
 	^ FSDiskFilesystem currentClass createDefault

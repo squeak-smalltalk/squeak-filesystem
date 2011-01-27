@@ -1,7 +1,8 @@
 public
-isDirectory: anObject 
+isDirectory: aPath
+
 	| path |
-	path := self resolve: anObject.
+	path := self resolve: aPath.
 	path isRoot ifTrue: [ ^ true ].
 	self 
 		nodeAt: path
