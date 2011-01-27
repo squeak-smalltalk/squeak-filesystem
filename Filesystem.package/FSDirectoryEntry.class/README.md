@@ -1,5 +1,16 @@
 I am a cache for metadata about a file or directory. The information I hold is as follows:
 
+Examples
+--------------
+
+| working cache |
+working := FSDiskFilesystem current working.
+cache := working / 'package-cache'.
+cache entry creation.
+
+
+Implementation
+-----------------------
 reference
 	A reference to the file or directory to which my data pertains.
 	
@@ -16,9 +27,3 @@ isDirectory
 size
 	Size in bytes for a file, 0 for a directory.
 
-Example:
-
-| working cache |
-working := FSDiskFilesystem current working.
-cache := working / 'package-cache'.
-cache entry creation.
