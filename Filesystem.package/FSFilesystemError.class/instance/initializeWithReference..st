@@ -1,4 +1,8 @@
 initialize-release
 initializeWithReference: aReference
 	reference := aReference.
-	messageText := aReference printString
+	reference species = FSReference
+		ifTrue: [ ^ self messageText: reference path asString ].
+	reference species = FSPath
+		ifTrue: [ ^ self messageText: reference asString ].
+	self messageText: reference printString

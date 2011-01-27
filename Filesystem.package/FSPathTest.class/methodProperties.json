@@ -37,4 +37,5 @@
 		"testUnequalSize" : "cwp 10/10/2009 17:54",
 		"testWithExtentionAddsExtension" : "cwp 11/17/2009 23:26",
 		"testWithExtentionReplacesExtension" : "cwp 11/17/2009 23:45",
+		"testWithParents" : "MaxLeske 11/13/2010 10:53",
 		"testWorkingDirectoryParent" : "cwp 10/25/2009 19:44" } }
