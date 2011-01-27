@@ -6,3 +6,8 @@ With FSFilesystem and its subclasses such as FSDiskFilesystem I'm the class of c
 working := FSDiskFilesystem current working.
 working files 
 
+
+| disk |
+disk := FSDiskFilesystem current.
+disk root.                               "a reference to the root directory"
+disk working.                         "a reference to the working directory"

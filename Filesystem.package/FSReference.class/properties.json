@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "StephaneDucasse 1/26/2011 22:06",
+	"commentStamp" : "StephaneDucasse 1/27/2011 22:09",
 	"instvars" : [
 		"filesystem",
 		"path" ],
