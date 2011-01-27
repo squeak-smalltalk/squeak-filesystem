@@ -1,16 +1,16 @@
 {
 	"class" : {
-		"filesystem:path:array:" : "cwp 11/15/2009 22:03",
-		"filesystem:path:creation:modification:isDir:size:" : "cwp 11/15/2009 21:48",
-		"reference:creation:modification:isDir:size:" : "cwp 11/15/2009 21:50" },
+		"filesystem:path:array:" : "StephaneDucasse 1/27/2011 22:24",
+		"filesystem:path:creation:modification:isDir:size:" : "StephaneDucasse 1/27/2011 22:22",
+		"reference:creation:modification:isDir:size:" : "StephaneDucasse 1/27/2011 22:19" },
 	"instance" : {
 		"basename" : "StephaneDucasse 2/15/2010 17:59",
-		"creation" : "cwp 11/15/2009 22:06",
-		"creationSeconds" : "cwp 11/15/2009 22:06",
+		"creation" : "StephaneDucasse 1/27/2011 22:14",
+		"creationSeconds" : "StephaneDucasse 1/27/2011 22:16",
 		"initializeWithRef:creation:modification:isDir:size:" : "cwp 11/15/2009 21:52",
-		"isDirectory" : "cwp 11/15/2009 21:54",
-		"isFile" : "cwp 11/15/2009 22:01",
-		"modification" : "cwp 11/15/2009 22:06",
-		"modificationSeconds" : "cwp 11/15/2009 22:06",
+		"isDirectory" : "StephaneDucasse 1/27/2011 22:16",
+		"isFile" : "StephaneDucasse 1/27/2011 22:16",
+		"modification" : "StephaneDucasse 1/27/2011 22:15",
+		"modificationSeconds" : "StephaneDucasse 1/27/2011 22:15",
 		"reference" : "cwp 11/15/2009 21:54",
-		"size" : "cwp 11/15/2009 21:54" } }
+		"size" : "StephaneDucasse 1/27/2011 22:15" } }

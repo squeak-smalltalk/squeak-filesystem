@@ -1,4 +1,4 @@
-I am a cache for metadata about a file or directory. The information I hold is as follows:
+I am a cache for metadata about a file or directory. 
 
 Examples
 --------------
@@ -11,6 +11,8 @@ cache entry creation.
 
 Implementation
 -----------------------
+The information I hold is as follows:
+
 reference
 	A reference to the file or directory to which my data pertains.
 	
