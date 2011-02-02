@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "StephaneDucasse 1/26/2011 21:30",
+	"commentStamp" : "StephaneDucasse 2/2/2011 22:23",
 	"instvars" : [
 		"workingDirectory" ],
 	"name" : "FSFilesystem",
