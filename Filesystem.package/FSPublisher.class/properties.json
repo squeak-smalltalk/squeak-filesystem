@@ -3,11 +3,11 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"Current" ],
-	"commentStamp" : "StephaneDucasse 2/3/2011 10:16",
+		 ],
+	"commentStamp" : "StephaneDucasse 2/3/2011 10:15",
 	"instvars" : [
-		"version" ],
-	"name" : "FSReleaseInfo",
+		 ],
+	"name" : "FSPublisher",
 	"pools" : [
 		 ],
 	"super" : "Object",
