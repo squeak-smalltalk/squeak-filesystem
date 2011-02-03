@@ -1,5 +1,6 @@
 tests
 testEntries
+
 	| ref entries |
 	filesystem createDirectory: '/alpha'.
 	filesystem createDirectory: '/alpha/beta'.

@@ -1,4 +1,4 @@
-tests
+tests stream
 testReadStreamNotFound
 	| ref path |
 	path := FSPath * 'plonk'.

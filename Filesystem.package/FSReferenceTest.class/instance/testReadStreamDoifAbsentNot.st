@@ -1,4 +1,4 @@
-tests
+tests stream
 testReadStreamDoifAbsentNot
 	| ref pass |
 	pass := false.

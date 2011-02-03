@@ -1,4 +1,4 @@
-tests
+tests stream
 testReadStreamDo
 	| ref path s |
 	path := FSPath * 'plonk'.
