@@ -1,5 +1,5 @@
 public
 open
 
-	bytes := reference filesystem basicOpen: reference path writable: writable.
-	size := bytes size.
+	node := reference filesystem basicOpen: reference path writable: writable.
+	size := node size.

@@ -4,7 +4,7 @@ openFileStream: aPath writable: aBoolean
 	path := self resolve: aPath.
 	bytes := self 
 		nodeAt: path
-		ifPresent: [ :array | array ]
+		ifPresent: [ :node | node data ]
 		ifAbsent: [ self createFile: path ].
 	^ FSMemoryFileStream 
 		on: bytes

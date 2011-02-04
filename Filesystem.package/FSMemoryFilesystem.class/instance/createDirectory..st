@@ -6,10 +6,10 @@ createDirectory: anObject
 	self 
 		nodeAt: parent 
 		ifPresent: 
-			[:dict | 
-			dict at: path basename ifPresent: 
+			[:parentNode | 
+			parentNode data at: path basename ifPresent: 
 				[:node | 
-				(node isDictionary ifTrue: [FSDirectoryExists] ifFalse: [FSFileExists]) 
+				(node isDirectory ifTrue: [FSDirectoryExists] ifFalse: [FSFileExists]) 
 					signalWith: path].
-			dict at: path basename put: Dictionary new]
+			parentNode data at: path basename put: FSMemoryNode newDirectory]
 		ifAbsent: [self directoryDoesNotExist: parent]

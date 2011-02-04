@@ -2,4 +2,4 @@ private
 truncateFile: anObject to: anInteger 
 	^ self 
 		replaceFile: anObject
-		in: [ :bytes | bytes first: anInteger ]
+		in: [ :node | node updateData: [:data | data first: anInteger] ]

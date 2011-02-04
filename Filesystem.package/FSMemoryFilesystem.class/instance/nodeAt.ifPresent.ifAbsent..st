@@ -4,9 +4,9 @@ nodeAt: aPath ifPresent: presentBlock ifAbsent: absentBlock
 	current := root.
 	aPath do: 
 		[ :segment | 
-		current isDictionary 
+		current isDirectory
 			ifTrue: 
-				[ current := current 
+				[ current := current data
 					at: segment
 					ifAbsent: [ ^ absentBlock value ] ]
 			ifFalse: [ ^ absentBlock value ] ].

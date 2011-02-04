@@ -1,3 +1,3 @@
 private
 basicIsFile: entry 
-	^ entry isDictionary not
+	^ entry isDirectory not "isDictionary not"

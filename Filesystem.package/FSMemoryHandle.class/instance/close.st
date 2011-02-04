@@ -1,4 +1,4 @@
 public
 close
 	self truncateTo: size.
-	bytes := nil
+	node := nil
