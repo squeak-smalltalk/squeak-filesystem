@@ -19,6 +19,6 @@
 		"initialize" : "DamienPollet 2/4/2011 18:44",
 		"nodeAt:ifPresent:ifAbsent:" : "DamienPollet 2/4/2011 18:49",
 		"open:writable:" : "cwp 8/29/2009 10:15",
-		"openFileStream:writable:" : "DamienPollet 2/4/2011 17:29",
+		"openFileStream:writable:" : "DamienPollet 2/5/2011 00:56",
 		"replaceFile:in:" : "DamienPollet 2/4/2011 17:44",
 		"truncateFile:to:" : "DamienPollet 2/4/2011 19:01" } }
