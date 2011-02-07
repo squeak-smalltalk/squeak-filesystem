@@ -11,5 +11,4 @@ testEntryDates
 		modified := (filesystem entryAt: path) modification.
 		
 		self assert: created < modified.
-		self halt
 	] ensure: [ filesystem delete: path ]
