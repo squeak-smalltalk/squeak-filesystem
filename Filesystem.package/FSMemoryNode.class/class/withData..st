@@ -1,7 +1,7 @@
 instance creation
 withData: data
 	| now |
-	now := DateAndTime now.
+	now := Time totalSeconds.
 	^ self
 		creation: now
 		modification: now

@@ -2,5 +2,5 @@ accessing
 updateData: aBlock
 	^ self class
 		creation: creation
-		modification: DateAndTime now
+		modification: Time totalSeconds
 		data: (aBlock value: data)

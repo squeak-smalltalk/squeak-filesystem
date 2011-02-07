@@ -1,5 +1,5 @@
-SystemOrganization addCategory: #'Filesystem-Public'!
 SystemOrganization addCategory: #'Filesystem-Core'!
+SystemOrganization addCategory: #'Filesystem-Public'!
 SystemOrganization addCategory: #'Filesystem-Streams'!
 SystemOrganization addCategory: #'Filesystem-Resolvers'!
 SystemOrganization addCategory: #'Filesystem-Enumeration'!
