@@ -1,3 +1,3 @@
 *filesystem-converting
-asResolvedBy: anObject
-	^ anObject resolveString: self
+asResolvedBy: aFileSystem
+	^ aFileSystem resolveString: self

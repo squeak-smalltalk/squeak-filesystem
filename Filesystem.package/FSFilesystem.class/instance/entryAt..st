@@ -1,5 +1,6 @@
 public
 entryAt: anObject 
+
 	| path |
 	path := self resolve: anObject.
 	^ self 

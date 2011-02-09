@@ -1,3 +1,4 @@
 public
-resolve: anObject
-	^ anObject asResolvedBy: self
+resolve: aStringOrPathOrReference
+	
+	^ aStringOrPathOrReference asResolvedBy: self

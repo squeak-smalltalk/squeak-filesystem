@@ -18,7 +18,7 @@
 		"growFile:to:" : "cwp 7/19/2009 22:12",
 		"initialize" : "lr 7/13/2010 13:54",
 		"nodeAt:ifPresent:ifAbsent:" : "cwp 11/15/2009 21:31",
-		"open:writable:" : "cwp 8/29/2009 10:15",
+		"open:writable:" : "StephaneDucasse 2/9/2011 13:38",
 		"openFileStream:writable:" : "cwp 11/15/2009 21:31",
 		"replaceFile:in:" : "cwp 11/15/2009 21:31",
 		"truncateFile:to:" : "cwp 7/19/2009 22:13" } }
