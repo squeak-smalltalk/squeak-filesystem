@@ -1,7 +1,9 @@
 public
-createDirectory: anObject 
+createDirectory: anFSPath 
+	"Create a directory for the argument path. Raise exceptions FileExists, DirectoryExists, or   DirectoryDoesNotExist if the operation fails"
+	
 	| path pathString encodedPathString result parent |
-	path := self resolve: anObject.
+	path := self resolve: anFSPath.
 	pathString := self stringFromPath: path.
 	encodedPathString := Primitives encode: pathString.
 	result := Primitives createDirectory: encodedPathString.

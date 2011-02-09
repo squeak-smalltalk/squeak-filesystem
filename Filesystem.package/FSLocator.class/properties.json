@@ -1,5 +1,5 @@
 {
-	"category" : "Filesystem-Core",
+	"category" : "Filesystem-Locator-Resolvers",
 	"classinstvars" : [
 		 ],
 	"classvars" : [

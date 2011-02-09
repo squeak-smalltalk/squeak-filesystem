@@ -21,7 +21,7 @@
 		"basicIsFile:" : "cwp 7/18/2009 01:29",
 		"basicOpen:writable:" : "lr 7/13/2010 14:17",
 		"childrenAt:" : "cwp 11/17/2009 19:46",
-		"createDirectory:" : "lr 7/13/2010 14:17",
+		"createDirectory:" : "StephaneDucasse 2/9/2011 13:11",
 		"delete:" : "lr 7/13/2010 14:16",
 		"directoryAt:ifAbsent:nodesDo:" : "lr 7/13/2010 14:19",
 		"entriesAt:" : "cwp 11/17/2009 19:46",
