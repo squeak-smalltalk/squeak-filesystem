@@ -1,7 +1,7 @@
 tests-references
 testReadStreamDoIfAbsent
 	| reference |
-	self delete: (reference := filesystem working / 'griffle').
+	self delete: (reference := filesystem workingDirectory / 'griffle').
 	self assert: (reference 
 		readStreamDo: [ :stream | false ]
 		ifAbsent: [ true ]).

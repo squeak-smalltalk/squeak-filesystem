@@ -1,7 +1,7 @@
 tests-references
 testReadStreamDo
 	| reference |
-	self delete: (reference := filesystem working / 'griffle').
+	self delete: (reference := filesystem workingDirectory / 'griffle').
 	self 
 		should: [ reference readStreamDo: [ :stream | self assert: false ] ] 
 		raise: FSFileDoesNotExist.
