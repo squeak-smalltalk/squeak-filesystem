@@ -7,7 +7,7 @@ testChildFiles
 		writeStreamDo: [ :stream | stream nextPutAll: '1' ].
 	(filesystem referenceTo: '/epsilon')
 		writeStreamDo: [ :stream | stream nextPutAll: '2' ].
-	childFiles := filesystem root childFiles.
+	childFiles := filesystem root files.
 	self assert: childFiles size = 2.
 	childFiles do: [ :each | 
 		self assert: each class = FSReference.

@@ -1,4 +1,6 @@
-navigating
+deprecated
 childFiles
 	"Return the direct children (files and folders) of the receiver."
-	^self children select: [ :each | each isFile ]
+	self deprecated: 'Use files instead'.
+	^ self files
+	
