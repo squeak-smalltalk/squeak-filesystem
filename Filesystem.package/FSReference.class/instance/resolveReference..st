@@ -1,4 +1,4 @@
-navigating
+resolving
 resolveReference: aReference
 	
 	^ (filesystem = aReference filesystem or: [aReference isRelative])

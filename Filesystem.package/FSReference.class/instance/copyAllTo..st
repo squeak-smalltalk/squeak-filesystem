@@ -1,3 +1,5 @@
 enumerating
-copyAllTo: anObject
-	FSCopyVisitor copy: self asAbsolute to: anObject resolve
+copyAllTo: APathOrAReference
+	
+	Transcript show: '?? ', APathOrAReference class name ;cr.  
+	FSCopyVisitor copy: self asAbsolute to: APathOrAReference resolve

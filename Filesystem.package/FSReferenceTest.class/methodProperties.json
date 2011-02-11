@@ -4,7 +4,8 @@
 	"instance" : {
 		"createFile:" : "cwp 11/17/2009 21:23",
 		"setUp" : "cwp 7/20/2009 09:06",
-		"testAllChildren" : "cwp 11/17/2009 16:44",
+		"testAllChildren" : "sd 2/11/2011 19:21",
+		"testAllDirectories" : "sd 2/11/2011 19:25",
 		"testAllEntries" : "cwp 11/17/2009 16:44",
 		"testAsAbsoluteConverted" : "StephaneDucasse 2/3/2011 08:13",
 		"testAsAbsoluteIdentity" : "StephaneDucasse 2/3/2011 08:13",

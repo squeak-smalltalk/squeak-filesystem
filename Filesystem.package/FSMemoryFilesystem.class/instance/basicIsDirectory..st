@@ -1,3 +1,3 @@
 private
 basicIsDirectory: entry 
-	^ entry isDirectory "isDictionary"
+	^ entry isDirectory 

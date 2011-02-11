@@ -1,8 +1,8 @@
 tests
-testAllChildren
-	"allChildren returns all the files and folders recursively nested in a reference"
+testAllDirectories
+	"allDirectories returns all folders recursively nested in a reference"
 	<publicTest>
-	"self debug: #testAllChildren"
+	"self debug: #testAllDirectories"
 	| ref children |
 	filesystem createDirectory: '/alpha'.
 	filesystem createDirectory: '/alpha/beta'.
@@ -10,9 +10,10 @@ testAllChildren
 	filesystem createDirectory: '/alpha/gamma'.
 	
 	ref := filesystem referenceTo: '/alpha'.
-	children := ref allChildren.
-	"all children returns the nodes: '/alpha', '/alpha/beta',  '/alpha/beta/delta', and '/alpha/gamma'."
+	children := ref allDirectories.
+	"all children returns the directories: '/alpha', '/alpha/beta', and '/alpha/gamma'."
 	self assert: children size = 4.
+	
 	children do:
 		[:child |
 		self assert: child class = FSReference.

@@ -1,7 +1,8 @@
 public
-entriesAt: anObject 
+entriesAt: aStringOrAPathOrAReference 
+
 	| path entry |
-	path := self resolve: anObject.
+	path := self resolve: aStringOrAPathOrAReference.
 	^ Array streamContents: 
 		[ :out | 
 		self 

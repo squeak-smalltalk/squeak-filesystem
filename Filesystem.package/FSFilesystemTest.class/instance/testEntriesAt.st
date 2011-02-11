@@ -10,6 +10,7 @@ testEntriesAt
 	self delete: directory.
 	entries := filesystem entriesAt: directory.
 	self assert: entries size = 2.
+	
 	entries do: 
 		[ :ea | 
 		self assert: (ea isKindOf: FSDirectoryEntry).
