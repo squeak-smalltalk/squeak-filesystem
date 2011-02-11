@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "StephaneDucasse 2/2/2011 22:23",
 	"instvars" : [
-		"workingDirectory" ],
+		"workingDirectoryPath" ],
 	"name" : "FSFilesystem",
 	"pools" : [
 		 ],

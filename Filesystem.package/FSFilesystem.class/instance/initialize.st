@@ -1,4 +1,4 @@
 initialize-release
 initialize
 	super initialize.
-	workingDirectory := FSPath root
+	workingDirectoryPath := FSPath root

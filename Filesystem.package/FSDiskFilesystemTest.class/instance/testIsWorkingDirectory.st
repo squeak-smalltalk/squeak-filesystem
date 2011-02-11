@@ -3,7 +3,7 @@ testIsWorkingDirectory
 	"self debug: #testIsWorkingDirectory"
 	
 	"why this is wrong?"
-	self assert: (filesystem workingDirectory isWorkingDirectory).
+	self assert: (filesystem workingDirectoryPath isWorkingDirectory).
 	"why do we always have to type 
 	FSDiskFilesystem current working
 	

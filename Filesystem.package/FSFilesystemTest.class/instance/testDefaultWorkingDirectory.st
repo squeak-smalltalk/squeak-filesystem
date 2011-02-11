@@ -1,3 +1,3 @@
 tests
 testDefaultWorkingDirectory
-	self assert: filesystem workingDirectory isRoot
+	self assert: filesystem workingDirectoryPath isRoot

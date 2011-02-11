@@ -1,3 +1,3 @@
 navigating
 resolveString: aString 
-	^ workingDirectory resolvePath: (self pathFromString: aString)
+	^ workingDirectoryPath resolvePath: (self pathFromString: aString)
