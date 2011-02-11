@@ -1,5 +1,5 @@
 error raising
-nodeDoesNotExists: aPath
+nodeDoesNotExist: aPath
 	"Raise exception related to absence of files or directories"
 	
 	(self isFile: aPath) 

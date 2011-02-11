@@ -1,9 +1,9 @@
 public
 rename: sourcePath as: destName
-	"Rename the file referenced as sourcePath  destPath.  Raise exceptions FileExists or FileDoesNotExist  if the operation fails"
+	"Rename the file referenced as sourcePath to destPath.  Raise exceptions FileExists or FileDoesNotExist  if the operation fails"
 	
-	self
-		copy: sourcePath
-		ifAbsent: [self fileDoesNotExist: sourcePath]
-		to: destName
-		ifPresent: [self fileExists: destName]
+	^ self
+		rename: sourcePath
+		ifAbsent: [self nodeDoesNotExist: sourcePath]
+		as: destName
+		ifPresent: [self nodeExists: destName]

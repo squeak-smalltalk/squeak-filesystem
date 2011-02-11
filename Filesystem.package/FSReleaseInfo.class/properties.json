@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		"Current" ],
-	"commentStamp" : "StephaneDucasse 2/3/2011 10:16",
+	"commentStamp" : "sd 2/11/2011 20:44",
 	"instvars" : [
 		"version" ],
 	"name" : "FSReleaseInfo",

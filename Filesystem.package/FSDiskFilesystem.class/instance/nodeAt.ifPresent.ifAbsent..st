@@ -1,5 +1,6 @@
 private
 nodeAt: aPath ifPresent: presentBlock ifAbsent: absentBlock 
+	
 	| name |
 	aPath isRoot ifTrue: [ ^ presentBlock value: self rootNode ].
 	name := aPath basename.
