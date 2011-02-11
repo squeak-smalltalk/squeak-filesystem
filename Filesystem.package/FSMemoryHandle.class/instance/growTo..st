@@ -1,5 +1,5 @@
 private
 growTo: anInteger
-	bytes := reference filesystem 
+	node := reference filesystem 
 		growFile: reference path
-		to: (anInteger + self sizeIncrement)
+		to: (anInteger + self sizeIncrement) "huh, isn't aninteger already enough?"

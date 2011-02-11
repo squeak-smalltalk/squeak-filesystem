@@ -2,9 +2,9 @@ private
 directoryAt: aPath ifAbsent: absentBlock nodesDo: aBlock 
 	self 
 		nodeAt: aPath
-		ifPresent: [ :directory | 
-			directory isDictionary
+		ifPresent: [ :node | 
+			node isDirectory
 				ifFalse: [ ^ absentBlock value ].
-			directory associations sorted
+			node data associations sorted
 				do: aBlock ]
 		ifAbsent: absentBlock

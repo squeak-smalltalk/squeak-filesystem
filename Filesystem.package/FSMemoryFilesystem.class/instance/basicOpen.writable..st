@@ -4,7 +4,7 @@ basicOpen: anObject writable: aBoolean
 	path := self resolve: anObject.
 	^ self 
 		nodeAt: path
-		ifPresent: [ :bytes | bytes ]
+		ifPresent: [ :node | node ]
 		ifAbsent: 
 			[ aBoolean 
 				ifFalse: [ self fileDoesNotExist: path ]

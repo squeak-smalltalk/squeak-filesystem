@@ -1,3 +1,3 @@
 private
 grow
-	^ self growTo: bytes size + 1
+	^ self growTo: node size + 1

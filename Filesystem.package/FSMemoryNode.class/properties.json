@@ -4,12 +4,13 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "cwp 11/19/2009 00:01",
+	"commentStamp" : "",
 	"instvars" : [
-		"node",
-		"size" ],
-	"name" : "FSMemoryHandle",
+		"creation",
+		"modification",
+		"data" ],
+	"name" : "FSMemoryNode",
 	"pools" : [
 		 ],
-	"super" : "FSHandle",
+	"super" : "Object",
 	"type" : "normal" }

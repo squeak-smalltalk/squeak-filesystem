@@ -3,9 +3,9 @@ createFile: path
 	^ self 
 		nodeAt: path parent
 		ifPresent: 
-			[ :dict | 
-			(self basicIsDirectory: dict) ifTrue: 
-				[ dict 
+			[ :node | 
+			(self basicIsDirectory: node) ifTrue: 
+				[ node data 
 					at: path basename
-					put: ByteArray new ] ]
+					put: FSMemoryNode newFile ] ]
 		ifAbsent: [ self directoryDoesNotExist: path parent ]

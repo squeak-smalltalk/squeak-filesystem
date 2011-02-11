@@ -5,14 +5,14 @@ replaceFile: anObject in: aBlock
 	^ self 
 		nodeAt: path parent
 		ifPresent: 
-			[ :dict | 
+			[ :node | 
 			| old new |
-			(self basicIsDirectory: dict) ifFalse: [ self fileDoesNotExist: path ].
-			old := dict 
+			(self basicIsDirectory: node) ifFalse: [ self fileDoesNotExist: path ].
+			old := node data 
 				at: path basename
 				ifAbsent: [ self fileDoesNotExist: path ].
 			new := aBlock value: old.
-			dict 
+			node data 
 				at: path basename
 				put: new ]
 		ifAbsent: [ self fileDoesNotExist: path ]

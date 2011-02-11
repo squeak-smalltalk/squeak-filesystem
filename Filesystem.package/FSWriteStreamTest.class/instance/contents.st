@@ -2,5 +2,5 @@ accessing
 contents
 	^ filesystem 
 		nodeAt: FSPath / 'giffle'
-		ifPresent: [:bytes | bytes]
+		ifPresent: [:node | node data]
 		ifAbsent: [self signalFailure: 'No file!']

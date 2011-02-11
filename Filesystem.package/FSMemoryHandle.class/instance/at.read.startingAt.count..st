@@ -6,6 +6,6 @@ at: index read: aCollection startingAt: start count: count
 	aCollection 
 		replaceFrom: start
 		to: stop
-		with: bytes
+		with: node data
 		startingAt: index.
 	^ stop - start + 1
