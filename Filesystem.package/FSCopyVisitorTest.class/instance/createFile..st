@@ -1,3 +1,3 @@
 running
 createFile: aString 
-	source createFile: (source pathFromString: aString)
+	source store createFile: (source store pathFromString: aString)

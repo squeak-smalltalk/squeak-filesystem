@@ -1,3 +1,3 @@
 accessing
 entry
-	^ FSDiskFilesystem imageFile entry
+	^ FSLocator image resolve entry

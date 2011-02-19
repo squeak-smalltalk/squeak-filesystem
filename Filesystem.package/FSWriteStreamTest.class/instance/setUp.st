@@ -1,4 +1,4 @@
 running
 setUp
-	filesystem := FSMemoryFilesystem new.
+	filesystem := FSFilesystem inMemory.
 	stream := filesystem writeStreamOn: 'giffle'

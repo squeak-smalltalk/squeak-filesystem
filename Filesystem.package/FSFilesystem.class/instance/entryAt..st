@@ -1,8 +1,8 @@
 public
-entryAt: anObject 
+entryAt: anObject
 	| path |
 	path := self resolve: anObject.
-	^ self 
+	^ store
 		nodeAt: path
-		ifPresent:  [:node | self entryFromNode: node atPath: path]
-		ifAbsent: [self fileDoesNotExist: path]
+		ifPresent: [ :node | store entryFromNode: node filesystem: self path: path ]
+		ifAbsent: [ store fileDoesNotExist: path ]

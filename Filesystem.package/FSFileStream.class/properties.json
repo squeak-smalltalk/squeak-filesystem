@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "cwp 11/18/2009 11:24",
 	"instvars" : [
-		"reference" ],
+		"store",
+		"path" ],
 	"name" : "FSFileStream",
 	"pools" : [
 		 ],

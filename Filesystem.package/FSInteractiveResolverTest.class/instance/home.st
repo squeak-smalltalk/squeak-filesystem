@@ -1,3 +1,3 @@
 accessing
 home
-	^ FSDiskFilesystem imageDirectory
+	^ FSLocator imageDirectory resolve

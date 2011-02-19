@@ -3,7 +3,7 @@ testWriteStreamifPresentExists
 	| ref pass path |
 	pass := false.
 	path := FSPath * 'plonk'.
-	filesystem createFile: path.
+	filesystem store createFile: path.
 	ref := filesystem referenceTo: path.
-	ref writeStreamIfPresent: [pass := true].
+	ref writeStreamIfPresent: [ pass := true ].
 	self assert: pass

@@ -1,5 +1,5 @@
 tests
 testContainsLocator
 	| ref |
-	ref := FSDiskFilesystem imageDirectory parent.
+	ref := FSLocator imageDirectory resolve parent.
 	self assert: (ref contains: FSLocator image)

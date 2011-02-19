@@ -1,3 +1,3 @@
 running
 createDirectory: aString 
-	source createDirectory: (source pathFromString: aString)
+	source createDirectory: (source store pathFromString: aString)

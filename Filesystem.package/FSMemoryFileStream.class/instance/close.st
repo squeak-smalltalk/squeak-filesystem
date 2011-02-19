@@ -1,6 +1,6 @@
 file status
 close
-	reference filesystem 
-		truncateFile: reference path 
-		to: position.
 	
+	store 
+		replaceFile: path 
+		in: [ :bytes | bytes first: position ]

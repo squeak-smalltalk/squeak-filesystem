@@ -1,3 +1,3 @@
 cross platform
 / aString
-	^ FSDiskFilesystem current root / aString
+	^ FSFilesystem current root / aString

@@ -1,5 +1,3 @@
 windows
 F
-	^ self
-		filesystem: (FSWindowsFilesystem disk: 'F')
-		path: FSPath root
+	^ self filesystem: (FSFilesystem store: (FSWindowsStore disk: 'F')) path: FSPath root

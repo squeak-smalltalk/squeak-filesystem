@@ -1,3 +1,3 @@
 public
-delete: aPath
-	self subclassResponsibility 
+delete: anObject
+	store delete: (self resolve: anObject)

@@ -1,5 +1,5 @@
 private
 growTo: anInteger
-	bytes := reference filesystem 
-		growFile: reference path
-		to: (anInteger + self sizeIncrement)
+	| path |
+	path := reference filesystem resolve: reference path.
+	bytes := reference filesystem store growFile: path to: anInteger + self sizeIncrement

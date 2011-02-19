@@ -12,6 +12,6 @@ testChildrenAt
 	self assert: entries size = 2.
 	entries do: 
 		[ :ea | 
-		self assert: (ea isKindOf: FSReference).
-		self assert: ea parent path = (filesystem resolve: directory).
+		self assert: (ea isKindOf: FSPath).
+		self assert: ea parent = (filesystem resolve: directory).
 		self assert: (#('griffle' 'bint' ) includes: ea basename) ]

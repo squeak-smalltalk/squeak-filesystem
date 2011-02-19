@@ -1,12 +1,13 @@
 {
 	"category" : "Filesystem-Core",
 	"classinstvars" : [
-		 ],
+		"disk" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "cwp 11/18/2009 11:09",
 	"instvars" : [
-		"workingDirectory" ],
+		"workingDirectory",
+		"store" ],
 	"name" : "FSFilesystem",
 	"pools" : [
 		 ],

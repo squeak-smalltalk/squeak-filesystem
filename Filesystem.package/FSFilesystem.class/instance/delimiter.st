@@ -1,3 +1,3 @@
 public
 delimiter
-	self subclassResponsibility
+	^ store delimiter

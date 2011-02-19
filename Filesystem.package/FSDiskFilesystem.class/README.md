@@ -1,1 +1,0 @@
-I am an abstract superclass for operating-system-provided filesystems. Though I am abstract, I provide most of the functionality for my subclasses, since all platforms use the same primitives. 

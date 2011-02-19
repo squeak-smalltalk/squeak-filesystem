@@ -1,1 +1,0 @@
-I provide an interfact to Unix filesystems. By default, my working directory is the directory that contains the image file. I use the standard unix path delimiter, $/.

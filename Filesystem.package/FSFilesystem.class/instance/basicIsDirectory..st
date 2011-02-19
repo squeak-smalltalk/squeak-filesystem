@@ -1,3 +1,0 @@
-private
-basicIsDirectory: anEntry
-	self subclassResponsibility

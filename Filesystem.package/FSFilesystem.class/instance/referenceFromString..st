@@ -1,5 +1,3 @@
 converting
-referenceFromString: aString 
-	^ FSReference 
-		filesystem: self
-		path: (self pathFromString: aString)
+referenceFromString: aString
+	^ FSReference filesystem: self path: (store pathFromString: aString)

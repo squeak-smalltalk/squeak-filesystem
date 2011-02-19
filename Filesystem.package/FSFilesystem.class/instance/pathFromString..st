@@ -1,5 +1,3 @@
 converting
-pathFromString: aString 
-	^ FSPath 
-		readFrom: aString readStream
-		delimiter: self delimiter
+pathFromString: aString
+	^ store pathFromString: aString

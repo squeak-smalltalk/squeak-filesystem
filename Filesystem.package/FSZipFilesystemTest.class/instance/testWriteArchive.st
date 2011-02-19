@@ -1,8 +1,8 @@
 tests
 testWriteArchive
 	| memory archive |
-	memory := FSMemoryFilesystem new.
-	archive := FSZipFilesystem atReference: memory root / 'fs.zip'.
+	memory := FSFilesystem inMemory.
+	archive := FSFilesystem inZip: memory root / 'fs.zip'.
 	archive open.
 	(archive root / 'griffle')
 		writeStreamDo: [ :stream | stream nextPutAll: 'Hello World' ].

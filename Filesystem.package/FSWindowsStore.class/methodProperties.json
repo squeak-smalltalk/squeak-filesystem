@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"createDefault" : "cwp 2/18/2011 23:00",
+		"currentDisksDo:" : "cwp 2/18/2011 20:31",
+		"delimiter" : "cwp 2/18/2011 17:19",
+		"disk:" : "cwp 2/18/2011 11:56",
+		"disks" : "cwp 2/18/2011 20:32",
+		"referenceFromString:" : "cwp 2/18/2011 20:50",
+		"rootsDo:" : "cwp 2/18/2011 22:49" },
+	"instance" : {
+		"=" : "cwp 2/18/2011 16:05",
+		"defaultWorkingDirectory" : "cwp 2/18/2011 16:47",
+		"disk" : "cwp 2/18/2011 11:57",
+		"forReferencePrintOn:" : "cwp 2/18/2011 16:31",
+		"hash" : "cwp 2/18/2011 16:05",
+		"initializeWithDisk:" : "cwp 2/18/2011 11:56",
+		"pathFromString:" : "cwp 2/18/2011 16:37",
+		"stringFromPath:" : "cwp 2/18/2011 12:14" } }

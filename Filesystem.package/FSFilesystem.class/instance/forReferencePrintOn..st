@@ -1,3 +1,3 @@
 printing
 forReferencePrintOn: aStream
-	self subclassResponsibility
+	store forReferencePrintOn: aStream

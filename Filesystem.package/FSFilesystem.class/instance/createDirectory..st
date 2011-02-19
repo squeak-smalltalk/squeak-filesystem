@@ -1,3 +1,3 @@
 public
-createDirectory: aPath
-	self subclassResponsibility
+createDirectory: anObject
+	^ store createDirectory: (self resolve: anObject)

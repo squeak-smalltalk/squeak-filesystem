@@ -1,3 +1,3 @@
 initialize-release
 createFilesystem
-	^ FSMemoryFilesystem new
+	^ FSFilesystem inMemory
