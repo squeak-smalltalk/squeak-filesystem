@@ -1,5 +1,7 @@
 tests
 testParseTrailingSlash
+	"self run: #testParseTrailingSlash"
+	
 	| path |
 	path := FSPath readFrom: 'griffle/' readStream delimiter: $/.
 	self assert: path size = 1.

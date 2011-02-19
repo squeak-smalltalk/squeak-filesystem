@@ -1,5 +1,6 @@
 instance creation
 readFrom: aStream delimiter: aCharacter 
+	"Return a path composed of several elements identified by a delimiter character. "
 	| elements out ch |
 	elements := OrderedCollection new.
 	out := (String new: 10) writeStream.

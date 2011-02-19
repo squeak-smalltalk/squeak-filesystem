@@ -1,3 +1,5 @@
 instance creation
 parent
-	^ self with: '..'
+	"Return the relative parent path. a.k.a - .. in Unix"
+	
+	^ self with: self dotDot
