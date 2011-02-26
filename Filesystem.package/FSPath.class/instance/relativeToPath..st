@@ -1,5 +1,7 @@
 navigating
 relativeToPath: aPath
+	"Return"
+	
 	| prefix relative |
 	aPath isRelative ifTrue: [^ aPath].
 	prefix := self lengthOfStemWith: aPath.

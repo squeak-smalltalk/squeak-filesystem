@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "cwp 11/18/2009 11:52",
+	"commentStamp" : "StephaneDucasse 2/26/2011 10:59",
 	"instvars" : [
 		"next" ],
 	"name" : "FSResolver",

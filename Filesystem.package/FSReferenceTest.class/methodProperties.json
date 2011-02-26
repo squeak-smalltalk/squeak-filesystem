@@ -35,6 +35,7 @@
 		"testIsNotRoot" : "cwp 7/20/2009 09:26",
 		"testIsRelative" : "cwp 7/20/2009 09:26",
 		"testIsRoot" : "cwp 7/20/2009 09:27",
+		"testMakeRelative" : "StephaneDucasse 2/26/2011 12:01",
 		"testParent" : "cwp 7/20/2009 09:27",
 		"testParentResolutionWithAbsoluteReference" : "cwp 10/11/2009 16:55",
 		"testParentResolutionWithPath" : "cwp 10/10/2009 17:55",
