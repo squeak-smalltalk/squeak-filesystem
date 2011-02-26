@@ -1,0 +1,14 @@
+{
+	"category" : "Filesystem-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "FSAbsolutePath",
+	"pools" : [
+		 ],
+	"super" : "FSPath",
+	"type" : "variable" }

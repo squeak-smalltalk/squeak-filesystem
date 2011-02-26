@@ -1,6 +1,6 @@
 tests
 testWithExtentionReplacesExtension
 	| path result |
-	path := FSPath with: 'plonk.griffle'.
+	path := FSPath * 'plonk.griffle'.
 	result := path withExtension: 'griffle'.
 	self assert: result basename = 'plonk.griffle'

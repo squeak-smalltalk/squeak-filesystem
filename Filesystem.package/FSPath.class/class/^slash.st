@@ -1,3 +1,3 @@
 instance creation
 / aString
-	^ self root / aString
+	^ FSAbsolutePath with: aString

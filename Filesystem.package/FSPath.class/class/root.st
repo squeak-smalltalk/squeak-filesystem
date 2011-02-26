@@ -1,3 +1,3 @@
 instance creation
 root
-	^ self with: ''
+	^ FSAbsolutePath new

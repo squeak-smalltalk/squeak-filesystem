@@ -11,4 +11,4 @@ readFrom: aStream delimiter: aCharacter
 				[ elements add: out contents.
 				out := (String new: 10) writeStream ] ].
 	elements add: out contents.
-	^ FSPath withAll: (self canonicalizeElements: elements)
+	^ self withAll: (self canonicalizeElements: elements)

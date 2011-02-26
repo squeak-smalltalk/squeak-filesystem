@@ -3,5 +3,7 @@ testSlash
 	| ref result |
 	ref := filesystem referenceTo: 'plonk'.
 	result := ref / 'griffle'.
-	self assert: result class = FSReference.
-	self assert: result asString = 'memory:plonk/griffle'
+	self assert: result class = ref class.
+	self assert: result  isRelative.
+	self assert: (result path at: 1) = 'plonk'.
+	self assert: (result path at: 2) = 'griffle'.

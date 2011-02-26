@@ -1,3 +1,3 @@
 instance creation
 * aString
-	^ self with: aString
+	^ FSRelativePath with: aString

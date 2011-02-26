@@ -1,3 +1,3 @@
 tests
 testIsNotAbsolute
-	self deny: (FSPath with: 'plonk') isAbsolute
+	self deny: (FSPath * 'plonk') isAbsolute

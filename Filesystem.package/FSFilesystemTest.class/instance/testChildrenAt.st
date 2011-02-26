@@ -1,7 +1,7 @@
 tests
 testChildrenAt
 	| directory entries |
-	directory := FSPath with: 'plonk'.
+	directory := FSPath * 'plonk'.
 	filesystem createDirectory: directory.
 	filesystem createDirectory: directory / 'griffle'.
 	filesystem createDirectory: directory / 'bint'.

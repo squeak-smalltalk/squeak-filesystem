@@ -1,4 +1,4 @@
-instance creation
+private
 withAll: aCollection
 	| inst |
 	inst := self new: aCollection size.

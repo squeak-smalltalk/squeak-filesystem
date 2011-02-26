@@ -1,3 +1,3 @@
 tests
 testIsRelative
-	self assert: (FSPath with: 'plonk') isRelative
+	self assert: (FSPath * 'plonk') isRelative

@@ -1,7 +1,7 @@
 tests
 testResolveString
 	| path result |
-	path := FSPath with: 'plonk'.
+	path := FSPath * 'plonk'.
 	result := path resolve: 'griffle'.
 	self assert: result class = path class.
 	self assert: result size = 2.

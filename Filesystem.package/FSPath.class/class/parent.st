@@ -1,3 +1,3 @@
 instance creation
 parent
-	^ self with: '..'
+	^ FSRelativePath with: '..'

@@ -1,4 +1,4 @@
-instance creation
+private
 with: aString
 	| inst |
 	inst := self new: 1.

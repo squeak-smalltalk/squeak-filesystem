@@ -1,3 +1,3 @@
 tests
 testIsNotRoot
-	self deny: (FSPath root / 'plonk') isRoot
+	self deny: (FSPath / 'plonk') isRoot

@@ -1,6 +1,6 @@
 tests
 testCommaAddsExtension
 	| path result |
-	path := FSPath with: 'plonk' .
+	path := FSPath * 'plonk' .
 	result := path, 'griffle'.
-	self assert: result asString = 'plonk.griffle'
+	self assert: result basename = 'plonk.griffle'
