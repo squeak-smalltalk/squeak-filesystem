@@ -1,3 +1,3 @@
 windows
 Y
-	^ self filesystem: (FSFilesystem store: (FSWindowsStore disk: 'Y')) path: FSPath root
+	^ self filesystem: (FSFilesystem onDisk) path: FSPath / 'Y:'

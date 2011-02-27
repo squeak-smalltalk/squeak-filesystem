@@ -1,3 +1,3 @@
-as yet unclassified
+current
 createDefault
 	^ self new

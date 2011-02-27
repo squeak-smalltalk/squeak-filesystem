@@ -1,3 +1,0 @@
-running
-expectedFailures 
-	^ {#testDesktop. #testDocuments}

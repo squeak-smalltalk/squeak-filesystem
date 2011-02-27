@@ -2,11 +2,11 @@ public
 delete: path
 	| pathString encodedPathString |
 	pathString := self stringFromPath: path.
-	encodedPathString := self primitives encode: pathString.
+	encodedPathString := Primitives encode: pathString.
 	(self isDirectory: path)
-		ifTrue: [ self primitives deleteDirectory: encodedPathString ]
+		ifTrue: [ Primitives deleteDirectory: encodedPathString ]
 		ifFalse: [ 
 			StandardFileStream
-				retryWithGC: [ self primitives deleteFile: encodedPathString ]
+				retryWithGC: [ Primitives deleteFile: encodedPathString ]
 				until: [ :result | result notNil ]
 				forFileNamed: pathString ]

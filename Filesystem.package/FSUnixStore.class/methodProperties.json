@@ -1,12 +1,5 @@
 {
 	"class" : {
-		"createDefault" : "cwp 2/18/2011 23:00",
-		"current" : "cwp 2/18/2011 23:00",
-		"delimiter" : "cwp 2/18/2011 17:19",
-		"referenceFromString:" : "cwp 2/19/2011 15:10",
-		"rootsDo:" : "cwp 2/18/2011 22:40" },
+		"delimiter" : "cwp 2/18/2011 17:19" },
 	"instance" : {
-		"=" : "cwp 2/18/2011 16:06",
-		"defaultWorkingDirectory" : "cwp 2/18/2011 16:47",
-		"forReferencePrintOn:" : "cwp 2/18/2011 16:32",
-		"hash" : "cwp 2/18/2011 16:06" } }
+		 } }

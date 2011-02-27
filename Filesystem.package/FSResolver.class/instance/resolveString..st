@@ -1,5 +1,8 @@
 resolving
 resolveString: aString 
-	| decoded |
+	| decoded fs |
 	decoded := (FilePath pathName: aString isEncoded: true) asSqueakPathName.
-	^ FSDiskStore activeClass referenceFromString: decoded
+	fs := FSFilesystem onDisk.
+	^ FSReference
+		filesystem: fs
+		path: (fs pathFromString: decoded)

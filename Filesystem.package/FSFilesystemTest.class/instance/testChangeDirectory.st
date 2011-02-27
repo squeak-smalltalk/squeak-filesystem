@@ -1,5 +1,9 @@
 tests
 testChangeDirectory
-	filesystem workingDirectory: (FSPath / 'plonk').
+	| cwd |
+	filesystem workingDirectory: FSPath / 'plonk'.
 	filesystem changeDirectory: 'griffle'.
-	self assert: (filesystem workingDirectory printWithDelimiter: $/) = '/plonk/griffle'
+	cwd := filesystem workingDirectory.
+	self assert: cwd isAbsolute.
+	self assert: (cwd at: 1) = 'plonk'.
+	self assert: (cwd at: 2) = 'griffle'.

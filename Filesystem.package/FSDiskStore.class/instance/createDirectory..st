@@ -2,8 +2,8 @@ public
 createDirectory: path
 	| parent encodedPathString pathString result |
 	pathString := self stringFromPath: path.
-	encodedPathString := self primitives encode: pathString.
-	result := self primitives createDirectory: encodedPathString.
+	encodedPathString := Primitives encode: pathString.
+	result := Primitives createDirectory: encodedPathString.
 	result
 		ifNil: [ 
 			parent := path parent.

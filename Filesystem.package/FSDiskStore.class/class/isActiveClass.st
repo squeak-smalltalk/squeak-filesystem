@@ -1,3 +1,3 @@
-as yet unclassified
+current
 isActiveClass
 	^ self delimiter = Primitives delimiter
