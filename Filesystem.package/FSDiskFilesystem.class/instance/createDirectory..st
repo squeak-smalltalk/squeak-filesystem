@@ -9,6 +9,6 @@ createDirectory: anFSPath
 	result := Primitives createDirectory: encodedPathString.
 	result ifNil: [ 
 		parent := path parent.
-		(self exists: path) ifTrue: [ ^ self nodeExists: path ].
-		(self isDirectory: parent) ifFalse: [ ^ self directoryDoesNotExist: parent ].
+		(self exists: path) ifTrue: [ ^ self signalNodeExists: path ].
+		(self isDirectory: parent) ifFalse: [ ^ self signalDirectoryDoesNotExist: parent ].
 		self primitiveFailed ]

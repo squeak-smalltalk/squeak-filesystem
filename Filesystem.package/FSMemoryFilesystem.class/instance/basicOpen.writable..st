@@ -7,5 +7,5 @@ basicOpen: anObject writable: aBoolean
 		ifPresent: [ :node | node ]
 		ifAbsent: 
 			[ aBoolean 
-				ifFalse: [ self fileDoesNotExist: path ]
+				ifFalse: [ self signalFileDoesNotExist: path ]
 				ifTrue: [ self createFile: path ] ]

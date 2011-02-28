@@ -6,4 +6,4 @@ entryAt: anObject
 	^ self 
 		nodeAt: path
 		ifPresent:  [:node | self entryFromNode: node atPath: path]
-		ifAbsent: [self fileDoesNotExist: path]
+		ifAbsent: [self signalFileDoesNotExist: path]

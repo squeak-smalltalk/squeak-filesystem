@@ -7,12 +7,12 @@ replaceFile: anObject in: aBlock
 		ifPresent: 
 			[ :node | 
 			| old new |
-			(self basicIsDirectory: node) ifFalse: [ self fileDoesNotExist: path ].
+			(self basicIsDirectory: node) ifFalse: [ self signalFileDoesNotExist: path ].
 			old := node data 
 				at: path basename
-				ifAbsent: [ self fileDoesNotExist: path ].
+				ifAbsent: [ self signalFileDoesNotExist: path ].
 			new := aBlock value: old.
 			node data 
 				at: path basename
 				put: new ]
-		ifAbsent: [ self fileDoesNotExist: path ]
+		ifAbsent: [ self signalFileDoesNotExist: path ]

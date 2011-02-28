@@ -1,5 +1,5 @@
 error raising
-directoryDoesNotExist: path 
+signalDirectoryDoesNotExist: path 
 	"Raise FSDirectoryDoesNotExist exception"
 	
 	^ FSDirectoryDoesNotExist signalWith: (self referenceTo: path)

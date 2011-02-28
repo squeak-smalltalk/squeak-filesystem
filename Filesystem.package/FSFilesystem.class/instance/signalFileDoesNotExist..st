@@ -1,5 +1,5 @@
 error raising
-fileDoesNotExist: path 
+signalFileDoesNotExist: path 
 	"Raise FSFileDoesNotExist exception"
 	
 	^ FSFileDoesNotExist signalWith: (self referenceTo: path)

@@ -12,4 +12,4 @@ createDirectory: anObject
 				(node isDirectory ifTrue: [FSDirectoryExists] ifFalse: [FSFileExists]) 
 					signalWith: path].
 			parentNode data at: path basename put: FSMemoryNode newDirectory]
-		ifAbsent: [self directoryDoesNotExist: parent]
+		ifAbsent: [self signalDirectoryDoesNotExist: parent]

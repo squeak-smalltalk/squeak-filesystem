@@ -4,6 +4,6 @@ rename: sourcePath as: destName
 	
 	^ self
 		rename: sourcePath
-		ifAbsent: [self nodeDoesNotExist: sourcePath]
+		ifAbsent: [self signalNodeDoesNotExist: sourcePath]
 		as: destName
-		ifPresent: [self nodeExists: destName]
+		ifPresent: [self signalNodeExists: destName]

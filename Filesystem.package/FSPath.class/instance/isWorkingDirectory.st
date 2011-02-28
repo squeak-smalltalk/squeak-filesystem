@@ -1,3 +1,0 @@
-testing
-isWorkingDirectory
-	^ self isEmpty

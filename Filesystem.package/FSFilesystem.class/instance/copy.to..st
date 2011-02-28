@@ -4,6 +4,6 @@ copy: sourcePath to: destPath
 	
 	self
 		copy: sourcePath
-		ifAbsent: [self fileDoesNotExist: sourcePath]
+		ifAbsent: [self signalFileDoesNotExist: sourcePath]
 		to: destPath
-		ifPresent: [self fileExists: destPath]
+		ifPresent: [self signalFileExists: destPath]

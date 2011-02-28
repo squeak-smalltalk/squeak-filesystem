@@ -7,7 +7,7 @@ entriesAt: aStringOrAPathOrAReference
 		[ :out | 
 		self 
 			directoryAt: path
-			ifAbsent: [ self directoryDoesNotExist: path ]
+			ifAbsent: [ self signalDirectoryDoesNotExist: path ]
 			nodesDo: 
 				[ :node | 
 				entry := self 

@@ -8,4 +8,4 @@ createFile: path
 				[ node data 
 					at: path basename
 					put: FSMemoryNode newFile ] ]
-		ifAbsent: [ self directoryDoesNotExist: path parent ]
+		ifAbsent: [ self signalDirectoryDoesNotExist: path parent ]
