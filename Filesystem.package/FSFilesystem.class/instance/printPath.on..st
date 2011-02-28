@@ -1,3 +1,3 @@
 printing
 printPath: aPath on: aStream
-	aPath printOn: aStream delimiter: self delimiter
+	store printPath: aPath on: aStream
