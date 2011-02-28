@@ -1,5 +1,5 @@
 instance creation
 root
-	"Return the relative root path"
+	"Return the root path"
 	
 	^ self with: ''
