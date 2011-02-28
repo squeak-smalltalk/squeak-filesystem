@@ -1,3 +1,3 @@
 testing
 isWorkingDirectory
-	^ self size = 0
+	^ self isEmpty

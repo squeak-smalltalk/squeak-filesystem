@@ -6,5 +6,5 @@ testEnsureDirectoryExists
 	filesystem createDirectory: path.
 	self 
 		shouldnt: [filesystem ensureDirectory: path]
-		raise: FSFilesystemError.
+		raise: FSReferenceError.
 	

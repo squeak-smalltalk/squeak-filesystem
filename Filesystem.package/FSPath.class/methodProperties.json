@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"*" : "StephaneDucasse 2/26/2011 10:37",
+		"*" : "DamienPollet 2/28/2011 16:16",
 		"/" : "StephaneDucasse 2/26/2011 10:38",
 		"addElement:to:" : "cwp 10/26/2009 13:42",
 		"addEmptyElementTo:" : "cwp 10/26/2009 13:41",
@@ -12,6 +12,7 @@
 		"parent" : "StephaneDucasse 2/18/2011 22:14",
 		"parents:" : "StephaneDucasse 2/18/2011 22:45",
 		"readFrom:delimiter:" : "StephaneDucasse 2/18/2011 22:43",
+		"relative" : "DamienPollet 2/28/2011 16:11",
 		"root" : "DamienPollet 2/28/2011 15:47",
 		"with:" : "DamienPollet 2/28/2011 15:45",
 		"withAll:" : "cwp 12/13/2008 13:33" },
@@ -41,7 +42,7 @@
 		"isEmpty" : "DamienPollet 2/20/2011 04:00",
 		"isRelative" : "cwp 12/13/2008 21:00",
 		"isRoot" : "cwp 7/18/2009 00:41",
-		"isWorkingDirectory" : "cwp 7/18/2009 00:42",
+		"isWorkingDirectory" : "DamienPollet 2/28/2011 16:02",
 		"lengthOfStemWith:" : "cwp 11/15/2009 00:19",
 		"makeRelative:" : "StephaneDucasse 2/26/2011 11:57",
 		"parent" : "cwp 10/25/2009 19:53",

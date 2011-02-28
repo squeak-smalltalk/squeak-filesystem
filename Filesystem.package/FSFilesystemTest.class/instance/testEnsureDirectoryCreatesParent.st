@@ -6,7 +6,7 @@ testEnsureDirectoryCreatesParent
 	self delete: path parent.
 	self 
 		shouldnt: [filesystem ensureDirectory: path]
-		raise: FSFilesystemError.
+		raise: FSReferenceError.
 	self assert: (filesystem isDirectory: (FSPath * 'plonk')).
 	self assert: (filesystem isDirectory: path).
 	

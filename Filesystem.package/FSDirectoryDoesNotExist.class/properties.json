@@ -10,5 +10,5 @@
 	"name" : "FSDirectoryDoesNotExist",
 	"pools" : [
 		 ],
-	"super" : "FSFilesystemError",
+	"super" : "FSReferenceError",
 	"type" : "normal" }

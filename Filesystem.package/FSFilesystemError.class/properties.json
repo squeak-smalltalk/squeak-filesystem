@@ -4,9 +4,9 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "cwp 11/18/2009 12:32",
+	"commentStamp" : "DamienPollet 2/28/2011 17:00",
 	"instvars" : [
-		"reference" ],
+		 ],
 	"name" : "FSFilesystemError",
 	"pools" : [
 		 ],

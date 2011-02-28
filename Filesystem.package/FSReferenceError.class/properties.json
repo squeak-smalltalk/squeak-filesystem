@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "cwp 11/18/2009 12:35",
+	"commentStamp" : "DamienPollet 2/28/2011 17:01",
 	"instvars" : [
-		 ],
-	"name" : "FSDirectoryExists",
+		"reference" ],
+	"name" : "FSReferenceError",
 	"pools" : [
 		 ],
-	"super" : "FSReferenceError",
+	"super" : "FSFilesystemError",
 	"type" : "normal" }

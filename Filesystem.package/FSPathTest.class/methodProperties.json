@@ -13,6 +13,7 @@
 		"testIsAbsolute" : "cwp 10/10/2009 17:49",
 		"testIsChildOfPath" : "cwp 11/16/2009 09:34",
 		"testIsChildOfReference" : "cwp 11/16/2009 09:36",
+		"testIsEmpty" : "DamienPollet 2/28/2011 16:04",
 		"testIsNotAbsolute" : "cwp 10/10/2009 17:49",
 		"testIsNotRelative" : "cwp 10/10/2009 17:49",
 		"testIsNotRoot" : "cwp 7/17/2009 05:23",
