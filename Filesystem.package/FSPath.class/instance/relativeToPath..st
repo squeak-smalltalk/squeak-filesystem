@@ -1,14 +1,14 @@
 navigating
-relativeToPath: aPath
-	"Return the receiver as relative to the argument aPath"
+relativeToPath: landmarkPath
+	"Return the receiver as relative to the argument landmarkPath"
 	
 	"(FSPath / 'griffle' / 'plonk' / 'nurp') 
 		relativeToPath: (FSPath / 'griffle') 
 			returns  plonk/nurp"
 	
 	| prefix relative |
-	aPath isRelative ifTrue: [^ aPath].
-	prefix := self lengthOfStemWith: aPath.
-	relative := FSPath parents: (aPath size - prefix).
+	landmarkPath isRelative ifTrue: [^ landmarkPath].
+	prefix := self lengthOfStemWith: landmarkPath.
+	relative := FSPath parents: (landmarkPath size - prefix).
 	prefix + 1 to: self size do: [:i | relative := relative / (self at: i)].
 	^ relative
