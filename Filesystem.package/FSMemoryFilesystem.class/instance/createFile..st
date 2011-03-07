@@ -4,8 +4,6 @@ createFile: path
 		nodeAt: path parent
 		ifPresent: 
 			[ :node | 
-			(self basicIsDirectory: node) ifTrue: 
-				[ node data 
-					at: path basename
-					put: FSMemoryNode newFile ] ]
+			(self basicIsDirectory: node)
+				ifTrue: [ self basicCreateFile: path parentNode: node ] ]
 		ifAbsent: [ self signalDirectoryDoesNotExist: path parent ]

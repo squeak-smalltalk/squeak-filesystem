@@ -2,13 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		"basicCopy:ifAbsent:to:ifPresent:" : "DamienPollet 2/28/2011 18:17",
+		"basicCopy:ifAbsent:to:ifPresent:" : "DamienPollet 3/7/2011 17:54",
+		"basicCopyNode:to:parentNode:" : "DamienPollet 3/7/2011 17:53",
+		"basicCreateFile:parentNode:" : "DamienPollet 3/7/2011 17:38",
 		"basicIsDirectory:" : "sd 2/11/2011 18:41",
 		"basicIsFile:" : "sd 2/11/2011 18:41",
 		"basicOpen:writable:" : "DamienPollet 2/28/2011 18:19",
 		"childrenAt:" : "DamienPollet 2/28/2011 18:17",
 		"createDirectory:" : "DamienPollet 2/28/2011 18:17",
-		"createFile:" : "DamienPollet 2/28/2011 18:17",
+		"createFile:" : "DamienPollet 3/7/2011 17:12",
 		"delete:" : "sd 2/11/2011 18:42",
 		"delimiter" : "cwp 7/17/2009 19:29",
 		"directoryAt:ifAbsent:nodesDo:" : "DamienPollet 2/4/2011 17:42",
