@@ -1,7 +1,7 @@
 tests
 testSetWorkingDirectory
 	| cwd |
-	filesystem workingDirectory: (FSPath / 'plonk').
-	cwd := filesystem workingDirectory.
+	filesystem workingDirectoryPath: (FSPath / 'plonk').
+	cwd := filesystem workingDirectoryPath.
 	self assert: cwd isAbsolute.
 	self assert: (cwd at: 1) = 'plonk'

@@ -1,3 +1,3 @@
 public
-delete: anObject
-	store delete: (self resolve: anObject)
+delete: aResolvable
+	store delete: (self resolve: aResolvable)

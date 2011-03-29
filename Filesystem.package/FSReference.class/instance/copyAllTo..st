@@ -1,3 +1,4 @@
-enumerating
-copyAllTo: anObject
-	FSCopyVisitor copy: self asAbsolute to: anObject resolve
+operations
+copyAllTo: aResolvable
+	
+	FSCopyVisitor copy: self asAbsolute to: aResolvable resolve

@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		"Resolver" ],
-	"commentStamp" : "cwp 11/18/2009 11:16",
+	"commentStamp" : "cwp 3/29/2011 16:12",
 	"instvars" : [
 		"origin",
 		"path" ],

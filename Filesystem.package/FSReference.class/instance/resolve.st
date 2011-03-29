@@ -1,3 +1,3 @@
-navigating
+resolving
 resolve
 	^ self

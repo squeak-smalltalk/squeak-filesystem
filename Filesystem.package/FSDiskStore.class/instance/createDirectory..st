@@ -1,5 +1,10 @@
 public
 createDirectory: path
+	"Create a directory for the argument path. 
+	If the path refers to an existing file, raise FileExists.
+	If the path refers to an existing directory, raise DirectoryExists.
+	If the parent directory of the path does not exist, raise DirectoryDoesNotExist"
+
 	| parent encodedPathString pathString result |
 	pathString := self stringFromPath: path.
 	encodedPathString := Primitives encode: pathString.

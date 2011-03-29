@@ -1,7 +1,7 @@
 public
-entryAt: anObject
+entryAt: aResolvable
 	| path |
-	path := self resolve: anObject.
+	path := self resolve: aResolvable.
 	^ store
 		nodeAt: path
 		ifPresent: [ :node | store entryFromNode: node filesystem: self path: path ]

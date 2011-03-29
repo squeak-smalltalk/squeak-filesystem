@@ -1,5 +1,8 @@
 tests
 testAsAbsoluteConverted
+	"Converts a relative reference to absolute, and asserts
+	that it's absolute and still has the same path."
+	
 	| ref absolute |
 	ref := filesystem referenceTo: 'plonk'.
 	absolute := ref asAbsolute.

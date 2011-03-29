@@ -1,4 +1,4 @@
-accessing
+enumerating
 do: aBlock 
 	1 
 		to: self size

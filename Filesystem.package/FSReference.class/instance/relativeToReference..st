@@ -1,3 +1,5 @@
 navigating
-relativeToReference: aReference
-	^ path relativeTo: aReference path
+relativeToReference: landmarkReference
+	"Return the path of the receiver relative to landmarkReference."
+	
+	^ path relativeTo: landmarkReference path

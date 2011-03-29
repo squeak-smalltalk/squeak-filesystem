@@ -1,7 +1,7 @@
 public
-entriesAt: anObject
+entriesAt: aResolvable
 	| path entry aFilesystem |
-	path := self resolve: anObject.
+	path := self resolve: aResolvable.
 	aFilesystem := self.
 	^ Array
 		streamContents: [ :out | 

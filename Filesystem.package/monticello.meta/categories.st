@@ -8,3 +8,4 @@ SystemOrganization addCategory: #'Filesystem-Memory'!
 SystemOrganization addCategory: #'Filesystem-Zip'!
 SystemOrganization addCategory: #'Filesystem-Release'!
 SystemOrganization addCategory: #'Filesystem-Tests'!
+SystemOrganization addCategory: #'Filesystem-Public'!

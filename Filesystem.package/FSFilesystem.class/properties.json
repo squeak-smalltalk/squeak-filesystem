@@ -4,7 +4,7 @@
 		"disk" ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "cwp 11/18/2009 11:09",
+	"commentStamp" : "cwp 3/25/2011 13:26",
 	"instvars" : [
 		"workingDirectory",
 		"store" ],

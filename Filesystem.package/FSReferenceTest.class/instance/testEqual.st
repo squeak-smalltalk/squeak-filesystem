@@ -1,5 +1,6 @@
 tests
 testEqual
+
 	| a b |
 	a := filesystem referenceTo: 'plonk'.
 	b := filesystem referenceTo: 'plonk'.

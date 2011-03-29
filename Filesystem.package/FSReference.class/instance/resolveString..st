@@ -1,4 +1,4 @@
-navigating
+resolving
 resolveString: aString 
 	| thePath |
 	thePath := filesystem pathFromString: aString.

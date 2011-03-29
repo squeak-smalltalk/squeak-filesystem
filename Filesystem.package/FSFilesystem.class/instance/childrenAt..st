@@ -1,7 +1,7 @@
 public
-childrenAt: anObject
+childrenAt: aResolvable
 	| path |
-	path := self resolve: anObject.
+	path := self resolve: aResolvable.
 	^ Array
 		streamContents: [ :out | 
 			store

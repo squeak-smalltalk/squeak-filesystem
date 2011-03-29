@@ -1,6 +1,6 @@
 tests
 testSetRelativeWorkingDirectory
 	self 
-		should: [filesystem workingDirectory: (FSPath * 'plonk')]
+		should: [filesystem workingDirectoryPath: (FSPath * 'plonk')]
 		raise: Error
 	

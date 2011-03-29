@@ -1,5 +1,5 @@
 delegated
-openFileStream: anObject writable: aBoolean
+openFileStream: aResolvable writable: aBoolean
 	^ store 
-		openFileStream: (self resolve: anObject) 
+		openFileStream: (self resolve: aResolvable) 
 		writable: aBoolean

@@ -1,3 +1,3 @@
 public
-resolve: anObject
-	^ anObject asResolvedBy: self
+resolve: aResolvable
+	^ aResolvable asResolvedBy: self

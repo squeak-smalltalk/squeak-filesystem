@@ -1,5 +1,7 @@
 tests
 testResolveString
+	"self debug: #testResolveString"
+
 	| path result |
 	path := FSPath * 'plonk'.
 	result := path resolve: 'griffle'.

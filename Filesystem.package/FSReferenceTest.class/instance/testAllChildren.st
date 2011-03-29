@@ -1,5 +1,8 @@
 tests
 testAllChildren
+	"allChildren returns all the files and folders recursively nested in a reference"
+	<publicTest>
+	"self debug: #testAllChildren"
 	| ref children |
 	filesystem createDirectory: '/alpha'.
 	filesystem createDirectory: '/alpha/beta'.
@@ -8,6 +11,7 @@ testAllChildren
 	
 	ref := filesystem referenceTo: '/alpha'.
 	children := ref allChildren.
+	"all children returns the nodes: '/alpha', '/alpha/beta',  '/alpha/beta/delta', and '/alpha/gamma'."
 	self assert: children size = 4.
 	children do:
 		[:child |

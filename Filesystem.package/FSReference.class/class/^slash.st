@@ -1,3 +1,5 @@
 cross platform
 / aString
-	^ FSFilesystem current root / aString
+	"Answer a reference to the argument resolved against the root of the current disk filesystem."
+	
+	^ FSFilesystem onDisk / aString

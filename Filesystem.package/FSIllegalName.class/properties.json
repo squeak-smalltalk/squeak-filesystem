@@ -1,0 +1,14 @@
+{
+	"category" : "Filesystem-Public",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"name" ],
+	"name" : "FSIllegalName",
+	"pools" : [
+		 ],
+	"super" : "FSFilesystemError",
+	"type" : "normal" }

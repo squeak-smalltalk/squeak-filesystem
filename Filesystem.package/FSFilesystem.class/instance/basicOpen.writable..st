@@ -1,5 +1,5 @@
 private
-basicOpen: anObject writable: aBoolean
+basicOpen: aResolvable writable: aBoolean
 	| path |
-	path := self resolve: anObject.
+	path := self resolve: aResolvable.
 	^ store basicOpen: path writable: aBoolean
