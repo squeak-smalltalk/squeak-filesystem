@@ -9,9 +9,9 @@ basicCopy: source ifAbsent: aBlock to: destination ifPresent: pBlock filesystem:
 				nodeAt: destination parent
 				ifPresent: [ :dict | 
 					(self basicIsDirectory: dict)
-						ifFalse: [ self directoryDoesNotExist: destination parent ].
+						ifFalse: [ self signalDirectoryDoesNotExist: destination parent ].
 					(dict includesKey: destination basename)
 						ifTrue: [ pBlock value ].
 					dict at: destination basename put: bytes copy ]
-				ifAbsent: [ self directoryDoesNotExist: destination parent ] ]
+				ifAbsent: [ self signalDirectoryDoesNotExist: destination parent ] ]
 		ifAbsent: aBlock

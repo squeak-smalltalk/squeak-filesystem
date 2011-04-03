@@ -5,5 +5,5 @@ basicOpen: path writable: aBoolean
 		ifPresent: [ :bytes | bytes ]
 		ifAbsent: [ 
 			aBoolean
-				ifFalse: [ self fileDoesNotExist: path ]
+				ifFalse: [ self signalFileDoesNotExist: path ]
 				ifTrue: [ self createFile: path ] ]

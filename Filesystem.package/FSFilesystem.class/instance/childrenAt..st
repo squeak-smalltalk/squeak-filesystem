@@ -6,5 +6,5 @@ childrenAt: aResolvable
 		streamContents: [ :out | 
 			store
 				directoryAt: path
-				ifAbsent: [ store directoryDoesNotExist: path ]
+				ifAbsent: [ store signalDirectoryDoesNotExist: path ]
 				nodesDo: [ :entry | out nextPut: path / (store basenameFromEntry: entry) ] ]

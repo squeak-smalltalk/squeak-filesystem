@@ -1,3 +1,3 @@
 error signalling
-directoryExists: aPath
+signalDirectoryExists: aPath
 	^ FSDirectoryExists signalWith: aPath

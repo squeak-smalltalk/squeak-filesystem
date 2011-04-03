@@ -15,9 +15,9 @@ createDirectory: path
 			(self exists: path)
 				ifTrue: [ 
 					(self isFile: path)
-						ifTrue: [ self fileExists: path ]
-						ifFalse: [ self directoryExists: path ] ].
+						ifTrue: [ self signalFileExists: path ]
+						ifFalse: [ self signalDirectoryExists: path ] ].
 			(self isDirectory: parent)
-				ifFalse: [ ^ self directoryDoesNotExist: parent ].
+				ifFalse: [ ^ self signalDirectoryDoesNotExist: parent ].
 			self primitiveFailed ].
 	^ self

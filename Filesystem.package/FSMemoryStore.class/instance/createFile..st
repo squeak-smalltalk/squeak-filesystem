@@ -5,4 +5,4 @@ createFile: aPath
 		ifPresent: [ :dict | 
 			(self basicIsDirectory: dict)
 				ifTrue: [ dict at: aPath basename put: ByteArray new ] ]
-		ifAbsent: [ self directoryDoesNotExist: aPath parent ]
+		ifAbsent: [ self signalDirectoryDoesNotExist: aPath parent ]

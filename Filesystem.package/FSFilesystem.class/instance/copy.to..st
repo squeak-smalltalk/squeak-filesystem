@@ -6,6 +6,6 @@ copy: sourcePath to: destPath
 	
 	self
 		copy: sourcePath
-		ifAbsent: [ store fileDoesNotExist: sourcePath ]
+		ifAbsent: [ store signalFileDoesNotExist: sourcePath ]
 		to: destPath
-		ifPresent: [ store fileExists: destPath ]
+		ifPresent: [ store signalFileExists: destPath ]

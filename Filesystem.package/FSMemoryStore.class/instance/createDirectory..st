@@ -9,7 +9,7 @@ createDirectory: path
 				at: path basename
 				ifPresent: [ :node | 
 					node isDictionary
-						ifTrue: [ self directoryExists: path ]
-						ifFalse: [ self fileExists: path ] ].
+						ifTrue: [ self signalDirectoryExists: path ]
+						ifFalse: [ self signalFileExists: path ] ].
 			dict at: path basename put: Dictionary new ]
-		ifAbsent: [ self directoryDoesNotExist: parent ]
+		ifAbsent: [ self signalDirectoryDoesNotExist: parent ]

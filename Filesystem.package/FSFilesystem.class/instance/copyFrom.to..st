@@ -3,7 +3,7 @@ copyFrom: in to: destPath
 	| buffer out |
 	out := nil.
 	(self exists: destPath)
-		ifTrue: [ store fileExists: destPath ].
+		ifTrue: [ store signalFileExists: destPath ].
 	^ [ 
 	out := self writeStreamOn: destPath.
 	buffer := ByteArray new: 1024.

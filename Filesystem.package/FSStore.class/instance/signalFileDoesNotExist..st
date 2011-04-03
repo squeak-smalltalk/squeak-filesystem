@@ -1,3 +1,3 @@
 error signalling
-fileDoesNotExist: aPath
+signalFileDoesNotExist: aPath
 	^ FSFileDoesNotExist signalWith: aPath

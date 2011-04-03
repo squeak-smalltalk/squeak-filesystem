@@ -5,8 +5,8 @@ replaceFile: path in: aBlock
 		ifPresent: [ :dict | 
 			| old new |
 			(self basicIsDirectory: dict)
-				ifFalse: [ self fileDoesNotExist: path ].
-			old := dict at: path basename ifAbsent: [ self fileDoesNotExist: path ].
+				ifFalse: [ self signalFileDoesNotExist: path ].
+			old := dict at: path basename ifAbsent: [ self signalFileDoesNotExist: path ].
 			new := aBlock value: old.
 			dict at: path basename put: new ]
-		ifAbsent: [ self fileDoesNotExist: path ]
+		ifAbsent: [ self signalFileDoesNotExist: path ]

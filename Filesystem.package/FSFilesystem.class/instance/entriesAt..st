@@ -7,7 +7,7 @@ entriesAt: aResolvable
 		streamContents: [ :out | 
 			store
 				directoryAt: path
-				ifAbsent: [ store directoryDoesNotExist: path ]
+				ifAbsent: [ store signalDirectoryDoesNotExist: path ]
 				nodesDo: [ :node | 
 					entry := store entryFromNode: node path: path for: aFilesystem.
 					out nextPut: entry ] ]
