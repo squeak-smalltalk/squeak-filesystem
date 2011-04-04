@@ -1,3 +1,0 @@
-running
-createFilesystem
-	^ FSFilesystem inMemory
