@@ -1,3 +1,3 @@
-OrderedDictionary {
-	'Filesystem.package' : #SquotCypressCodeSerializer
+{
+	'FS-Memory.package' : #SquotCypressCodeSerializer
 }
