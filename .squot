@@ -7,5 +7,6 @@
 	'src\/FS-Tests-Core.package' : #SquotCypressCodeSerializer,
 	'src\/FS-Tests-Memory.package' : #SquotCypressCodeSerializer,
 	'src\/FS-Tests-Disk.package' : #SquotCypressCodeSerializer,
-	'src\/FS-Tests-AnsiStreams.package' : #SquotCypressCodeSerializer
+	'src\/FS-Tests-AnsiStreams.package' : #SquotCypressCodeSerializer,
+	'src\/BaselineOfFileSystem.package' : #SquotCypressCodeSerializer
 }

@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfFileSystem",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfFileSystem",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
