@@ -1,0 +1,3 @@
+current
+currentFilesystem
+	^ CurrentFS ifNil: [CurrentFS := FileSystem store: self activeClass createDefault]

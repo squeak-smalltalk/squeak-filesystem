@@ -1,6 +1,15 @@
+The original FileSystem was released under the MIT license according to 
+http://www.squeaksource.com/fs.html.
+The additions and changes provided here are also released under the MIT license 
+as described below.
+
+=======================================================
+Changes and additions to FileSystem since November 2016
+=======================================================
+
 MIT License
 
-Copyright (c) 2019 Jakob Reschke
+Copyright (c) 2016 Jakob Reschke, Software Architecture Group (Hasso Plattner Institute)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
