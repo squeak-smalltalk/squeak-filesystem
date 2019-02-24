@@ -24,8 +24,11 @@ baseline: spec
 				with: [spec requires: #('FS-Tests-Core')];
 				
 				package: 'FS-Tests-AnsiStreams'
-				with: [spec requires: #('FS-Tests-Core')].
-
+				with: [spec requires: #('FS-Tests-Core')];
+				
+				package: 'FS-FileDirectory-Adapters'
+				with: [spec requires: #('FS-Core')].
+			
 			spec
-				 group: 'default' with: #('FS-Core' 'FS-Disk' 'FS-Memory' 'FS-AnsiStreams');
+				 group: 'default' with: #('FS-Core' 'FS-Disk' 'FS-Memory' 'FS-AnsiStreams' 'FS-FileDirectory-Adapters');
 				 group: 'tests' with: #('default' 'FS-Tests-Core' 'FS-Tests-Disk' 'FS-Tests-Memory' 'FS-Tests-AnsiStreams')]
