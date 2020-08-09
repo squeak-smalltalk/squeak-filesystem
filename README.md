@@ -17,7 +17,7 @@ Then, use the following snippet to load:
 ```smalltalk
 Metacello new
   baseline: 'FileSystem';
-  repository: 'github://squeak-smalltalk/squeak-fileSystem:master/src';
+  repository: 'github://squeak-smalltalk/squeak-filesystem:master/src';
   load.
 ```
 
