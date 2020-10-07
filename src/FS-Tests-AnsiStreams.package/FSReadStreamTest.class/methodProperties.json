@@ -27,4 +27,5 @@
 		"testSkipToTrue" : "cwp 7/30/2009 23:25",
 		"testUpTo" : "cwp 7/30/2009 23:38",
 		"testUpToEnd" : "jr 4/13/2017 16:30",
-		"testUpToPastEnd" : "jr 4/13/2017 16:29" } }
+		"testUpToPastEnd" : "jr 4/13/2017 16:29",
+		"testUtf8Character" : "tobe 10/7/2020 10:21" } }
