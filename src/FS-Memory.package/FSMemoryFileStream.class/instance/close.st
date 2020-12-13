@@ -3,4 +3,4 @@ close
 	
 	store 
 		replaceFile: path 
-		in: [ :bytes | collection first: position ]
+		in: [ :bytes | self binary; contents ]

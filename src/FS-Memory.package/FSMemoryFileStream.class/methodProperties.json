@@ -2,7 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"close" : "jr 6/5/2017 22:27",
+		"close" : "jr 12/14/2020 00:11",
 		"growTo:" : "cwp 2/19/2011 01:20",
 		"pastEndPut:" : "cwp 2/19/2011 01:20",
-		"truncate:" : "jr 6/5/2017 22:55" } }
+		"truncate" : "jr 12/13/2020 23:49",
+		"truncate:" : "jr 12/14/2020 00:23" } }

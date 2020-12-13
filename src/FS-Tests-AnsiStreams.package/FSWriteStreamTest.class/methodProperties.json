@@ -22,4 +22,5 @@
 		"testTruncate" : "jr 4/13/2017 15:47",
 		"testTruncateEmpty" : "jr 6/15/2020 00:29",
 		"testTruncateTo" : "cwp 10/15/2009 21:50",
+		"testTruncateToCurrentPosition" : "jr 12/13/2020 23:52",
 		"testTruncateToEmpty" : "jr 6/15/2020 00:30" } }

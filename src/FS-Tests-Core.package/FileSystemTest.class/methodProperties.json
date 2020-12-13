@@ -28,6 +28,7 @@
 		"testFile" : "CamilloBruni 1/20/2012 13:23",
 		"testFileNames" : "sd 2/11/2011 18:21",
 		"testFileStreamDo" : "sd 2/11/2011 18:21",
+		"testFileStreamTruncate" : "jr 12/14/2020 00:20",
 		"testReadStream" : "jr 3/5/2017 13:16",
 		"testReadStreamDo" : "jr 3/5/2017 13:16",
 		"testReadStreamDoIfAbsent" : "sd 2/11/2011 18:21",
@@ -43,4 +44,5 @@
 		"testWriteStream" : "sd 2/11/2011 18:21",
 		"testWriteStreamDo" : "sd 2/11/2011 18:21",
 		"testWriteStreamDoIfPresent" : "sd 2/11/2011 18:21",
-		"testWriteStreamIfPresent" : "sd 2/11/2011 18:21" } }
+		"testWriteStreamIfPresent" : "sd 2/11/2011 18:21",
+		"testWriteStreamTruncate" : "jr 12/14/2020 00:23" } }
