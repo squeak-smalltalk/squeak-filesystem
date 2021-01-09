@@ -3,7 +3,7 @@ testRelativeFromStringParent
 
 	| path |
 	
-	path := Path from: '../..'.
+	path := FSPath from: '../..' delimiter: $/.
 	
 	self assert: path isRelative.
 	self assert: path size equals: 2.
