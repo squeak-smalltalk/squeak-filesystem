@@ -12,7 +12,6 @@ jobs:
           - windows-latest
         smalltalk:
           - Squeak64-trunk
-          - Squeak32-trunk
           - Squeak64-5.3
           - Squeak64-5.2
     name: ${{ matrix.smalltalk }} on ${{ matrix.os }}
