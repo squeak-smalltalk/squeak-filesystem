@@ -1,3 +1,4 @@
 origins
 home
-	^ self subclassResponsibility
+	 
+	^ self resolveString: self class primitiveGetUntrustedUserDirectory

@@ -1,4 +1,0 @@
-origins
-documents
-	 
-	^ self home

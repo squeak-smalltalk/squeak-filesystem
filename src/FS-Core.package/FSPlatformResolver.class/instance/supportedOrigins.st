@@ -1,3 +1,4 @@
 resolving
 supportedOrigins
-	^ #(home desktop documents)
+	 
+	^ self class allMethodsInCategory: 'origins'

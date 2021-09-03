@@ -1,4 +1,0 @@
-origins
-desktop
-	 
-	^ self home
