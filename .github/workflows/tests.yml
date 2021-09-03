@@ -1,0 +1,30 @@
+name: Tests
+
+on: [push, workflow_dispatch]
+
+jobs:
+  test:
+    strategy:
+      matrix:
+        os:
+          - ubuntu-latest
+          - macos-latest
+          - windows-latest
+        smalltalk:
+          - Squeak64-trunk
+          - Squeak32-trunk
+          - Squeak64-5.3
+          - Squeak64-5.2
+    name: ${{ matrix.smalltalk }} on ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v2
+      - id: smalltalkci
+        uses: hpi-swa/setup-smalltalkCI@v1
+        with:
+          smalltalk-image: ${{ matrix.smalltalk }}
+      - run: smalltalkci -s ${{ steps.smalltalkci.outputs.smalltalk-image }}
+        timeout-minutes: 15
+        env:
+          # for uploading coverage reports
+          GITHUB_TOKEN: ${{ github.token }}
