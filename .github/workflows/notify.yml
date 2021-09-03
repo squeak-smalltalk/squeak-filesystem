@@ -1,0 +1,25 @@
+name: Notify about failed build
+
+on:
+  workflow_run:
+    workflows: ["Tests"]
+    types: [completed]
+
+jobs:
+  notify:
+    name: 📣 Notify community on failure
+    if: ${{  github.event_name == 'schedule' && github.event.workflow_run.conclusion == 'failure' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send email on failure
+        if: ${{ github.event_name == 'schedule' && github.event.workflow_run.conclusion == 'failure' }}
+        uses: dawidd6/action-send-mail@v2
+        with:
+          server_address: ${{ secrets.SMTP_SERVER }}
+          server_port: ${{ secrets.SMTP_PORT }}
+          username: ${{ secrets.SMTP_USERNAME }}
+          password: ${{ secrets.SMTP_PASSWORD }}
+          subject: GitHub Actions failed for ${{ github.repository }}
+          body: Build job of ${{ github.repository }} failed! See https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }} for more information.
+          to: ${{ secrets.MAIL_RECEIVER }}
+          from: GitHub Actions

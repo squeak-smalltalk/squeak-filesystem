@@ -1,6 +1,10 @@
 name: Tests
 
-on: [push, workflow_dispatch]
+on:
+  push:
+  schedule:
+    - cron: '42 2 * * 1'  # once a week
+  workflow_dispatch:
 
 jobs:
   test:
