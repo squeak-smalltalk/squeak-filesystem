@@ -1,4 +1,8 @@
-# FileSystem [![Build Status][travis_badge]][travis]
+# FileSystem
+
+[![Build Status][gha_badge]][gha_jobs]
+[![Test coverage][coveralls_badge]][coveralls]
+
 FileSystem is a Smalltalk API for accessing files and directories. This is an implementation for Squeak/Smalltalk.
 
 The FileSystem API was proposed as an alternative to the FileDirectory API for file system access in Squeak. It was first implemented as a library package for Squeak. Later it was adopted by Pharo as the main file system access library, while Squeak stayed with FileDirectory.
@@ -16,10 +20,12 @@ Then, use the following snippet to load:
 
 ```smalltalk
 Metacello new
-  baseline: 'FileSystem';
-  repository: 'github://squeak-smalltalk/squeak-filesystem:master/src';
-  load.
+	baseline: 'FileSystem';
+	repository: 'github://squeak-smalltalk/squeak-filesystem:master/src';
+	load.
 ```
 
-[travis]: https://travis-ci.org/j4yk/Squeak-FileSystem
-[travis_badge]: https://travis-ci.org/j4yk/Squeak-FileSystem.svg?branch=master
+[gha_jobs]: https://github.com/squeak-smalltalk/Squeak-FileSystem/actions/workflows/tests.yml
+[gha_badge]: https://github.com/squeak-smalltalk/Squeak-FileSystem/actions/workflows/tests.yml/badge.svg
+[coveralls_badge]: https://coveralls.io/repos/github/squeak-smalltalk/Squeak-FileSystem/badge.svg
+[coveralls]: https://coveralls.io/github/squeak-smalltalk/Squeak-FileSystem
