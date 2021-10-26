@@ -1,3 +1,3 @@
 origins
-home
+documents
 	^ self subclassResponsibility

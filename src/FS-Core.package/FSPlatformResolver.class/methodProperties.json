@@ -1,8 +1,10 @@
 {
 	"class" : {
-		"forCurrentPlatform" : "ct 9/3/2021 16:25",
+		"forCurrentPlatform" : "tg 11/8/2010 19:05",
 		"platformName" : "cwp 10/27/2009 10:58",
 		"primitiveGetUntrustedUserDirectory" : "CamilloBruni 8/12/2011 17:36" },
 	"instance" : {
-		"home" : "ct 9/3/2021 16:22",
-		"supportedOrigins" : "ct 9/3/2021 16:24" } }
+		"desktop" : "lr 7/13/2010 15:35",
+		"documents" : "lr 7/13/2010 15:35",
+		"home" : "cwp 10/27/2009 21:01",
+		"supportedOrigins" : "cwp 10/27/2009 21:45" } }
