@@ -1,3 +1,3 @@
-as yet unclassified
+file directory
 createDirectory: aString
 	(reference resolve: aString) createDirectory.
