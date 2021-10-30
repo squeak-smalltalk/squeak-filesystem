@@ -1,0 +1,14 @@
+{
+	"category" : "FS-Core-Implementation",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "FSSqueakJSResolver",
+	"pools" : [
+		 ],
+	"super" : "FSPlatformResolver",
+	"type" : "normal" }
