@@ -1,3 +1,3 @@
-as yet unclassified
+path access
 / aString
 	^ self class directoryOrEntry: (reference / aString)
