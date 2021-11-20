@@ -1,7 +1,6 @@
 ansi gettable
 upToEnd
 	| start data |
-	start := position + 1.
-	position := handle size.
-	data := handle copyFrom: start to: position.
+	start := position.
+	data := self basicNext: handle size - start.
 	^ isBinary ifTrue: [data] ifFalse: [self converter decodeString: data asString]
