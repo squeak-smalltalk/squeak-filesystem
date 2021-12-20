@@ -45,4 +45,5 @@
 		"testWriteStreamDo" : "sd 2/11/2011 18:21",
 		"testWriteStreamDoIfPresent" : "sd 2/11/2011 18:21",
 		"testWriteStreamIfPresent" : "sd 2/11/2011 18:21",
-		"testWriteStreamTruncate" : "jr 12/14/2020 00:23" } }
+		"testWriteStreamTruncate" : "jr 12/14/2020 00:23",
+		"testWriteStreamTruncateAndContinue" : "jr 12/20/2021 21:34" } }
