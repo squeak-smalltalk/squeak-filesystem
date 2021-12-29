@@ -1,5 +1,5 @@
 accessing
 extension
-	"Return the extension of path basename i.e., /foo/gloops.taz extension is 'taz'"
+	"Return the extension of path basename i.e., /foo/gloops.tar.gz extension is 'gz'"
 	
-	^ self basename copyAfter: self extensionDelimiter
+	^ self basename copyAfterLast: self extensionDelimiter

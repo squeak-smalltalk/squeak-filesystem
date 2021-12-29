@@ -9,6 +9,6 @@ testBaseAndExtension
 	self assert: ref extension = 'taz'.
 	
 	"Note that the extension of a complex extension starts from the first period up until the end"
-	ref := filesystem * 'plonk' / 'griffle.taz.txt'.
-	self assert: ref base = 'griffle'.
-	self assert: ref extension = 'taz.txt'.
+	ref := filesystem * 'plonk' / 'griffle.tar.gz'.
+	self assert: ref base = 'griffle.tar'.
+	self assert: ref extension = 'gz'.
