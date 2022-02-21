@@ -1,11 +1,18 @@
 SmalltalkCISpec {
-  #loading : [
-    SCIMetacelloLoadSpec {
-      #baseline : 'FileSystem',
-      #directory : 'src',
-      #load : [ 'tests' ],
-      #platforms : [ #squeak ],
-      #useLatestMetacello : true
-    }
-  ]
+	#loading : [
+		SCIMetacelloLoadSpec {
+			#baseline : 'FileSystem',
+			#directory : 'src',
+			#load : [ 'tests' ],
+			#platforms : [ #squeak ],
+			#useLatestMetacello : true
+		}
+	],
+	#testing : {
+		#packages : [ 'FS-Tests-*' ],
+		#coverage : {
+			#packages : [ 'FS-AnsiStreams', 'FS-Core', 'FS-Disk', 'FS-FileDirectory-Adapters', 'FS-Memory' ],
+			#format : #coveralls
+		}
+	}
 }
