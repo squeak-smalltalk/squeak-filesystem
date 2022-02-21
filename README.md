@@ -27,5 +27,5 @@ Metacello new
 
 [gha_jobs]: https://github.com/squeak-smalltalk/Squeak-FileSystem/actions/workflows/tests.yml
 [gha_badge]: https://github.com/squeak-smalltalk/Squeak-FileSystem/actions/workflows/tests.yml/badge.svg
-[coveralls_badge]: https://coveralls.io/repos/github/squeak-smalltalk/Squeak-FileSystem/badge.svg
-[coveralls]: https://coveralls.io/github/squeak-smalltalk/Squeak-FileSystem
+[coveralls_badge]: https://coveralls.io/repos/github/squeak-smalltalk/squeak-filesystem/badge.svg
+[coveralls]: https://coveralls.io/github/squeak-smalltalk/squeak-filesystem
